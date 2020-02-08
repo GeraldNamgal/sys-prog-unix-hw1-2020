@@ -30,7 +30,7 @@ who3.o: who3.c
 	$(CC) $(CFLAGS) -c who3.c
 
 clean:
-	rm -f who1 who2 who3 llcopy utmplib.o 
+	rm -f who1 who2 who3 llcopy utmplib.o who3.o
 #
 # tests if llcopy works like cp
 #
