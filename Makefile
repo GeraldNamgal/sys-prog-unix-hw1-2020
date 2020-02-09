@@ -14,6 +14,9 @@ who2: who2.c
 who3: who3.o utmplib.o
 	$(CC) $(CFLAGS) -o who3 who3.o utmplib.o
 
+wow: wow.o utmplib.o
+	$(CC) $(CFLAGS) -o wow wow.o utmplib.o
+
 llcopy: llcopy.c
 	$(CC) $(CFLAGS) llcopy.c -o llcopy
 
@@ -29,8 +32,11 @@ utmplib.o: utmplib.c
 who3.o: who3.c
 	$(CC) $(CFLAGS) -c who3.c
 
+wow.o: wow.c
+	$(CC) $(CFLAGS) -c wow.c
+
 clean:
-	rm -f who1 who2 who3 llcopy utmplib.o who3.o
+	rm -f who1 who2 who3 llcopy utmplib.o who3.o wow.o
 #
 # tests if llcopy works like cp
 #
