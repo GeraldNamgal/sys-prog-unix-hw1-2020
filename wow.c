@@ -24,38 +24,44 @@
 #endif
 #endif
 
-struct dateInput {		/* struct declaration for date input */
-	int year,
-	    month,
-	    day;
-};
-
 int main(int ac, char **av)
 {
 	struct utmp	*utbufp,	/* holds pointer to next rec	*/
 			*utmp_next();	/* returns pointer to next	*/
-	void		show_info( struct utmp *, struct dateInput );
-	char *wtmpFile = WTMP_FILE;	/* pointer to file name */
-	struct dateInput dateInput;	/* declare dateInput struct */
+	void		show_info( struct utmp *, struct tm );
+	char *wtmpFile = WTMP_FILE;	/* pointer to file name 	*/
+	struct tm dateInput;		/* tm struct for date input 	*/
 	
-	// handle command line arguments
+	// handle command line arguments (referenced: https://www.epochconverter.com/programming/c)
 	if (ac == 4) {
-		dateInput.year = atoi(av[1]);
-		dateInput.month = atoi(av[2]);
-		dateInput.day = atoi(av[3]);
+		dateInput.tm_year = atoi(av[1]) - 1900;
+		dateInput.tm_mon = atoi(av[2]) - 1;
+		dateInput.tm_mday = atoi(av[3]);
+		dateInput.tm_hour = 0;
+		dateInput.tm_min = 0;
+		dateInput.tm_sec = 0;
+		dateInput.tm_isdst = -1;
 	}
 	if (ac == 6) {
 		if (strcmp(av[1], "-f") == 0) {
 			wtmpFile = av[2];
-			dateInput.year = atoi(av[3]);
-			dateInput.month = atoi(av[4]);
-			dateInput.day = atoi(av[5]);
+			dateInput.tm_year = atoi(av[3]) - 1900;			
+			dateInput.tm_mon = atoi(av[4]) - 1;
+			dateInput.tm_mday = atoi(av[5]);
+			dateInput.tm_hour = 0;
+			dateInput.tm_min = 0;
+			dateInput.tm_sec = 0;
+			dateInput.tm_isdst = -1;
 		}	
 		else if (strcmp(av[4], "-f") == 0) {
 			wtmpFile = av[5];
-			dateInput.year = atoi(av[1]);
-			dateInput.month = atoi(av[2]);
-			dateInput.day = atoi(av[3]);
+			dateInput.tm_year = atoi(av[1]) - 1900;
+			dateInput.tm_mon = atoi(av[2]) - 1;
+			dateInput.tm_mday = atoi(av[3]);
+			dateInput.tm_hour = 0;
+			dateInput.tm_min = 0;
+			dateInput.tm_sec = 0;
+			dateInput.tm_isdst = -1;
 		}
 	} 
 
@@ -75,7 +81,7 @@ int main(int ac, char **av)
  *			* displays nothing if record has no user name
  */
 void
-show_info( struct utmp *utbufp, struct dateInput dateInput )
+show_info( struct utmp *utbufp, struct tm dateInput )
 {
 	void	showtime( time_t , char *);
 
@@ -83,10 +89,19 @@ show_info( struct utmp *utbufp, struct dateInput dateInput )
 		return;
 
 	/* check that time matches user input */
-	time_t timeValue = utbufp->ut_time;			/* get time */
-	struct tm *tp = localtime(&timeValue);			/* convert time */
-	if (tp->tm_year == dateInput.year - 1900 && tp->tm_mon == dateInput.month - 1
-	    && tp->tm_mday == dateInput.day) {
+	
+	//printf("%d\n", utbufp->ut_time);
+	
+	//printf("%ld\n", mktime(&dateInput));	
+
+	//time_t timeValue = utbufp->ut_time;			/* get time */
+	//struct tm *tp = localtime(&timeValue);			/* convert time */
+	//if (tp->tm_year == dateInput.tm_year && tp->tm_mon == dateInput.tm_mon
+	//    && tp->tm_mday == dateInput.tm_mday)
+	time_t rawInput = mktime(&dateInput);
+	int secsPerDay = 86400;
+	if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay)
+	{
 		printf("%-8s", utbufp->ut_name);		/* the logname	*/
 		printf(" ");					/* a space	*/
 		printf("%-12.12s", utbufp->ut_line);		/* the tty	*/

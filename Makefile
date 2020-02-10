@@ -14,8 +14,11 @@ who2: who2.c
 who3: who3.o utmplib.o
 	$(CC) $(CFLAGS) -o who3 who3.o utmplib.o
 
-wow: wow.o utmplib.o
-	$(CC) $(CFLAGS) -o wow wow.o utmplib.o
+swow: wow.o utmplib.o
+	$(CC) $(CFLAGS) -o swow wow.o utmplib.o
+
+bwow: wow.o utmplib.o
+	$(CC) $(CFLAGS) -o bwow wow.o utmplib.o	
 
 llcopy: llcopy.c
 	$(CC) $(CFLAGS) llcopy.c -o llcopy
