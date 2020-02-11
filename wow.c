@@ -79,6 +79,7 @@ int main(int ac, char **av)
  *			displays the contents of the utmp struct
  *			in human readable form
  *			* displays nothing if record has no user name
+ *	TODO: Javadoc comments including args, etc.
  */
 void
 show_info( struct utmp *utbufp, struct tm dateInput )
@@ -88,16 +89,7 @@ show_info( struct utmp *utbufp, struct tm dateInput )
 	if ( utbufp->ut_type != USER_PROCESS )
 		return;
 
-	/* check that time matches user input */
-	
-	//printf("%d\n", utbufp->ut_time);
-	
-	//printf("%ld\n", mktime(&dateInput));	
-
-	//time_t timeValue = utbufp->ut_time;			/* get time */
-	//struct tm *tp = localtime(&timeValue);			/* convert time */
-	//if (tp->tm_year == dateInput.tm_year && tp->tm_mon == dateInput.tm_mon
-	//    && tp->tm_mday == dateInput.tm_mday)
+	/* check that time matches user input then print record if so */	
 	time_t rawInput = mktime(&dateInput);
 	int secsPerDay = 86400;
 	if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay)

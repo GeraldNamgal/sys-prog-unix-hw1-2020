@@ -16,7 +16,7 @@
 #include        <utmp.h>
 #include	<unistd.h>
 
-#define NRECS   16
+#define NRECS   5
 #define UTSIZE  (sizeof(struct utmp))
 
 static	struct utmp utmpbuf[NRECS];			/* storage	*/
