@@ -1,0 +1,2734 @@
+         pts/25       Dec  1 05:12
+birong   pts/0        Dec  1 05:15 (10.247.140.48)
+         pts/0        Dec  1 05:23
+         pts/1        Dec  1 05:37
+bjork    pts/0        Dec  1 06:38 (10.245.150.131)
+beaudry  pts/1        Dec  1 07:09 (wr-130-64-96-176.finland.linux.edu)
+         pts/0        Dec  1 08:02
+baggs    pts/0        Dec  1 08:33 (c-66-30-4-187.hsd1.ma.comcast.net)
+         pts/1        Dec  1 08:44
+blanks   pts/1        Dec  1 09:15 (10.245.154.168)
+beckett  pts/3        Dec  1 09:48 (10.245.146.56)
+benner   pts/4        Dec  1 09:52 (209-6-55-41.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+bertram  pts/6        Dec  1 10:03 (130.64.161.247)
+batts    pts/7        Dec  1 10:05 (10.245.155.159)
+bachman  pts/8        Dec  1 10:12 (10.245.151.65)
+         pts/1        Dec  1 10:12
+         pts/7        Dec  1 10:14
+besco    pts/1        Dec  1 10:18 (10.245.147.242)
+accardi  pts/7        Dec  1 10:26 (10.247.149.23)
+babor    pts/9        Dec  1 10:33 (dhcp-130-64-29-179.finland.linux.edu)
+         pts/9        Dec  1 10:35
+         pts/3        Dec  1 10:37
+         pts/4        Dec  1 10:40
+         pts/7        Dec  1 10:59
+         pts/8        Dec  1 11:17
+bedell   pts/3        Dec  1 11:28 (10.244.144.133)
+adneys   pts/4        Dec  1 11:33 (resnet159-50.finland.linux.edu)
+besch    pts/7        Dec  1 11:39 (10.245.147.215)
+bartee   pts/8        Dec  1 11:46 (c-50-157-208-175.hsd1.ma.comcast.net)
+         pts/8        Dec  1 11:47
+binning  pts/8        Dec  1 12:01 (10.245.147.213)
+baillie  pts/9        Dec  1 12:07 (10.245.140.92)
+         pts/7        Dec  1 12:12
+bevill   pts/7        Dec  1 12:17 (10.245.146.59)
+         pts/7        Dec  1 12:18
+bearse   pts/7        Dec  1 12:19 (resnet157-80.finland.linux.edu)
+         pts/7        Dec  1 12:20
+battain  pts/7        Dec  1 12:21 (10.245.148.92)
+bevys    pts/10       Dec  1 12:27 (10.244.143.195)
+         pts/10       Dec  1 12:29
+adler    pts/10       Dec  1 12:30 (10.247.148.38)
+bickley  pts/11       Dec  1 12:38 (wr-130-64-193-161.finland.linux.edu)
+         pts/3        Dec  1 12:51
+         pts/8        Dec  1 13:04
+bangert  pts/3        Dec  1 13:24 (wr-130-64-185-12.finland.linux.edu)
+belanger pts/8        Dec  1 13:26 (10.247.148.212)
+begg     pts/12       Dec  1 13:33 (10.245.149.232)
+banta    pts/13       Dec  1 13:38 (resnet159-221.finland.linux.edu)
+         pts/11       Dec  1 13:39
+         pts/7        Dec  1 13:40
+beedle   pts/7        Dec  1 13:42 (10.244.143.124)
+berriman pts/11       Dec  1 13:44 (10.245.145.115)
+         pts/11       Dec  1 13:45
+begg     pts/11       Dec  1 13:48 (10.245.149.232)
+         pts/10       Dec  1 13:50
+beam     pts/10       Dec  1 13:51 (10.245.144.102)
+bettin   pts/14       Dec  1 14:02 (10.245.155.154)
+bettin   pts/15       Dec  1 14:02 (10.245.155.154)
+         pts/13       Dec  1 14:20
+         pts/4        Dec  1 14:20
+bashaw   pts/4        Dec  1 14:25 (38.122.127.226)
+birong   pts/13       Dec  1 14:36 (10.244.144.86)
+birong   pts/16       Dec  1 14:37 (10.244.144.86)
+         pts/1        Dec  1 14:41
+         pts/13       Dec  1 14:49
+         pts/16       Dec  1 14:49
+barrick  pts/1        Dec  1 14:52 (10.245.143.67)
+         pts/10       Dec  1 14:54
+babcock  pts/10       Dec  1 15:00 (10.245.151.148)
+blaney   pts/13       Dec  1 15:04 (10.245.151.125)
+         pts/13       Dec  1 15:04
+beaman   pts/13       Dec  1 15:04 (10.247.142.124)
+aaron    pts/16       Dec  1 15:05 (10.244.141.124)
+         pts/16       Dec  1 15:05
+behm     pts/16       Dec  1 15:05 (dhcp30-242.finland.linux.edu)
+bevill   pts/17       Dec  1 15:06 (10.244.142.20)
+aaron    pts/18       Dec  1 15:07 (10.244.141.124)
+barron   pts/19       Dec  1 15:08 (wr-130-64-184-155.finland.linux.edu)
+         pts/18       Dec  1 15:08
+belson   pts/18       Dec  1 15:09 (pool-96-237-52-224.bstnma.fios.verizon.net)
+abnet    pts/20       Dec  1 15:13 (10.244.144.67)
+         pts/17       Dec  1 15:17
+banker   pts/17       Dec  1 15:17 (38.122.127.226)
+bateson  pts/21       Dec  1 15:18 (38.122.127.226)
+         pts/21       Dec  1 15:18
+barlow   pts/21       Dec  1 15:22 (10.247.142.148)
+         pts/19       Dec  1 15:23
+         pts/4        Dec  1 15:26
+         pts/15       Dec  1 15:28
+bahr     pts/4        Dec  1 15:37 (10.245.146.194)
+bateson  pts/15       Dec  1 15:41 (38.122.127.226)
+         pts/10       Dec  1 15:44
+blakey   pts/10       Dec  1 15:44 (10.247.137.23)
+         pts/15       Dec  1 15:45
+babcock  pts/15       Dec  1 15:48 (10.245.151.148)
+         pts/12       Dec  1 15:48
+         pts/3        Dec  1 15:49
+         pts/20       Dec  1 15:53
+         pts/15       Dec  1 16:01
+bacon    pts/3        Dec  1 16:03 (wr-130-64-187-84.finland.linux.edu)
+         pts/1        Dec  1 16:05
+barrick  pts/1        Dec  1 16:06 (10.245.143.67)
+         pts/10       Dec  1 16:08
+         pts/3        Dec  1 16:12
+         pts/7        Dec  1 16:12
+         pts/11       Dec  1 16:16
+         pts/13       Dec  1 16:18
+beggan   pts/3        Dec  1 16:19 (10.245.143.104)
+barbour  pts/7        Dec  1 16:20 (10.244.142.137)
+         pts/6        Dec  1 16:20
+baxter   pts/6        Dec  1 16:21 (10.245.151.222)
+         pts/17       Dec  1 16:22
+         pts/21       Dec  1 16:22
+bartee   pts/10       Dec  1 16:26 (10.245.154.122)
+bartle   pts/11       Dec  1 16:27 (10.245.148.109)
+balch    pts/12       Dec  1 16:35 (10.245.152.43)
+beadles  pts/13       Dec  1 16:36 (10.247.142.83)
+baughn   pts/15       Dec  1 16:38 (10.247.149.26)
+         pts/14       Dec  1 16:41
+barnett  pts/14       Dec  1 16:43 (10.247.149.18)
+         pts/7        Dec  1 16:47
+         pts/14       Dec  1 16:49
+barnett  pts/7        Dec  1 16:51 (10.247.149.18)
+         pts/7        Dec  1 16:52
+         pts/4        Dec  1 16:55
+         pts/16       Dec  1 16:58
+barnett  pts/4        Dec  1 16:59 (10.247.149.18)
+         pts/6        Dec  1 17:00
+bilbo    pts/6        Dec  1 17:01 (10.245.149.22)
+         pts/15       Dec  1 17:02
+         pts/4        Dec  1 17:04
+bendall  pts/4        Dec  1 17:14 (209-6-193-67.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/6        Dec  1 17:14
+         pts/13       Dec  1 17:14
+         pts/18       Dec  1 17:29
+         pts/4        Dec  1 17:30
+         pts/12       Dec  1 17:32
+batdorf  pts/4        Dec  1 17:36 (d-p-13-164.csci.linux.edu)
+babock   pts/6        Dec  1 17:42 (10.245.140.243)
+         pts/4        Dec  1 17:43
+beam     pts/4        Dec  1 17:44 (10.247.140.69)
+barmore  pts/7        Dec  1 17:44 (wr-130-64-95-205.finland.linux.edu)
+         pts/11       Dec  1 17:47
+basista  pts/11       Dec  1 17:47 (wr-130-64-193-161.finland.linux.edu)
+beringer pts/12       Dec  1 17:52 (10.244.143.39)
+         pts/12       Dec  1 17:53
+bellamy  pts/12       Dec  1 17:57 (wr-130-64-93-52.finland.linux.edu)
+         pts/11       Dec  1 17:59
+bagg     pts/11       Dec  1 18:08 (mobile-107-107-63-40.mycingular.net)
+         pts/11       Dec  1 18:08
+agnew    pts/11       Dec  1 18:10 (c-73-167-59-160.hsd1.ma.comcast.net)
+         pts/10       Dec  1 18:17
+barthel  pts/10       Dec  1 18:21 (wr-130-64-98-219.finland.linux.edu)
+         pts/9        Dec  1 18:24
+         pts/12       Dec  1 18:27
+bale     pts/9        Dec  1 18:30 (10.245.150.109)
+benda    pts/12       Dec  1 18:31 (10.245.142.118)
+         pts/3        Dec  1 18:34
+         pts/1        Dec  1 18:36
+         pts/12       Dec  1 18:37
+beecham  pts/1        Dec  1 18:38 (resnet159-95.finland.linux.edu)
+         pts/8        Dec  1 18:40
+         pts/6        Dec  1 18:45
+benda    pts/3        Dec  1 18:46 (10.245.142.118)
+         pts/3        Dec  1 18:46
+bezy     pts/3        Dec  1 18:50 (38.122.127.226)
+bash     pts/6        Dec  1 18:52 (10.245.142.147)
+         pts/0        Dec  1 18:53
+         pts/7        Dec  1 18:53
+barstad  pts/0        Dec  1 18:55 (10.247.141.95)
+barmore  pts/7        Dec  1 19:08 (wr-130-64-95-205.finland.linux.edu)
+accardi  pts/8        Dec  1 19:25 (10.247.149.89)
+akins    pts/12       Dec  1 19:28 (10.245.145.201)
+bateson  pts/13       Dec  1 19:29 (38.122.127.226)
+         pts/4        Dec  1 19:33
+barrick  pts/14       Dec  1 19:38 (10.245.154.240)
+beadle   pts/15       Dec  1 19:47 (resnet155-62.finland.linux.edu)
+         pts/1        Dec  1 20:12
+behne    pts/1        Dec  1 20:15 (10.245.142.143)
+         pts/0        Dec  1 20:22
+         pts/6        Dec  1 20:31
+bjork    pts/0        Dec  1 20:34 (10.245.150.121)
+         pts/8        Dec  1 20:38
+barton   pts/6        Dec  1 20:44 (232.sub-174-192-25.myvzw.com)
+         pts/13       Dec  1 20:45
+         pts/3        Dec  1 21:07
+beneake  pts/3        Dec  1 21:10 (10.245.153.243)
+bagby    pts/8        Dec  1 21:21 (209-6-194-29.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/15       Dec  1 21:33
+bendzala pts/13       Dec  1 21:36 (wr-130-64-93-43.finland.linux.edu)
+         pts/3        Dec  1 21:40
+bevill   pts/3        Dec  1 21:48 (10.245.146.219)
+         pts/11       Dec  1 21:54
+         pts/1        Dec  1 21:57
+addy     pts/1        Dec  1 21:58 (pool-108-7-199-151.bstnma.fios.verizon.net)
+bevans   pts/4        Dec  1 21:59 (10.245.155.119)
+beckner  pts/11       Dec  1 22:05 (10.245.149.84)
+binkley  pts/15       Dec  1 22:07 (10.245.148.161)
+         pts/4        Dec  1 22:08
+         pts/11       Dec  1 22:09
+bignall  pts/4        Dec  1 22:10 (10.245.145.109)
+bearup   pts/11       Dec  1 22:14 (10.244.142.102)
+         pts/6        Dec  1 22:19
+         pts/15       Dec  1 22:23
+besco    pts/6        Dec  1 22:24 (10.245.140.96)
+baynes   pts/15       Dec  1 22:41 (resnet160-76.finland.linux.edu)
+         pts/15       Dec  1 22:44
+bevan    pts/15       Dec  1 22:55 (wr-130-64-96-163.finland.linux.edu)
+         pts/14       Dec  1 22:59
+         pts/8        Dec  1 23:06
+accardi  pts/8        Dec  1 23:10 (c-24-61-12-126.hsd1.ma.comcast.net)
+         pts/4        Dec  1 23:11
+besco    pts/4        Dec  1 23:20 (10.245.140.96)
+         pts/9        Dec  1 23:23
+berriman pts/9        Dec  1 23:29 (38.122.127.226)
+         pts/9        Dec  1 23:30
+berriman pts/9        Dec  1 23:41 (38.122.127.226)
+         pts/0        Dec  1 23:46
+         pts/8        Dec  1 23:50
+         pts/15       Dec  1 23:56
+beesley  pts/0        Dec  1 23:57 (10.245.146.225)
+         pts/0        Dec  2 00:05
+         pts/3        Dec  2 00:20
+         pts/1        Dec  2 00:31
+         pts/4        Dec  2 00:36
+         pts/9        Dec  2 00:41
+beiter   pts/0        Dec  2 00:55 (10.244.140.200)
+         pts/13       Dec  2 01:04
+         pts/0        Dec  2 01:14
+binning  pts/0        Dec  2 01:21 (10.245.140.30)
+bevill   pts/1        Dec  2 01:38 (10.244.142.61)
+         pts/6        Dec  2 01:48
+         pts/12       Dec  2 01:52
+         pts/10       Dec  2 02:04
+         pts/1        Dec  2 02:25
+baldwyn  pts/1        Dec  2 02:26 (10.245.155.22)
+         pts/0        Dec  2 02:32
+bedell   pts/0        Dec  2 02:48 (10.245.154.218)
+         pts/1        Dec  2 03:28
+         pts/7        Dec  2 03:38
+         pts/0        Dec  2 05:04
+         pts/11       Dec  2 05:18
+bialik   pts/0        Dec  2 06:58 (c-174-63-30-189.hsd1.ma.comcast.net)
+         pts/0        Dec  2 08:08
+bergmann pts/0        Dec  2 09:37 (wr-130-64-193-114.finland.linux.edu)
+adamek   pts/1        Dec  2 09:48 (10.245.142.73)
+bancker  pts/3        Dec  2 09:51 (130.64.161.240)
+         pts/3        Dec  2 09:53
+bellar   pts/3        Dec  2 09:59 (c-98-216-244-173.hsd1.ma.comcast.net)
+abshire  pts/4        Dec  2 10:06 (wr-130-64-195-121.finland.linux.edu)
+behrens  pts/6        Dec  2 10:11 (10.245.142.243)
+         pts/6        Dec  2 10:13
+bartash  pts/6        Dec  2 10:30 (resnet161-33.finland.linux.edu)
+baty     pts/7        Dec  2 10:38 (10.247.148.156)
+bitzer   pts/8        Dec  2 10:46 (38.122.127.226)
+         pts/1        Dec  2 10:49
+bilinski pts/1        Dec  2 10:53 (38.122.127.226)
+         pts/8        Dec  2 11:05
+         pts/4        Dec  2 11:06
+blades   pts/4        Dec  2 11:11 (10.247.141.239)
+bitler   pts/8        Dec  2 11:14 (10.247.149.102)
+behne    pts/9        Dec  2 11:18 (10.245.152.116)
+bentz    pts/10       Dec  2 11:25 (c-73-38-2-226.hsd1.ma.comcast.net)
+         pts/3        Dec  2 11:33
+abbott   pts/3        Dec  2 11:49 (10.245.143.169)
+         pts/4        Dec  2 11:54
+         pts/1        Dec  2 11:55
+birt     pts/1        Dec  2 12:09 (10.247.141.129)
+bittner  pts/4        Dec  2 12:09 (10.244.142.249)
+         pts/0        Dec  2 12:13
+         pts/8        Dec  2 12:28
+beazley  pts/0        Dec  2 12:31 (10.245.149.224)
+bjork    pts/8        Dec  2 12:32 (10.245.147.24)
+bartle   pts/11       Dec  2 12:36 (10.245.149.200)
+bedell   pts/12       Dec  2 12:42 (10.244.144.74)
+         pts/9        Dec  2 12:45
+         pts/10       Dec  2 12:46
+         pts/1        Dec  2 12:48
+abraham  pts/1        Dec  2 13:03 (10.245.142.157)
+babcock  pts/9        Dec  2 13:04 (10.245.150.86)
+         pts/11       Dec  2 13:07
+banning  pts/10       Dec  2 13:16 (10.245.146.69)
+beggan   pts/11       Dec  2 13:16 (10.245.154.29)
+barton   pts/13       Dec  2 13:19 (10.247.148.82)
+         pts/9        Dec  2 13:22
+beene    pts/9        Dec  2 13:22 (10.245.150.168)
+barto    pts/14       Dec  2 13:23 (209-6-93-242.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/14       Dec  2 13:23
+         pts/9        Dec  2 13:31
+beecham  pts/9        Dec  2 13:35 (dhcp-130-64-159-245.finland.linux.edu)
+         pts/4        Dec  2 13:38
+         pts/12       Dec  2 13:41
+bergmann pts/12       Dec  2 13:42 (wr-130-64-193-114.finland.linux.edu)
+betton   pts/14       Dec  2 13:43 (10.245.147.225)
+         pts/7        Dec  2 13:44
+ahern    pts/7        Dec  2 13:51 (wr-130-64-195-192.finland.linux.edu)
+abbey    pts/16       Dec  2 13:52 (resnet157-91.finland.linux.edu)
+barone   pts/17       Dec  2 13:54 (10.247.148.31)
+agoitia  pts/18       Dec  2 13:56 (10.245.148.78)
+belgrod  pts/4        Dec  2 14:08 (10.245.147.75)
+         pts/4        Dec  2 14:09
+         pts/11       Dec  2 14:19
+         pts/8        Dec  2 14:20
+biam     pts/4        Dec  2 14:21 (lab118a.csci.linux.edu)
+birdsong pts/11       Dec  2 14:22 (10.244.142.11)
+         pts/11       Dec  2 14:22
+beery    pts/11       Dec  2 14:26 (10.245.147.170)
+bearse   pts/8        Dec  2 14:33 (resnet157-80.finland.linux.edu)
+         pts/18       Dec  2 14:37
+battles  pts/18       Dec  2 14:37 (10.245.150.206)
+beier    pts/19       Dec  2 14:43 (10.245.145.156)
+belgrade pts/20       Dec  2 14:49 (pool-72-74-81-251.bstnma.fios.verizon.net)
+bailly   pts/21       Dec  2 14:53 (10.245.140.14)
+         pts/17       Dec  2 14:54
+         pts/21       Dec  2 15:00
+         pts/13       Dec  2 15:05
+beekman  pts/13       Dec  2 15:12 (10.247.137.201)
+baggs    pts/17       Dec  2 15:19 (c-66-30-4-187.hsd1.ma.comcast.net)
+         pts/12       Dec  2 15:24
+blades   pts/12       Dec  2 15:30 (10.245.146.181)
+         pts/0        Dec  2 15:32
+         pts/13       Dec  2 15:33
+beringer pts/0        Dec  2 15:33 (10.245.142.215)
+behm     pts/13       Dec  2 15:37 (dhcp30-236.finland.linux.edu)
+         pts/11       Dec  2 15:40
+able     pts/21       Dec  2 15:42 (10.245.142.144)
+         pts/4        Dec  2 15:46
+         pts/0        Dec  2 15:47
+         pts/21       Dec  2 15:49
+behm     pts/0        Dec  2 16:00 (dhcp30-236.finland.linux.edu)
+         pts/17       Dec  2 16:01
+         pts/7        Dec  2 16:09
+         pts/8        Dec  2 16:12
+batten   pts/4        Dec  2 16:19 (10.245.141.64)
+         pts/1        Dec  2 16:19
+abraham  pts/1        Dec  2 16:19 (10.245.142.157)
+belgrade pts/8        Dec  2 16:20 (pool-72-74-81-251.bstnma.fios.verizon.net)
+bennett  pts/17       Dec  2 16:27 (10.245.153.42)
+beverly  pts/21       Dec  2 16:30 (labrador.csci.linux.edu)
+         pts/17       Dec  2 16:34
+beadle   pts/17       Dec  2 16:37 (resnet155-62.finland.linux.edu)
+baldwyn  pts/22       Dec  2 16:40 (10.245.155.252)
+         pts/21       Dec  2 16:41
+barnhill pts/11       Dec  2 16:55 (10.245.143.190)
+         pts/8        Dec  2 16:57
+         pts/1        Dec  2 16:58
+belson   pts/1        Dec  2 17:00 (pool-108-20-130-139.bstnma.fios.verizon.net)
+         pts/16       Dec  2 17:04
+         pts/14       Dec  2 17:07
+belgrade pts/8        Dec  2 17:12 (pool-72-74-81-251.bstnma.fios.verizon.net)
+         pts/4        Dec  2 17:20
+blaicher pts/4        Dec  2 17:23 (c-73-167-58-212.hsd1.ma.comcast.net)
+bagg     pts/14       Dec  2 17:29 (wr-130-64-195-54.finland.linux.edu)
+baty     pts/16       Dec  2 17:44 (10.247.148.156)
+         pts/19       Dec  2 17:48
+         pts/16       Dec  2 17:48
+         pts/13       Dec  2 17:56
+bateman  pts/13       Dec  2 17:57 (10.245.146.115)
+         pts/22       Dec  2 17:58
+         pts/9        Dec  2 17:59
+         pts/11       Dec  2 18:03
+         pts/8        Dec  2 18:04
+bajwa    pts/8        Dec  2 18:06 (c-24-91-32-9.hsd1.ma.comcast.net)
+         pts/0        Dec  2 18:07
+         pts/3        Dec  2 18:12
+bickhart pts/0        Dec  2 18:15 (10.245.143.211)
+         pts/10       Dec  2 18:16
+         pts/4        Dec  2 18:23
+         pts/20       Dec  2 18:23
+         pts/13       Dec  2 18:29
+         pts/1        Dec  2 18:41
+barney   pts/1        Dec  2 18:45 (10.247.140.223)
+baird    pts/3        Dec  2 18:47 (10.245.151.48)
+         pts/1        Dec  2 18:50
+bisbee   pts/1        Dec  2 18:52 (10.245.140.32)
+         pts/1        Dec  2 18:58
+bannon   pts/1        Dec  2 19:06 (38.122.127.226)
+         pts/0        Dec  2 19:18
+bawhey   pts/4        Dec  2 19:23 (10.245.141.113)
+bellar   pts/9        Dec  2 19:23 (c-98-216-244-173.hsd1.ma.comcast.net)
+baird    pts/10       Dec  2 19:36 (vm-hw08.csci.linux.edu)
+         pts/10       Dec  2 19:37
+baird    pts/10       Dec  2 19:37 (vm-hw08.csci.linux.edu)
+         pts/10       Dec  2 19:38
+         pts/12       Dec  2 19:41
+         pts/17       Dec  2 19:53
+bayley   pts/0        Dec  2 19:53 (10.245.149.243)
+bayley   pts/10       Dec  2 19:54 (vm-hw08.csci.linux.edu)
+bilodeau pts/11       Dec  2 19:57 (10.245.151.122)
+         pts/14       Dec  2 20:02
+         pts/8        Dec  2 20:02
+         pts/4        Dec  2 20:03
+         pts/6        Dec  2 20:06
+         pts/1        Dec  2 20:06
+         pts/11       Dec  2 20:33
+batten   pts/1        Dec  2 20:37 (10.245.141.64)
+         pts/3        Dec  2 20:50
+         pts/9        Dec  2 20:54
+         pts/1        Dec  2 20:57
+beard    pts/1        Dec  2 21:20 (10.244.142.138)
+         pts/1        Dec  2 21:20
+able     pts/1        Dec  2 21:21 (10.244.140.239)
+         pts/1        Dec  2 21:27
+         pts/0        Dec  2 22:23
+         pts/10       Dec  2 22:23
+bickhart pts/0        Dec  2 22:41 (10.245.143.211)
+         pts/0        Dec  2 22:44
+birong   pts/0        Dec  2 23:17 (10.247.140.132)
+baalham  pts/1        Dec  2 23:27 (10.245.141.144)
+         pts/18       Dec  2 23:54
+bill     pts/3        Dec  3 00:14 (c-50-187-42-42.hsd1.ma.comcast.net)
+         pts/3        Dec  3 00:16
+bill     pts/3        Dec  3 00:18 (10.245.148.212)
+baalham  pts/4        Dec  3 00:37 (10.245.141.144)
+baalham  pts/6        Dec  3 00:38 (10.245.140.223)
+         pts/0        Dec  3 01:06
+         pts/6        Dec  3 01:13
+         pts/3        Dec  3 01:19
+         pts/4        Dec  3 01:38
+         pts/1        Dec  3 01:45
+bagg     pts/0        Dec  3 04:55 (130.64.158.90)
+         pts/0        Dec  3 05:03
+best     pts/0        Dec  3 09:29 (c-71-235-29-134.hsd1.ma.comcast.net)
+bacher   pts/1        Dec  3 10:24 (10.244.143.208)
+         pts/0        Dec  3 10:29
+         pts/1        Dec  3 10:44
+bernet   pts/0        Dec  3 11:12 (pool-72-74-254-11.bstnma.fios.verizon.net)
+         pts/0        Dec  3 11:13
+bagg     pts/0        Dec  3 11:51 (wr-130-64-195-54.finland.linux.edu)
+         pts/0        Dec  3 11:57
+baumers  pts/0        Dec  3 12:21 (38.122.127.226)
+blakey   pts/1        Dec  3 12:42 (10.244.140.229)
+         pts/1        Dec  3 13:06
+bevan    pts/1        Dec  3 13:19 (wr-130-64-96-163.finland.linux.edu)
+bangert  pts/3        Dec  3 13:21 (10.244.140.24)
+         pts/1        Dec  3 13:21
+bertrand pts/1        Dec  3 13:22 (10.244.141.83)
+         pts/0        Dec  3 13:22
+blakey   pts/0        Dec  3 13:38 (10.244.140.229)
+bawhey   pts/4        Dec  3 13:40 (10.245.141.243)
+bay      pts/6        Dec  3 13:48 (10.245.147.166)
+beaston  pts/8        Dec  3 13:56 (10.245.143.180)
+         pts/0        Dec  3 13:59
+barnhill pts/0        Dec  3 14:12 (10.245.143.22)
+barnhill pts/9        Dec  3 14:12 (10.245.143.22)
+barnhill pts/10       Dec  3 14:12 (10.245.143.22)
+binney   pts/11       Dec  3 14:16 (130.64.14.172)
+bash     pts/12       Dec  3 14:20 (10.245.155.216)
+bitz     pts/13       Dec  3 14:35 (c-50-133-183-28.hsd1.ma.comcast.net)
+baughn   pts/14       Dec  3 15:10 (10.247.148.220)
+         pts/14       Dec  3 15:34
+         pts/13       Dec  3 15:35
+         pts/1        Dec  3 15:36
+aikin    pts/1        Dec  3 15:48 (10.244.142.29)
+bartfai  pts/13       Dec  3 16:00 (10.245.146.157)
+         pts/4        Dec  3 16:10
+barbee   pts/4        Dec  3 16:35 (10.245.143.157)
+         pts/12       Dec  3 16:35
+         pts/8        Dec  3 16:36
+         pts/6        Dec  3 16:41
+beshear  pts/6        Dec  3 16:57 (10.245.155.173)
+bacher   pts/8        Dec  3 16:58 (10.244.142.139)
+         pts/6        Dec  3 17:00
+bailly   pts/6        Dec  3 17:14 (10.245.141.25)
+         pts/8        Dec  3 17:15
+         pts/6        Dec  3 17:22
+         pts/9        Dec  3 17:26
+         pts/10       Dec  3 17:26
+         pts/0        Dec  3 17:26
+         pts/3        Dec  3 17:27
+beckman  pts/0        Dec  3 17:30 (10.247.140.55)
+baggs    pts/3        Dec  3 17:36 (c-66-30-4-187.hsd1.ma.comcast.net)
+binyon   pts/6        Dec  3 17:54 (localhost:11.0)
+binyon   pts/6        Dec  3 17:54
+         pts/1        Dec  3 17:56
+adkins   pts/1        Dec  3 18:17 (10.245.150.95)
+         pts/0        Dec  3 18:18
+barnhill pts/0        Dec  3 18:28 (10.245.143.22)
+barnhill pts/6        Dec  3 18:29 (10.245.143.22)
+beauvais pts/8        Dec  3 18:34 (10.245.143.239)
+         pts/1        Dec  3 18:35
+         pts/11       Dec  3 18:37
+bayliss  pts/1        Dec  3 19:02 (10.244.143.10)
+bensley  pts/9        Dec  3 19:03 (10.245.149.222)
+         pts/1        Dec  3 19:03
+bitz     pts/1        Dec  3 19:07 (c-50-133-183-28.hsd1.ma.comcast.net)
+         pts/1        Dec  3 19:35
+         pts/8        Dec  3 19:44
+bagwell  pts/1        Dec  3 19:50 (ool-45792985.dyn.optonline.net)
+bernard  pts/8        Dec  3 19:51 (38.122.127.226)
+         pts/3        Dec  3 19:53
+bernet   pts/3        Dec  3 19:57 (pool-72-74-254-11.bstnma.fios.verizon.net)
+bagg     pts/10       Dec  3 20:11 (130.64.158.90)
+         pts/1        Dec  3 20:11
+         pts/13       Dec  3 20:11
+         pts/4        Dec  3 20:21
+ahrens   pts/1        Dec  3 20:30 (10.247.140.103)
+         pts/10       Dec  3 20:49
+         pts/8        Dec  3 20:53
+abraham  pts/4        Dec  3 20:53 (10.245.142.242)
+         pts/9        Dec  3 20:54
+beggs    pts/8        Dec  3 21:02 (resnet157-203.finland.linux.edu)
+         pts/1        Dec  3 21:30
+         pts/4        Dec  3 22:14
+         pts/0        Dec  3 22:21
+         pts/6        Dec  3 22:21
+benfield pts/0        Dec  3 22:23 (resnet149-176.finland.linux.edu)
+         pts/8        Dec  3 22:37
+beachley pts/1        Dec  3 22:44 (10.245.151.58)
+bisbee   pts/4        Dec  3 22:59 (10.245.140.130)
+         pts/1        Dec  3 23:06
+         pts/0        Dec  3 23:07
+adams    pts/0        Dec  3 23:14 (38.122.127.226)
+         pts/0        Dec  3 23:20
+barthol  pts/0        Dec  3 23:29 (pool-173-48-178-111.bstnma.fios.verizon.net)
+bezer    pts/1        Dec  3 23:40 (209-6-207-244.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/3        Dec  3 23:54
+beckman  pts/3        Dec  4 00:04 (10.244.142.57)
+         pts/4        Dec  4 00:12
+         pts/1        Dec  4 00:40
+bash     pts/1        Dec  4 00:44 (10.245.154.150)
+         pts/3        Dec  4 01:01
+bartfai  pts/3        Dec  4 01:12 (209-6-54-82.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/3        Dec  4 01:13
+addy     pts/3        Dec  4 01:23 (pool-108-7-199-151.bstnma.fios.verizon.net)
+beheler  pts/4        Dec  4 01:30 (38.122.127.226)
+biddle   pts/6        Dec  4 02:00 (sunfire39-hlgn-sec.csci.linux.edu)
+         pts/6        Dec  4 02:00
+biddle   pts/6        Dec  4 02:01 (sunfire39-hlgn-sec.csci.linux.edu)
+         pts/6        Dec  4 02:01
+         pts/3        Dec  4 02:07
+         pts/4        Dec  4 02:32
+         pts/1        Dec  4 03:34
+         pts/0        Dec  4 04:34
+abney    pts/0        Dec  4 10:17 (10.245.140.174)
+birchard pts/1        Dec  4 10:46 (natp-128-119-202-151.wireless.umass.edu)
+bay      pts/2        Dec  4 10:50 (10.245.147.233)
+beagle   pts/3        Dec  4 11:11 (10.247.140.89)
+         pts/3        Dec  4 11:12
+         pts/0        Dec  4 11:23
+barcley  pts/0        Dec  4 12:10 (c-50-176-161-84.hsd1.ma.comcast.net)
+         pts/0        Dec  4 12:22
+ahlf     pts/0        Dec  4 12:28 (c-50-137-79-221.hsd1.ma.comcast.net)
+bersell  pts/3        Dec  4 12:40 (10.244.142.230)
+         pts/0        Dec  4 12:41
+baggs    pts/0        Dec  4 12:45 (10.245.153.127)
+barbee   pts/4        Dec  4 13:00 (10.247.140.125)
+bane     pts/5        Dec  4 13:09 (10.245.154.126)
+         pts/3        Dec  4 13:22
+bedinger pts/3        Dec  4 13:35 (10.245.154.101)
+         pts/0        Dec  4 13:37
+barwick  pts/0        Dec  4 13:37 (10.245.153.178)
+besch    pts/6        Dec  4 13:49 (static-98-110-144-240.bstnma.fios.verizon.net)
+bilodeau pts/8        Dec  4 13:51 (10.245.155.29)
+acuff    pts/9        Dec  4 13:59 (lab120d.csci.linux.edu)
+         pts/9        Dec  4 14:02
+bevans   pts/9        Dec  4 14:04 (10.245.142.168)
+batter   pts/10       Dec  4 14:06 (10.245.153.101)
+bevans   pts/11       Dec  4 14:08 (10.245.142.168)
+bacon    pts/12       Dec  4 14:10 (wr-130-64-93-16.finland.linux.edu)
+         pts/12       Dec  4 14:11
+         pts/3        Dec  4 14:14
+         pts/0        Dec  4 14:19
+blakeman pts/0        Dec  4 14:28 (pool-100-0-243-245.bstnma.fios.verizon.net)
+barnet   pts/3        Dec  4 14:33 (10.245.146.173)
+         pts/5        Dec  4 14:34
+         pts/0        Dec  4 14:37
+biam     pts/0        Dec  4 14:40 (38.122.127.226)
+         pts/1        Dec  4 14:43
+birt     pts/1        Dec  4 14:45 (10.247.141.131)
+abler    pts/5        Dec  4 14:48 (10.244.141.214)
+barnette pts/12       Dec  4 14:51 (10.245.142.28)
+bangert  pts/13       Dec  4 14:55 (10.244.141.215)
+balles   pts/14       Dec  4 15:01 (10.245.148.241)
+balles   pts/15       Dec  4 15:01 (10.245.148.241)
+         pts/10       Dec  4 15:08
+baldwyn  pts/10       Dec  4 15:10 (paetec90-104.hampshire.edu)
+         pts/10       Dec  4 15:11
+         pts/9        Dec  4 15:13
+         pts/11       Dec  4 15:14
+abraham  pts/9        Dec  4 15:20 (10.245.146.156)
+         pts/0        Dec  4 15:40
+         pts/4        Dec  4 15:41
+         pts/8        Dec  4 16:12
+ahrens   pts/0        Dec  4 16:13 (10.247.140.115)
+baskett  pts/4        Dec  4 16:16 (wr-130-64-196-20.finland.linux.edu)
+         pts/9        Dec  4 16:20
+         pts/2        Dec  4 16:21
+bitz     pts/2        Dec  4 16:23 (10.245.145.173)
+barr     pts/8        Dec  4 16:31 (10.247.148.117)
+         pts/5        Dec  4 16:32
+belson   pts/5        Dec  4 16:33 (pool-96-237-52-224.bstnma.fios.verizon.net)
+blanding pts/9        Dec  4 16:37 (wr-130-64-195-66.finland.linux.edu)
+binnie   pts/10       Dec  4 16:42 (wr-130-64-98-111.finland.linux.edu)
+blakey   pts/11       Dec  4 17:02 (10.244.140.87)
+         pts/11       Dec  4 17:02
+bachiler pts/11       Dec  4 17:02 (wr-130-64-190-68.finland.linux.edu)
+         pts/11       Dec  4 17:04
+         pts/1        Dec  4 17:04
+bavidge  pts/1        Dec  4 17:06 (c-50-138-176-97.hsd1.ma.comcast.net)
+bair     pts/11       Dec  4 17:06 (38.122.127.226)
+         pts/13       Dec  4 17:08
+bair     pts/13       Dec  4 17:12 (38.122.127.226)
+         pts/0        Dec  4 17:14
+able     pts/0        Dec  4 17:29 (10.245.142.204)
+         pts/8        Dec  4 17:31
+         pts/10       Dec  4 17:41
+         pts/4        Dec  4 17:42
+bates    pts/8        Dec  4 17:45 (38.122.127.226)
+         pts/0        Dec  4 17:51
+bickel   pts/0        Dec  4 18:02 (10.245.145.46)
+         pts/5        Dec  4 18:07
+         pts/13       Dec  4 18:12
+         pts/15       Dec  4 18:19
+         pts/12       Dec  4 18:30
+         pts/8        Dec  4 18:32
+         pts/14       Dec  4 18:33
+barber   pts/4        Dec  4 18:42 (38.122.127.226)
+         pts/1        Dec  4 18:45
+belden   pts/1        Dec  4 18:51 (wr-130-64-195-232.finland.linux.edu)
+         pts/4        Dec  4 18:52
+belknap  pts/4        Dec  4 19:18 (pool-72-74-81-251.bstnma.fios.verizon.net)
+beagle   pts/5        Dec  4 19:20 (10.247.140.252)
+         pts/5        Dec  4 19:20
+         pts/11       Dec  4 19:20
+         pts/6        Dec  4 19:24
+         pts/3        Dec  4 19:24
+beheler  pts/3        Dec  4 19:31 (38.122.127.226)
+ballew   pts/5        Dec  4 19:36 (wr-130-64-194-132.finland.linux.edu)
+barnaby  pts/6        Dec  4 19:37 (10.245.141.38)
+         pts/6        Dec  4 19:39
+         pts/5        Dec  4 19:39
+bitner   pts/5        Dec  4 19:51 (wr-130-64-193-139.finland.linux.edu)
+         pts/4        Dec  4 20:01
+babin    pts/4        Dec  4 20:11 (130.64.158.153)
+bechtel  pts/6        Dec  4 20:16 (10.245.142.27)
+bartle   pts/10       Dec  4 20:25 (10.245.148.117)
+adix     pts/11       Dec  4 20:26 (wr-130-64-195-63.finland.linux.edu)
+         pts/9        Dec  4 20:29
+         pts/3        Dec  4 20:32
+barthol  pts/3        Dec  4 20:38 (10.245.143.148)
+bankston pts/9        Dec  4 20:41 (resnet159-31.finland.linux.edu)
+         pts/9        Dec  4 20:42
+         pts/1        Dec  4 20:48
+acree    pts/1        Dec  4 20:53 (c-66-31-35-24.hsd1.ma.comcast.net)
+beauvais pts/9        Dec  4 20:54 (10.245.143.231)
+bier     pts/12       Dec  4 20:55 (10.244.140.121)
+         pts/11       Dec  4 20:56
+         pts/12       Dec  4 21:00
+agee     pts/11       Dec  4 21:08 (c-66-31-34-28.hsd1.ma.comcast.net)
+ackerman pts/12       Dec  4 21:13 (wr-130-64-193-237.finland.linux.edu)
+beadles  pts/13       Dec  4 21:21 (10.244.142.131)
+         pts/10       Dec  4 21:25
+         pts/2        Dec  4 21:27
+bertrand pts/2        Dec  4 21:33 (10.244.141.210)
+baggarly pts/10       Dec  4 21:34 (c-24-60-0-198.hsd1.ma.comcast.net)
+         pts/11       Dec  4 21:34
+         pts/13       Dec  4 21:35
+berle    pts/11       Dec  4 21:35 (c-50-133-248-150.hsd1.ma.comcast.net)
+         pts/6        Dec  4 21:40
+beam     pts/6        Dec  4 21:44 (10.245.140.73)
+bellah   pts/13       Dec  4 21:46 (wr-130-64-194-132.finland.linux.edu)
+bailey   pts/14       Dec  4 21:47 (38.122.127.226)
+         pts/14       Dec  4 21:49
+         pts/1        Dec  4 21:57
+         pts/2        Dec  4 22:04
+         pts/9        Dec  4 22:08
+         pts/10       Dec  4 22:14
+acott    pts/1        Dec  4 22:21 (resnet160-130.finland.linux.edu)
+         pts/4        Dec  4 22:26
+         pts/5        Dec  4 22:30
+beringer pts/2        Dec  4 22:38 (10.244.143.107)
+baxley   pts/4        Dec  4 22:39 (resnet161-192.finland.linux.edu)
+         pts/1        Dec  4 22:49
+         pts/3        Dec  4 22:54
+         pts/6        Dec  4 22:58
+ahrens   pts/1        Dec  4 22:59 (10.247.141.53)
+beagle   pts/3        Dec  4 22:59 (10.247.140.252)
+         pts/1        Dec  4 23:00
+banks    pts/1        Dec  4 23:07 (209-6-231-107.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/3        Dec  4 23:09
+belden   pts/3        Dec  4 23:11 (resnet133-193.finland.linux.edu)
+         pts/13       Dec  4 23:19
+bellah   pts/5        Dec  4 23:19 (wr-130-64-194-132.finland.linux.edu)
+barr     pts/6        Dec  4 23:22 (10.245.153.174)
+         pts/6        Dec  4 23:36
+         pts/2        Dec  4 23:49
+         pts/12       Dec  5 00:18
+         pts/3        Dec  5 00:36
+bing     pts/2        Dec  5 00:37 (10.247.140.145)
+bascom   pts/3        Dec  5 00:44 (c-50-187-43-49.hsd1.ma.comcast.net)
+bernet   pts/6        Dec  5 00:48 (pool-72-74-254-11.bstnma.fios.verizon.net)
+         pts/1        Dec  5 00:49
+         pts/0        Dec  5 00:54
+         pts/5        Dec  5 00:54
+         pts/4        Dec  5 00:57
+banning  pts/0        Dec  5 01:02 (10.244.140.232)
+         pts/2        Dec  5 01:04
+bartash  pts/1        Dec  5 01:36 (resnet143-226.finland.linux.edu)
+bachmann pts/2        Dec  5 01:59 (10.245.155.138)
+         pts/0        Dec  5 02:07
+bilotta  pts/0        Dec  5 02:42 (c-73-119-54-239.hsd1.ma.comcast.net)
+         pts/1        Dec  5 02:46
+         pts/2        Dec  5 03:13
+         pts/3        Dec  5 03:30
+         pts/0        Dec  5 03:46
+         pts/11       Dec  5 04:00
+beaston  pts/0        Dec  5 10:23 (10.245.155.243)
+beem     pts/1        Dec  5 10:44 (10.245.143.40)
+         pts/0        Dec  5 11:05
+achord   pts/0        Dec  5 11:14 (wr-130-64-196-130.finland.linux.edu)
+baxley   pts/2        Dec  5 11:15 (resnet161-45.finland.linux.edu)
+able     pts/3        Dec  5 11:21 (10.244.143.166)
+         pts/0        Dec  5 11:22
+balzer   pts/0        Dec  5 11:27 (10.245.146.158)
+         pts/3        Dec  5 11:35
+birdsong pts/3        Dec  5 11:38 (10.244.142.255)
+         pts/3        Dec  5 11:40
+         pts/1        Dec  5 11:44
+benes    pts/1        Dec  5 11:58 (c-66-31-28-147.hsd1.ma.comcast.net)
+bethea   pts/3        Dec  5 12:00 (c-66-30-7-226.hsd1.ma.comcast.net)
+beebe    pts/4        Dec  5 12:11 (10.247.148.180)
+bergeron pts/5        Dec  5 12:15 (c-76-19-67-106.hsd1.ma.comcast.net)
+         pts/2        Dec  5 12:25
+baird    pts/2        Dec  5 12:56 (10.245.150.83)
+adamson  pts/9        Dec  5 12:59 (d-p-13-98.csci.linux.edu)
+bersell  pts/10       Dec  5 13:04 (38.122.127.226)
+         pts/10       Dec  5 13:07
+         pts/4        Dec  5 13:11
+belden   pts/10       Dec  5 13:12 (resnet133-193.finland.linux.edu)
+abraham  pts/11       Dec  5 13:18 (10.245.153.242)
+         pts/11       Dec  5 13:18
+back     pts/11       Dec  5 13:19 (wr-130-64-95-81.finland.linux.edu)
+besch    pts/12       Dec  5 13:22 (10.247.142.119)
+         pts/5        Dec  5 13:22
+ackerson pts/5        Dec  5 13:39 (10.244.143.213)
+         pts/3        Dec  5 13:41
+barnet   pts/3        Dec  5 13:45 (10.245.146.229)
+         pts/1        Dec  5 13:48
+beagle   pts/1        Dec  5 13:48 (10.245.143.118)
+beagle   pts/13       Dec  5 13:55 (10.245.143.118)
+         pts/10       Dec  5 14:02
+bersell  pts/4        Dec  5 14:06 (38.122.127.226)
+         pts/5        Dec  5 14:09
+bagwell  pts/5        Dec  5 14:17 (209-6-201-153.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+barbee   pts/10       Dec  5 14:18 (10.247.141.89)
+bjerke   pts/14       Dec  5 14:29 (wr-130-64-193-89.finland.linux.edu)
+         pts/14       Dec  5 14:29
+         pts/11       Dec  5 14:29
+         pts/0        Dec  5 14:38
+         pts/5        Dec  5 14:46
+         pts/2        Dec  5 14:52
+         pts/10       Dec  5 14:54
+beard    pts/0        Dec  5 14:57 (10.244.143.205)
+beheler  pts/2        Dec  5 14:57 (wr-130-64-96-223.finland.linux.edu)
+beagle   pts/5        Dec  5 15:00 (10.245.143.118)
+barrow   pts/10       Dec  5 15:04 (resnet159-70.finland.linux.edu)
+         pts/0        Dec  5 15:04
+         pts/9        Dec  5 15:13
+badger   pts/0        Dec  5 15:13 (10.245.147.112)
+beagle   pts/9        Dec  5 15:26 (10.245.143.118)
+bennett  pts/11       Dec  5 15:29 (wr-130-64-196-6.finland.linux.edu)
+         pts/12       Dec  5 15:32
+barratt  pts/12       Dec  5 15:36 (10.245.143.227)
+         pts/13       Dec  5 15:37
+         pts/0        Dec  5 15:37
+bauza    pts/0        Dec  5 15:38 (lab122x.csci.linux.edu)
+badger   pts/13       Dec  5 15:38 (10.245.147.112)
+         pts/1        Dec  5 15:41
+beck     pts/1        Dec  5 15:43 (wr-130-64-193-47.finland.linux.edu)
+berner   pts/14       Dec  5 15:44 (d-p-14-207.csci.linux.edu)
+         pts/14       Dec  5 15:45
+         pts/13       Dec  5 15:50
+         pts/11       Dec  5 16:00
+         pts/2        Dec  5 16:08
+aaland   pts/2        Dec  5 16:09 (pc-8tpmzq1.csci.linux.edu)
+         pts/2        Dec  5 16:09
+         pts/0        Dec  5 16:12
+baumers  pts/0        Dec  5 16:21 (38.122.127.226)
+         pts/4        Dec  5 16:23
+balcom   pts/2        Dec  5 16:28 (resnet155-166.finland.linux.edu)
+balzer   pts/4        Dec  5 16:33 (10.245.146.87)
+         pts/6        Dec  5 16:33
+         pts/2        Dec  5 16:35
+bascom   pts/2        Dec  5 16:38 (wr-130-64-196-41.finland.linux.edu)
+         pts/10       Dec  5 16:39
+bagot    pts/6        Dec  5 16:40 (10.245.149.149)
+bickley  pts/10       Dec  5 16:43 (209-6-89-86.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+bilyeu   pts/11       Dec  5 16:44 (wr-130-64-195-93.finland.linux.edu)
+able     pts/13       Dec  5 16:54 (10.245.142.161)
+ables    pts/14       Dec  5 17:11 (10.244.141.52)
+         pts/13       Dec  5 17:15
+         pts/0        Dec  5 17:27
+beverly  pts/0        Dec  5 17:37 (labrador.csci.linux.edu)
+         pts/0        Dec  5 17:39
+         pts/6        Dec  5 17:47
+bard     pts/0        Dec  5 17:48 (10.247.149.206)
+bentz    pts/6        Dec  5 17:55 (10.247.148.187)
+         pts/6        Dec  5 17:56
+         pts/3        Dec  5 18:00
+bickel   pts/3        Dec  5 18:04 (10.245.145.87)
+         pts/3        Dec  5 18:07
+beheler  pts/3        Dec  5 18:15 (wr-130-64-96-223.finland.linux.edu)
+         pts/0        Dec  5 18:16
+aikman   pts/0        Dec  5 18:33 (10.245.145.183)
+blackard pts/6        Dec  5 18:47 (d-p-13-128.csci.linux.edu)
+         pts/6        Dec  5 18:50
+bell     pts/6        Dec  5 18:54 (resnet161-98.finland.linux.edu)
+blalock  pts/13       Dec  5 18:59 (wr-130-64-195-95.finland.linux.edu)
+bash     pts/15       Dec  5 19:04 (10.245.154.149)
+able     pts/16       Dec  5 19:12 (10.245.142.115)
+bien     pts/17       Dec  5 19:16 (wr-130-64-196-109.finland.linux.edu)
+ackley   pts/18       Dec  5 19:25 (10.245.149.171)
+         pts/18       Dec  5 19:27
+         pts/5        Dec  5 19:28
+         pts/14       Dec  5 19:34
+         pts/16       Dec  5 19:35
+able     pts/5        Dec  5 19:35 (10.245.142.115)
+belden   pts/14       Dec  5 19:41 (wr-130-64-195-124.finland.linux.edu)
+ackley   pts/16       Dec  5 19:52 (10.245.149.171)
+         pts/10       Dec  5 20:00
+         pts/16       Dec  5 20:07
+         pts/4        Dec  5 20:09
+         pts/3        Dec  5 20:12
+         pts/13       Dec  5 20:19
+         pts/17       Dec  5 20:20
+bearse   pts/3        Dec  5 20:32 (resnet157-80.finland.linux.edu)
+bevan    pts/4        Dec  5 20:33 (38.122.127.226)
+         pts/14       Dec  5 20:45
+         pts/4        Dec  5 20:48
+         pts/9        Dec  5 20:58
+         pts/5        Dec  5 21:10
+blaney   pts/4        Dec  5 21:19 (10.245.151.57)
+         pts/15       Dec  5 21:19
+         pts/0        Dec  5 21:22
+belson   pts/0        Dec  5 21:26 (pool-96-237-52-224.bstnma.fios.verizon.net)
+belsham  pts/5        Dec  5 21:29 (10.245.151.124)
+         pts/2        Dec  5 21:30
+belson   pts/2        Dec  5 21:32 (pool-96-237-52-224.bstnma.fios.verizon.net)
+balles   pts/9        Dec  5 21:44 (10.245.148.55)
+babin    pts/10       Dec  5 21:44 (38.122.127.226)
+abler    pts/13       Dec  5 21:47 (10.244.141.108)
+         pts/9        Dec  5 21:48
+abel     pts/9        Dec  5 21:50 (c-24-61-46-129.hsd1.ma.comcast.net)
+babin    pts/14       Dec  5 21:58 (38.122.127.226)
+blaney   pts/15       Dec  5 22:11 (10.245.151.57)
+aikman   pts/16       Dec  5 22:11 (10.245.145.183)
+babin    pts/17       Dec  5 22:15 (38.122.127.226)
+bihli    pts/18       Dec  5 22:23 (wr-130-64-93-152.finland.linux.edu)
+blalock  pts/19       Dec  5 22:31 (c-24-61-11-69.hsd1.ma.comcast.net)
+bates    pts/20       Dec  5 22:33 (38.122.127.226)
+beattie  pts/21       Dec  5 22:36 (c-73-219-31-76.hsd1.ma.comcast.net)
+beagle   pts/22       Dec  5 22:42 (10.245.155.194)
+bjork    pts/23       Dec  5 22:49 (10.245.140.69)
+         pts/23       Dec  5 22:49
+barnet   pts/23       Dec  5 22:53 (10.245.148.5)
+beeson   pts/24       Dec  5 23:06 (209-6-44-213.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+bickham  pts/25       Dec  5 23:07 (c-71-233-46-34.hsd1.ma.comcast.net)
+         pts/25       Dec  5 23:08
+         pts/4        Dec  5 23:13
+         pts/15       Dec  5 23:13
+barrett  pts/4        Dec  5 23:13 (c-66-31-45-17.hsd1.ma.comcast.net)
+         pts/13       Dec  5 23:15
+         pts/12       Dec  5 23:21
+         pts/18       Dec  5 23:26
+         pts/0        Dec  5 23:32
+         pts/2        Dec  5 23:32
+         pts/4        Dec  5 23:32
+         pts/20       Dec  5 23:33
+         pts/3        Dec  5 23:39
+         pts/9        Dec  5 23:43
+bacher   pts/0        Dec  5 23:45 (10.244.143.129)
+         pts/16       Dec  5 23:48
+         pts/21       Dec  5 23:52
+banker   pts/2        Dec  5 23:53 (c-24-61-12-8.hsd1.ma.comcast.net)
+adkison  pts/3        Dec  5 23:54 (wr-130-64-93-118.finland.linux.edu)
+         pts/19       Dec  5 23:55
+babin    pts/4        Dec  5 23:57 (38.122.127.226)
+         pts/10       Dec  6 00:00
+         pts/24       Dec  6 00:04
+         pts/0        Dec  6 00:07
+acott    pts/0        Dec  6 00:10 (resnet155-68.finland.linux.edu)
+         pts/3        Dec  6 00:11
+         pts/14       Dec  6 00:17
+         pts/5        Dec  6 00:18
+         pts/2        Dec  6 00:25
+         pts/1        Dec  6 00:26
+         pts/17       Dec  6 00:28
+binns    pts/1        Dec  6 00:32 (wr-130-64-223-246.finland.linux.edu)
+         pts/11       Dec  6 00:33
+badget   pts/2        Dec  6 00:40 (10.247.140.162)
+         pts/22       Dec  6 00:45
+         pts/2        Dec  6 00:52
+         pts/6        Dec  6 01:00
+bethune  pts/2        Dec  6 01:10 (10.244.143.223)
+         pts/0        Dec  6 01:21
+bilotta  pts/0        Dec  6 01:30 (mobile-107-107-59-166.mycingular.net)
+         pts/1        Dec  6 01:32
+         pts/0        Dec  6 01:34
+bales    pts/0        Dec  6 01:54 (c-73-69-13-225.hsd1.ma.comcast.net)
+         pts/0        Dec  6 01:55
+         pts/2        Dec  6 02:11
+         pts/4        Dec  6 02:11
+ables    pts/0        Dec  6 02:28 (10.244.140.50)
+         pts/0        Dec  6 02:28
+         pts/23       Dec  6 02:57
+bertrand pts/0        Dec  6 08:11 (10.244.141.245)
+         pts/0        Dec  6 08:19
+agard    pts/0        Dec  6 08:37 (pool-108-20-157-234.bstnma.fios.verizon.net)
+bjorn    pts/1        Dec  6 09:02 (wr-130-64-194-205.finland.linux.edu)
+         pts/0        Dec  6 09:09
+barret   pts/0        Dec  6 10:10 (10.247.148.212)
+binney   pts/2        Dec  6 10:51 (10.245.146.110)
+balzer   pts/3        Dec  6 10:52 (10.245.146.78)
+adneys   pts/4        Dec  6 10:54 (10.244.141.125)
+baade    pts/5        Dec  6 11:18 (38.122.127.226)
+         pts/2        Dec  6 11:24
+         pts/0        Dec  6 11:26
+able     pts/0        Dec  6 11:52 (10.244.143.42)
+         pts/0        Dec  6 11:52
+bannick  pts/0        Dec  6 11:53 (10.245.148.189)
+         pts/0        Dec  6 11:53
+         pts/3        Dec  6 12:00
+         pts/1        Dec  6 12:09
+barcley  pts/0        Dec  6 12:15 (c-50-176-161-84.hsd1.ma.comcast.net)
+         pts/5        Dec  6 12:26
+         pts/0        Dec  6 12:34
+baldwyn  pts/0        Dec  6 12:58 (10.245.154.62)
+bangert  pts/1        Dec  6 13:05 (10.244.141.1)
+baldwyn  pts/2        Dec  6 13:26 (10.247.142.160)
+abler    pts/3        Dec  6 13:26 (10.244.140.167)
+         pts/3        Dec  6 13:30
+         pts/2        Dec  6 13:44
+becraft  pts/2        Dec  6 13:44 (38.122.127.226)
+barker   pts/3        Dec  6 13:45 (10.245.143.168)
+baglion  pts/5        Dec  6 13:56 (10.247.137.25)
+belden   pts/6        Dec  6 14:05 (resnet133-193.finland.linux.edu)
+         pts/1        Dec  6 14:07
+batte    pts/1        Dec  6 14:22 (10.245.142.75)
+berlin   pts/9        Dec  6 14:23 (38.122.127.226)
+         pts/5        Dec  6 14:23
+beyers   pts/5        Dec  6 14:41 (10.247.141.34)
+         pts/5        Dec  6 14:43
+         pts/1        Dec  6 14:43
+         pts/2        Dec  6 14:44
+balles   pts/1        Dec  6 14:50 (10.245.148.55)
+acott    pts/2        Dec  6 14:52 (wr-130-64-186-46.finland.linux.edu)
+         pts/2        Dec  6 15:00
+         pts/4        Dec  6 15:06
+         pts/0        Dec  6 15:09
+bagg     pts/0        Dec  6 15:14 (10.245.155.196)
+berrick  pts/2        Dec  6 15:14 (10.245.144.54)
+bader    pts/4        Dec  6 15:20 (10.245.154.199)
+         pts/0        Dec  6 15:24
+         pts/4        Dec  6 15:32
+         pts/1        Dec  6 15:33
+abney    pts/0        Dec  6 15:51 (10.245.140.171)
+beland   pts/1        Dec  6 15:51 (38.122.127.226)
+benes    pts/4        Dec  6 15:52 (c-66-31-28-147.hsd1.ma.comcast.net)
+begg     pts/5        Dec  6 15:57 (10.245.149.106)
+barcley  pts/10       Dec  6 16:04 (wr-130-64-179-153.finland.linux.edu)
+bacher   pts/11       Dec  6 16:05 (10.247.142.94)
+badget   pts/12       Dec  6 16:07 (10.247.141.220)
+biggers  pts/13       Dec  6 16:08 (10.245.140.158)
+bagg     pts/14       Dec  6 16:09 (wr-130-64-195-149.finland.linux.edu)
+barthol  pts/15       Dec  6 16:10 (d-p-14-204.csci.linux.edu)
+         pts/12       Dec  6 16:14
+         pts/4        Dec  6 16:16
+bagg     pts/4        Dec  6 16:24 (wr-130-64-195-149.finland.linux.edu)
+beiers   pts/12       Dec  6 16:24 (50-245-61-171-static.hfc.comcastbusiness.net)
+         pts/10       Dec  6 16:26
+         pts/11       Dec  6 16:28
+         pts/3        Dec  6 16:30
+birdsong pts/3        Dec  6 16:32 (10.247.138.71)
+balles   pts/10       Dec  6 16:32 (10.247.137.72)
+         pts/12       Dec  6 16:35
+bagot    pts/11       Dec  6 16:36 (10.245.146.55)
+         pts/9        Dec  6 16:40
+banker   pts/9        Dec  6 16:46 (38.122.127.226)
+bangham  pts/12       Dec  6 16:55 (10.245.145.195)
+         pts/2        Dec  6 16:57
+         pts/14       Dec  6 16:57
+         pts/4        Dec  6 16:57
+barnet   pts/2        Dec  6 17:03 (10.245.149.11)
+         pts/6        Dec  6 17:13
+         pts/9        Dec  6 17:23
+bates    pts/4        Dec  6 17:25 (38.122.127.226)
+bateman  pts/6        Dec  6 17:32 (10.245.146.240)
+         pts/11       Dec  6 17:32
+         pts/10       Dec  6 17:40
+bertele  pts/9        Dec  6 17:41 (pool-72-70-60-154.bstnma.fios.verizon.net)
+baby     pts/10       Dec  6 17:42 (10.247.140.253)
+         pts/10       Dec  6 17:47
+         pts/12       Dec  6 17:49
+         pts/0        Dec  6 17:51
+banfield pts/0        Dec  6 17:54 (10.245.141.104)
+begg     pts/10       Dec  6 17:55 (10.245.145.125)
+agee     pts/11       Dec  6 18:03 (10.245.154.141)
+         pts/1        Dec  6 18:03
+beringer pts/1        Dec  6 18:04 (10.245.142.225)
+bellamy  pts/12       Dec  6 18:06 (wr-130-64-195-162.finland.linux.edu)
+         pts/11       Dec  6 18:18
+         pts/0        Dec  6 18:20
+         pts/5        Dec  6 18:22
+         pts/15       Dec  6 18:25
+         pts/1        Dec  6 18:25
+         pts/4        Dec  6 18:25
+         pts/3        Dec  6 18:32
+becraft  pts/0        Dec  6 18:38 (10.245.143.151)
+         pts/13       Dec  6 18:45
+biggs    pts/1        Dec  6 18:58 (10.245.143.184)
+bangham  pts/3        Dec  6 19:00 (10.245.145.195)
+         pts/6        Dec  6 19:08
+beadles  pts/4        Dec  6 19:12 (10.244.142.236)
+barnet   pts/5        Dec  6 19:13 (10.245.146.12)
+         pts/1        Dec  6 19:16
+         pts/4        Dec  6 19:22
+         pts/3        Dec  6 19:23
+         pts/2        Dec  6 19:29
+barcroft pts/1        Dec  6 19:36 (c-174-63-83-17.hsd1.ma.comcast.net)
+bammel   pts/2        Dec  6 19:39 (10.245.148.60)
+baldwin  pts/3        Dec  6 19:52 (10.245.146.234)
+         pts/12       Dec  6 19:58
+benfield pts/4        Dec  6 20:02 (10.245.147.47)
+bevan    pts/6        Dec  6 20:05 (38.122.127.226)
+         pts/6        Dec  6 20:06
+belden   pts/6        Dec  6 20:13 (wr-130-64-195-81.finland.linux.edu)
+belden   pts/11       Dec  6 20:14 (wr-130-64-195-81.finland.linux.edu)
+bastin   pts/12       Dec  6 20:21 (10.247.148.96)
+belden   pts/13       Dec  6 20:22 (wr-130-64-195-81.finland.linux.edu)
+bagshaw  pts/14       Dec  6 20:30 (10.245.140.116)
+baskin   pts/15       Dec  6 20:38 (10.247.141.79)
+         pts/1        Dec  6 20:40
+         pts/15       Dec  6 20:49
+         pts/4        Dec  6 21:03
+         pts/9        Dec  6 21:15
+agan     pts/1        Dec  6 21:17 (10.247.138.166)
+         pts/5        Dec  6 21:17
+barnhill pts/4        Dec  6 21:18 (10.245.143.119)
+bertrand pts/5        Dec  6 21:20 (10.244.141.243)
+         pts/1        Dec  6 21:24
+         pts/3        Dec  6 21:29
+baird    pts/1        Dec  6 21:29 (10.244.140.239)
+         pts/1        Dec  6 21:30
+bannick  pts/1        Dec  6 21:34 (10.245.148.82)
+         pts/0        Dec  6 21:37
+bergmann pts/0        Dec  6 21:38 (wr-130-64-193-174.finland.linux.edu)
+         pts/5        Dec  6 21:41
+bannick  pts/3        Dec  6 21:46 (10.245.148.82)
+besser   pts/5        Dec  6 22:00 (10.245.151.229)
+bidgood  pts/9        Dec  6 22:02 (10.244.142.15)
+         pts/4        Dec  6 22:05
+         pts/9        Dec  6 22:11
+bateman  pts/4        Dec  6 22:18 (10.245.146.58)
+bjork    pts/9        Dec  6 22:20 (10.245.140.34)
+bertrand pts/15       Dec  6 22:26 (10.244.141.243)
+         pts/4        Dec  6 22:35
+         pts/15       Dec  6 22:36
+         pts/0        Dec  6 22:38
+bertrand pts/0        Dec  6 22:39 (10.244.141.243)
+bidgood  pts/4        Dec  6 22:44 (10.244.142.15)
+beneake  pts/15       Dec  6 22:47 (10.247.148.120)
+baldauf  pts/16       Dec  6 22:47 (10.247.149.125)
+         pts/16       Dec  6 22:47
+bartee   pts/16       Dec  6 22:50 (38.122.127.226)
+banfield pts/17       Dec  6 22:57 (10.245.140.18)
+         pts/11       Dec  6 22:58
+         pts/6        Dec  6 22:58
+         pts/13       Dec  6 22:58
+         pts/4        Dec  6 23:07
+         pts/2        Dec  6 23:08
+barnet   pts/2        Dec  6 23:09 (10.245.148.89)
+beaumont pts/4        Dec  6 23:12 (10.245.148.179)
+bangert  pts/6        Dec  6 23:14 (10.245.150.250)
+beaumont pts/11       Dec  6 23:16 (10.245.148.179)
+beckham  pts/13       Dec  6 23:19 (10.245.153.4)
+bacster  pts/18       Dec  6 23:19 (resnet142-209.finland.linux.edu)
+         pts/13       Dec  6 23:19
+         pts/18       Dec  6 23:22
+         pts/10       Dec  6 23:35
+         pts/0        Dec  6 23:37
+         pts/12       Dec  6 23:43
+beagle   pts/0        Dec  6 23:45 (10.245.155.194)
+         pts/16       Dec  6 23:51
+         pts/5        Dec  7 00:06
+begg     pts/5        Dec  7 00:16 (10.245.148.93)
+         pts/11       Dec  7 00:24
+         pts/4        Dec  7 00:24
+bates    pts/4        Dec  7 00:28 (38.122.127.226)
+         pts/15       Dec  7 00:29
+         pts/9        Dec  7 00:32
+beims    pts/9        Dec  7 00:35 (10.245.143.105)
+balcom   pts/10       Dec  7 00:36 (resnet155-47.finland.linux.edu)
+         pts/0        Dec  7 00:36
+         pts/10       Dec  7 00:37
+bagshaw  pts/0        Dec  7 00:48 (10.245.140.116)
+         pts/3        Dec  7 00:49
+         pts/2        Dec  7 00:54
+bareis   pts/2        Dec  7 00:54 (pool-72-74-49-51.bstnma.fios.verizon.net)
+         pts/9        Dec  7 00:57
+         pts/4        Dec  7 01:00
+berrick  pts/3        Dec  7 01:07 (10.244.143.157)
+         pts/3        Dec  7 01:12
+         pts/17       Dec  7 01:13
+         pts/5        Dec  7 01:32
+         pts/6        Dec  7 01:41
+abel     pts/3        Dec  7 01:44 (c-24-61-46-129.hsd1.ma.comcast.net)
+         pts/14       Dec  7 01:48
+         pts/0        Dec  7 01:50
+         pts/1        Dec  7 01:51
+bannick  pts/0        Dec  7 01:51 (c-73-238-152-216.hsd1.ma.comcast.net)
+         pts/2        Dec  7 01:56
+banfield pts/1        Dec  7 02:17 (10.245.140.18)
+         pts/3        Dec  7 03:11
+         pts/1        Dec  7 03:14
+         pts/0        Dec  7 03:34
+blanks   pts/0        Dec  7 08:10 (10.245.141.158)
+beery    pts/1        Dec  7 08:43 (10.245.147.18)
+         pts/1        Dec  7 08:49
+acres    pts/1        Dec  7 09:42 (192.160.51.50)
+belden   pts/2        Dec  7 10:37 (wr-130-64-176-85.finland.linux.edu)
+         pts/1        Dec  7 10:51
+         pts/0        Dec  7 10:56
+birdsong pts/0        Dec  7 11:13 (10.244.142.141)
+biswell  pts/1        Dec  7 11:13 (10.245.155.163)
+blakey   pts/3        Dec  7 12:06 (10.244.140.106)
+         pts/3        Dec  7 12:10
+baby     pts/3        Dec  7 12:12 (10.247.140.253)
+         pts/2        Dec  7 12:21
+bailiff  pts/2        Dec  7 12:22 (38.122.127.226)
+         pts/3        Dec  7 12:35
+beier    pts/3        Dec  7 12:41 (73.114.35.167)
+         pts/3        Dec  7 12:42
+         pts/0        Dec  7 12:43
+benge    pts/0        Dec  7 12:46 (73.114.34.48)
+         pts/0        Dec  7 12:48
+batte    pts/0        Dec  7 12:50 (38.122.127.226)
+bensley  pts/3        Dec  7 13:00 (10.245.148.206)
+         pts/1        Dec  7 13:10
+birrell  pts/1        Dec  7 13:16 (130.64.161.248)
+beagle   pts/4        Dec  7 13:16 (10.245.143.92)
+bettin   pts/5        Dec  7 13:16 (lab118w.csci.linux.edu)
+         pts/5        Dec  7 13:25
+bayes    pts/5        Dec  7 13:38 (pool-108-26-161-13.bstnma.fios.verizon.net)
+         pts/5        Dec  7 13:40
+bangert  pts/5        Dec  7 13:48 (wr-130-64-185-12.finland.linux.edu)
+akin     pts/6        Dec  7 13:55 (10.245.153.153)
+bercier  pts/9        Dec  7 13:55 (10.245.154.197)
+batten   pts/10       Dec  7 13:59 (10.245.153.166)
+         pts/0        Dec  7 13:59
+baumann  pts/0        Dec  7 14:07 (10.245.142.148)
+banker   pts/11       Dec  7 14:07 (c-24-61-12-8.hsd1.ma.comcast.net)
+         pts/1        Dec  7 14:14
+bareis   pts/1        Dec  7 14:28 (d-p-13-43.csci.linux.edu)
+         pts/1        Dec  7 14:28
+ackerman pts/1        Dec  7 14:46 (resnet161-44.finland.linux.edu)
+         pts/10       Dec  7 14:47
+barnet   pts/10       Dec  7 14:48 (10.245.146.119)
+baum     pts/12       Dec  7 14:50 (10.245.144.153)
+         pts/2        Dec  7 14:59
+bezona   pts/2        Dec  7 15:01 (10.245.149.250)
+blackmon pts/13       Dec  7 15:04 (wr-130-64-179-207.finland.linux.edu)
+bancker  pts/14       Dec  7 15:04 (10.245.148.137)
+         pts/13       Dec  7 15:06
+ablanalp pts/13       Dec  7 15:09 (10.245.142.27)
+         pts/11       Dec  7 15:19
+akens    pts/11       Dec  7 15:22 (resnet149-216.finland.linux.edu)
+         pts/3        Dec  7 15:23
+         pts/5        Dec  7 15:36
+benda    pts/3        Dec  7 15:38 (130.64.161.251)
+beachley pts/5        Dec  7 15:38 (10.245.150.183)
+         pts/5        Dec  7 15:46
+bateson  pts/5        Dec  7 15:48 (10.247.141.101)
+beachley pts/15       Dec  7 15:54 (wr-130-64-93-194.finland.linux.edu)
+         pts/15       Dec  7 16:05
+bayly    pts/15       Dec  7 16:07 (10.245.152.155)
+bertele  pts/16       Dec  7 16:08 (resnet159-39.finland.linux.edu)
+becraft  pts/17       Dec  7 16:11 (38.122.127.226)
+baldock  pts/18       Dec  7 16:12 (lab122n.csci.linux.edu)
+         pts/5        Dec  7 16:13
+         pts/16       Dec  7 16:17
+         pts/0        Dec  7 16:18
+         pts/18       Dec  7 16:19
+         pts/3        Dec  7 16:20
+         pts/13       Dec  7 16:24
+         pts/6        Dec  7 16:28
+         pts/14       Dec  7 16:34
+baumann  pts/0        Dec  7 16:34 (10.245.142.148)
+         pts/2        Dec  7 16:38
+         pts/12       Dec  7 16:42
+         pts/15       Dec  7 16:47
+         pts/4        Dec  7 16:48
+         pts/10       Dec  7 16:50
+becraft  pts/2        Dec  7 16:56 (10.245.143.115)
+batts    pts/3        Dec  7 16:57 (10.245.155.178)
+         pts/9        Dec  7 16:57
+beede    pts/4        Dec  7 17:00 (10.245.152.178)
+ahrens   pts/5        Dec  7 17:03 (10.245.145.125)
+         pts/11       Dec  7 17:07
+         pts/17       Dec  7 17:11
+         pts/5        Dec  7 17:11
+blakey   pts/5        Dec  7 17:26 (10.244.140.106)
+acres    pts/6        Dec  7 17:27 (24-181-229-117.dhcp.oxfr.ma.charter.com)
+bagwell  pts/9        Dec  7 17:50 (38.122.127.226)
+         pts/9        Dec  7 17:50
+         pts/5        Dec  7 17:56
+         pts/6        Dec  7 17:57
+         pts/4        Dec  7 18:00
+bickel   pts/4        Dec  7 18:00 (10.245.145.201)
+         pts/3        Dec  7 18:02
+belford  pts/3        Dec  7 18:18 (10.245.147.241)
+         pts/3        Dec  7 18:20
+bersell  pts/3        Dec  7 18:20 (10.245.152.205)
+bernotas pts/5        Dec  7 18:25 (10.245.145.13)
+bertrand pts/6        Dec  7 18:27 (10.244.141.160)
+belford  pts/9        Dec  7 18:42 (10.245.147.241)
+balfour  pts/10       Dec  7 18:43 (wr-130-64-194-27.finland.linux.edu)
+         pts/10       Dec  7 18:45
+         pts/6        Dec  7 18:48
+         pts/9        Dec  7 18:50
+blanks   pts/6        Dec  7 18:52 (10.245.140.6)
+         pts/3        Dec  7 18:52
+bilotta  pts/3        Dec  7 18:53 (10.245.142.192)
+         pts/5        Dec  7 18:53
+besco    pts/5        Dec  7 19:03 (10.245.140.93)
+baggs    pts/9        Dec  7 19:04 (c-66-30-4-187.hsd1.ma.comcast.net)
+akins    pts/10       Dec  7 19:06 (10.245.145.86)
+beckman  pts/11       Dec  7 19:07 (10.245.140.131)
+         pts/9        Dec  7 19:08
+acorn    pts/9        Dec  7 19:11 (wr-130-64-196-110.finland.linux.edu)
+bangham  pts/12       Dec  7 19:17 (10.245.145.184)
+         pts/4        Dec  7 19:20
+badget   pts/4        Dec  7 19:32 (10.244.142.122)
+banker   pts/13       Dec  7 19:35 (wr-130-64-98-61.finland.linux.edu)
+bacher   pts/14       Dec  7 19:39 (10.245.147.83)
+         pts/0        Dec  7 19:40
+         pts/9        Dec  7 19:40
+         pts/14       Dec  7 19:42
+beede    pts/0        Dec  7 19:46 (10.245.152.178)
+         pts/12       Dec  7 19:48
+babcock  pts/9        Dec  7 19:51 (10.245.150.223)
+         pts/4        Dec  7 19:55
+blanks   pts/4        Dec  7 20:02 (10.245.140.6)
+         pts/5        Dec  7 20:04
+         pts/13       Dec  7 20:11
+banker   pts/5        Dec  7 20:11 (wr-130-64-98-61.finland.linux.edu)
+beane    pts/12       Dec  7 20:17 (resnet161-195.finland.linux.edu)
+acheson  pts/13       Dec  7 20:17 (10.245.143.29)
+         pts/1        Dec  7 20:21
+         pts/11       Dec  7 20:24
+         pts/2        Dec  7 20:24
+bethell  pts/1        Dec  7 20:29 (wr-130-64-195-194.finland.linux.edu)
+         pts/9        Dec  7 20:29
+bedinger pts/2        Dec  7 20:30 (38.122.127.226)
+         pts/10       Dec  7 20:31
+         pts/2        Dec  7 20:35
+         pts/5        Dec  7 20:35
+beadles  pts/2        Dec  7 20:38 (10.244.143.115)
+balch    pts/5        Dec  7 20:39 (38.122.127.226)
+bilbo    pts/9        Dec  7 20:53 (10.245.148.19)
+         pts/6        Dec  7 21:06
+badders  pts/6        Dec  7 21:11 (130.64.158.61)
+becraft  pts/10       Dec  7 21:18 (10.245.140.154)
+baglion  pts/11       Dec  7 21:25 (wr-130-64-98-192.finland.linux.edu)
+         pts/2        Dec  7 21:26
+ackerman pts/2        Dec  7 21:29 (resnet161-44.finland.linux.edu)
+         pts/12       Dec  7 21:31
+benham   pts/12       Dec  7 21:32 (10.245.147.65)
+         pts/3        Dec  7 21:36
+         pts/5        Dec  7 21:40
+aiken    pts/3        Dec  7 21:42 (10.245.144.189)
+         pts/3        Dec  7 21:48
+bateman  pts/3        Dec  7 21:56 (10.245.146.11)
+accardi  pts/5        Dec  7 21:57 (10.245.153.125)
+         pts/12       Dec  7 21:57
+         pts/5        Dec  7 21:57
+bascom   pts/5        Dec  7 22:02 (wr-130-64-196-219.finland.linux.edu)
+         pts/5        Dec  7 22:02
+         pts/0        Dec  7 22:02
+beagle   pts/0        Dec  7 22:05 (10.247.141.59)
+         pts/0        Dec  7 22:06
+belanger pts/0        Dec  7 22:07 (10.247.148.45)
+         pts/13       Dec  7 22:10
+         pts/6        Dec  7 22:13
+barrs    pts/5        Dec  7 22:32 (209-6-207-196.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/11       Dec  7 22:34
+         pts/3        Dec  7 22:42
+adcock   pts/3        Dec  7 22:44 (10.245.149.185)
+baird    pts/6        Dec  7 22:46 (10.244.141.122)
+bare     pts/11       Dec  7 22:56 (10.245.145.219)
+         pts/2        Dec  7 22:57
+biswell  pts/2        Dec  7 22:58 (10.245.154.47)
+bentz    pts/12       Dec  7 22:59 (c-73-38-2-226.hsd1.ma.comcast.net)
+         pts/9        Dec  7 23:04
+         pts/6        Dec  7 23:09
+bentz    pts/6        Dec  7 23:19 (c-73-38-2-226.hsd1.ma.comcast.net)
+         pts/11       Dec  7 23:22
+beaufort pts/9        Dec  7 23:22 (10.245.149.170)
+blaine   pts/11       Dec  7 23:24 (10.245.147.230)
+         pts/6        Dec  7 23:26
+         pts/3        Dec  7 23:36
+balleau  pts/3        Dec  7 23:39 (38.122.127.226)
+bevan    pts/6        Dec  7 23:44 (38.122.127.226)
+bess     pts/13       Dec  7 23:45 (10.247.149.213)
+bannick  pts/15       Dec  7 23:50 (c-73-238-152-216.hsd1.ma.comcast.net)
+bahr     pts/16       Dec  7 23:52 (10.247.140.38)
+birt     pts/17       Dec  7 23:52 (10.247.140.198)
+blahnik  pts/18       Dec  7 23:56 (10.245.151.223)
+         pts/18       Dec  7 23:56
+         pts/17       Dec  7 23:56
+         pts/1        Dec  7 23:57
+         pts/13       Dec  8 00:07
+         pts/9        Dec  8 00:08
+bentz    pts/1        Dec  8 00:13 (c-73-38-2-226.hsd1.ma.comcast.net)
+         pts/4        Dec  8 00:14
+         pts/0        Dec  8 00:18
+behr     pts/0        Dec  8 00:20 (10.244.141.249)
+         pts/2        Dec  8 00:36
+         pts/5        Dec  8 00:47
+         pts/6        Dec  8 00:48
+         pts/10       Dec  8 00:52
+beggs    pts/2        Dec  8 00:59 (resnet157-203.finland.linux.edu)
+         pts/1        Dec  8 00:59
+         pts/0        Dec  8 01:05
+adcock   pts/0        Dec  8 01:10 (10.245.148.208)
+         pts/15       Dec  8 01:14
+baxter   pts/1        Dec  8 01:20 (10.245.150.120)
+         pts/1        Dec  8 01:21
+         pts/12       Dec  8 01:21
+         pts/16       Dec  8 01:22
+         pts/0        Dec  8 01:33
+         pts/11       Dec  8 01:37
+         pts/3        Dec  8 01:52
+beachley pts/0        Dec  8 02:05 (wr-130-64-93-194.finland.linux.edu)
+         pts/0        Dec  8 02:22
+acott    pts/0        Dec  8 02:25 (resnet155-68.finland.linux.edu)
+         pts/0        Dec  8 02:26
+balmer   pts/0        Dec  8 03:41 (10.245.140.221)
+         pts/2        Dec  8 05:49
+bannick  pts/1        Dec  8 05:53 (c-73-238-152-216.hsd1.ma.comcast.net)
+         pts/0        Dec  8 06:04
+acres    pts/0        Dec  8 07:03 (192.160.51.50)
+         pts/1        Dec  8 07:28
+bedwell  pts/1        Dec  8 08:36 (wr-130-64-188-212.finland.linux.edu)
+belford  pts/2        Dec  8 08:48 (10.245.150.39)
+becraft  pts/3        Dec  8 08:50 (10.245.141.209)
+         pts/0        Dec  8 09:12
+bateson  pts/0        Dec  8 09:17 (10.247.141.40)
+binning  pts/4        Dec  8 09:31 (10.245.147.212)
+         pts/1        Dec  8 09:36
+beadles  pts/1        Dec  8 09:37 (wr-130-64-190-140.finland.linux.edu)
+         pts/1        Dec  8 09:39
+         pts/0        Dec  8 09:43
+         pts/3        Dec  8 09:47
+bateson  pts/0        Dec  8 09:51 (10.247.141.40)
+besse    pts/1        Dec  8 10:20 (10.245.143.72)
+         pts/1        Dec  8 10:21
+besse    pts/1        Dec  8 10:21 (10.245.143.72)
+         pts/0        Dec  8 10:21
+         pts/1        Dec  8 10:21
+able     pts/0        Dec  8 10:22 (10.244.142.164)
+besse    pts/1        Dec  8 10:35 (10.245.143.72)
+         pts/1        Dec  8 10:35
+bagwell  pts/1        Dec  8 10:41 (38.122.127.226)
+bergman  pts/3        Dec  8 10:43 (c-73-114-51-56.hsd1.ma.comcast.net)
+bernhard pts/5        Dec  8 10:58 (10.245.145.64)
+         pts/4        Dec  8 10:59
+         pts/0        Dec  8 11:00
+biddy    pts/0        Dec  8 11:04 (wr-130-64-96-215.finland.linux.edu)
+         pts/0        Dec  8 11:05
+besse    pts/0        Dec  8 11:11 (10.245.143.72)
+bakker   pts/4        Dec  8 11:11 (10.247.141.175)
+ake      pts/6        Dec  8 11:11 (10.247.138.137)
+         pts/6        Dec  8 11:13
+         pts/3        Dec  8 11:19
+         pts/4        Dec  8 11:20
+beaumont pts/3        Dec  8 11:27 (10.245.149.185)
+bastin   pts/4        Dec  8 11:30 (10.245.155.140)
+         pts/1        Dec  8 11:37
+baring   pts/6        Dec  8 11:40 (resnet161-75.finland.linux.edu)
+besse    pts/9        Dec  8 11:43 (10.245.143.72)
+         pts/3        Dec  8 11:51
+agg      pts/3        Dec  8 11:54 (10.244.142.220)
+         pts/0        Dec  8 12:02
+         pts/9        Dec  8 12:02
+beaver   pts/0        Dec  8 12:07 (wr-130-64-195-22.finland.linux.edu)
+aikin    pts/9        Dec  8 12:08 (38.122.127.226)
+beaumont pts/10       Dec  8 12:14 (10.245.149.185)
+bissell  pts/11       Dec  8 12:23 (198-0-159-99-static.hfc.comcastbusiness.net)
+         pts/11       Dec  8 12:24
+aikin    pts/11       Dec  8 12:24 (10.245.145.79)
+babock   pts/12       Dec  8 12:26 (10.245.140.139)
+bixby    pts/13       Dec  8 12:34 (resnet159-71.finland.linux.edu)
+         pts/13       Dec  8 12:36
+bertrand pts/13       Dec  8 12:55 (10.244.141.242)
+         pts/3        Dec  8 12:57
+bensley  pts/3        Dec  8 13:02 (10.245.143.8)
+ackerman pts/15       Dec  8 13:05 (resnet161-214.finland.linux.edu)
+benyon   pts/16       Dec  8 13:05 (10.245.142.47)
+birney   pts/17       Dec  8 13:08 (glowstone.csci.linux.edu)
+         pts/13       Dec  8 13:08
+         pts/9        Dec  8 13:08
+         pts/0        Dec  8 13:09
+bertrand pts/0        Dec  8 13:09 (10.244.141.242)
+benning  pts/9        Dec  8 13:09 (38.122.127.226)
+         pts/0        Dec  8 13:10
+         pts/11       Dec  8 13:11
+         pts/17       Dec  8 13:14
+berryman pts/0        Dec  8 13:16 (wr-130-64-94-17.finland.linux.edu)
+birney   pts/1        Dec  8 13:17 (glowstone.csci.linux.edu)
+blanks   pts/11       Dec  8 13:17 (10.245.140.105)
+         pts/1        Dec  8 13:18
+baglion  pts/1        Dec  8 13:24 (10.247.137.168)
+blaha    pts/13       Dec  8 13:24 (wr-130-64-196-133.finland.linux.edu)
+bivens   pts/17       Dec  8 13:26 (10.245.153.236)
+bancker  pts/18       Dec  8 13:28 (10.245.148.44)
+         pts/1        Dec  8 13:33
+beckman  pts/1        Dec  8 13:38 (10.245.154.217)
+         pts/1        Dec  8 13:39
+barlow   pts/1        Dec  8 13:39 (10.245.141.79)
+         pts/18       Dec  8 13:44
+balfour  pts/18       Dec  8 13:47 (resnet143-22.finland.linux.edu)
+         pts/5        Dec  8 13:47
+balmer   pts/5        Dec  8 13:50 (10.245.140.221)
+bedell   pts/19       Dec  8 13:53 (10.245.155.144)
+bigley   pts/20       Dec  8 13:56 (10.245.150.196)
+bailly   pts/21       Dec  8 14:03 (10.245.141.75)
+barlitt  pts/22       Dec  8 14:03 (resnet129-131.finland.linux.edu)
+benning  pts/23       Dec  8 14:07 (38.122.127.226)
+ables    pts/24       Dec  8 14:08 (wr-130-64-178-22.finland.linux.edu)
+         pts/24       Dec  8 14:08
+         pts/4        Dec  8 14:08
+         pts/10       Dec  8 14:10
+bateson  pts/4        Dec  8 14:14 (10.247.140.187)
+benning  pts/10       Dec  8 14:20 (38.122.127.226)
+bisler   pts/24       Dec  8 14:26 (static-173-76-190-200.bstnma.ftas.verizon.net)
+         pts/24       Dec  8 14:26
+         pts/4        Dec  8 14:28
+         pts/17       Dec  8 14:29
+bangham  pts/4        Dec  8 14:31 (10.245.148.220)
+         pts/15       Dec  8 14:32
+         pts/18       Dec  8 14:35
+biswell  pts/15       Dec  8 14:43 (10.244.144.167)
+         pts/2        Dec  8 14:47
+         pts/22       Dec  8 14:47
+         pts/13       Dec  8 14:48
+         pts/19       Dec  8 14:53
+         pts/12       Dec  8 14:53
+         pts/4        Dec  8 14:55
+belden   pts/2        Dec  8 14:55 (wr-130-64-195-109.finland.linux.edu)
+bangham  pts/4        Dec  8 14:55 (10.245.148.220)
+         pts/15       Dec  8 14:57
+         pts/4        Dec  8 14:58
+akers    pts/4        Dec  8 15:01 (wr-130-64-190-222.finland.linux.edu)
+         pts/2        Dec  8 15:01
+         pts/4        Dec  8 15:02
+         pts/0        Dec  8 15:04
+beckman  pts/0        Dec  8 15:04 (10.245.154.217)
+         pts/0        Dec  8 15:08
+         pts/6        Dec  8 15:09
+bachmann pts/0        Dec  8 15:11 (10.245.144.11)
+balliet  pts/2        Dec  8 15:16 (resnet159-34.finland.linux.edu)
+batten   pts/4        Dec  8 15:17 (10.247.137.20)
+beede    pts/6        Dec  8 15:19 (wr-130-64-177-219.finland.linux.edu)
+belden   pts/12       Dec  8 15:21 (wr-130-64-176-16.finland.linux.edu)
+         pts/9        Dec  8 15:22
+belden   pts/9        Dec  8 15:22 (wr-130-64-176-16.finland.linux.edu)
+beheler  pts/13       Dec  8 15:22 (10.244.144.204)
+         pts/21       Dec  8 15:22
+affleck  pts/15       Dec  8 15:24 (c-71-192-160-185.hsd1.ma.comcast.net)
+         pts/15       Dec  8 15:24
+         pts/3        Dec  8 15:26
+         pts/11       Dec  8 15:30
+         pts/4        Dec  8 15:30
+beggan   pts/3        Dec  8 15:35 (10.245.143.38)
+         pts/20       Dec  8 15:41
+berry    pts/4        Dec  8 15:42 (pool-108-20-157-39.bstnma.fios.verizon.net)
+         pts/1        Dec  8 15:51
+ahern    pts/1        Dec  8 16:03 (wr-130-64-186-82.finland.linux.edu)
+         pts/16       Dec  8 16:03
+         pts/1        Dec  8 16:03
+barone   pts/1        Dec  8 16:04 (10.245.142.81)
+         pts/9        Dec  8 16:06
+         pts/12       Dec  8 16:06
+         pts/0        Dec  8 16:14
+         pts/2        Dec  8 16:16
+         pts/5        Dec  8 16:17
+beland   pts/0        Dec  8 16:24 (38.122.127.226)
+         pts/13       Dec  8 16:24
+         pts/23       Dec  8 16:26
+         pts/6        Dec  8 16:32
+         pts/10       Dec  8 16:34
+         pts/4        Dec  8 16:42
+behymer  pts/2        Dec  8 16:53 (resnet135-155.finland.linux.edu)
+bible    pts/4        Dec  8 16:55 (10.245.140.68)
+         pts/4        Dec  8 16:56
+balles   pts/4        Dec  8 16:59 (10.247.137.124)
+bezy     pts/5        Dec  8 17:00 (38.122.127.226)
+bach     pts/6        Dec  8 17:01 (10.245.141.195)
+         pts/6        Dec  8 17:01
+         pts/3        Dec  8 17:01
+         pts/1        Dec  8 17:04
+bateman  pts/1        Dec  8 17:19 (10.247.141.70)
+blackman pts/3        Dec  8 17:23 (c-71-235-29-173.hsd1.ma.comcast.net)
+         pts/3        Dec  8 17:23
+         pts/1        Dec  8 17:23
+         pts/0        Dec  8 17:30
+blanch   pts/0        Dec  8 17:39 (38.122.127.226)
+bach     pts/1        Dec  8 17:42 (10.245.141.195)
+barnette pts/3        Dec  8 17:43 (10.245.142.94)
+         pts/0        Dec  8 17:43
+         pts/3        Dec  8 17:48
+         pts/1        Dec  8 17:50
+         pts/2        Dec  8 17:53
+bach     pts/0        Dec  8 17:57 (10.245.141.195)
+bach     pts/1        Dec  8 17:58 (vm-hw08.csci.linux.edu)
+belsham  pts/2        Dec  8 18:04 (10.245.144.32)
+         pts/5        Dec  8 18:06
+         pts/1        Dec  8 18:07
+         pts/0        Dec  8 18:08
+baynes   pts/0        Dec  8 18:08 (resnet160-76.finland.linux.edu)
+balles   pts/1        Dec  8 18:16 (10.245.148.17)
+aber     pts/3        Dec  8 18:20 (resnet161-233.finland.linux.edu)
+bezy     pts/5        Dec  8 18:27 (resnet161-98.finland.linux.edu)
+biam     pts/6        Dec  8 18:30 (10.245.147.181)
+aikman   pts/9        Dec  8 18:33 (10.245.145.180)
+baldwyn  pts/10       Dec  8 18:35 (10.245.155.229)
+blaha    pts/11       Dec  8 18:36 (wr-130-64-196-240.finland.linux.edu)
+becraft  pts/12       Dec  8 18:42 (10.245.141.86)
+balmain  pts/13       Dec  8 18:44 (10.245.143.227)
+         pts/0        Dec  8 18:48
+balfour  pts/0        Dec  8 18:50 (wr-130-64-194-148.finland.linux.edu)
+ahlgren  pts/15       Dec  8 18:51 (wr-130-64-190-125.finland.linux.edu)
+         pts/4        Dec  8 18:51
+         pts/15       Dec  8 18:53
+begg     pts/4        Dec  8 19:00 (10.245.149.190)
+akers    pts/15       Dec  8 19:02 (wr-130-64-190-222.finland.linux.edu)
+         pts/11       Dec  8 19:02
+balcom   pts/11       Dec  8 19:03 (resnet155-166.finland.linux.edu)
+         pts/2        Dec  8 19:05
+baglion  pts/16       Dec  8 19:05 (10.247.137.18)
+         pts/15       Dec  8 19:08
+         pts/4        Dec  8 19:11
+         pts/11       Dec  8 19:16
+         pts/12       Dec  8 19:17
+binger   pts/2        Dec  8 19:27 (10.245.155.83)
+         pts/13       Dec  8 19:33
+         pts/1        Dec  8 19:43
+         pts/6        Dec  8 19:52
+         pts/16       Dec  8 19:52
+bartlett pts/1        Dec  8 19:53 (c-76-24-19-53.hsd1.ma.comcast.net)
+balliet  pts/4        Dec  8 19:55 (10.245.146.41)
+bess     pts/6        Dec  8 20:02 (resnet136-38.finland.linux.edu)
+baglion  pts/11       Dec  8 20:06 (10.247.137.18)
+         pts/0        Dec  8 20:11
+         pts/2        Dec  8 20:22
+barnhill pts/0        Dec  8 20:22 (10.245.143.166)
+         pts/6        Dec  8 20:24
+balch    pts/2        Dec  8 20:30 (10.245.152.34)
+bentz    pts/6        Dec  8 20:31 (c-73-38-2-226.hsd1.ma.comcast.net)
+         pts/11       Dec  8 20:36
+beall    pts/11       Dec  8 20:42 (static-96-233-112-197.bstnma.ftas.verizon.net)
+birge    pts/12       Dec  8 20:43 (c-50-157-203-68.hsd1.ma.comcast.net)
+         pts/1        Dec  8 20:44
+bingaman pts/1        Dec  8 20:47 (10.245.151.0)
+blanch   pts/13       Dec  8 20:50 (38.122.127.226)
+benes    pts/15       Dec  8 20:50 (10.245.147.209)
+         pts/3        Dec  8 20:55
+         pts/0        Dec  8 21:03
+blanch   pts/0        Dec  8 21:07 (38.122.127.226)
+bertele  pts/3        Dec  8 21:08 (resnet159-39.finland.linux.edu)
+beshears pts/16       Dec  8 21:11 (10.245.147.219)
+blanch   pts/17       Dec  8 21:14 (38.122.127.226)
+         pts/10       Dec  8 21:17
+aaron    pts/10       Dec  8 21:18 (10.245.141.247)
+         pts/2        Dec  8 21:18
+         pts/10       Dec  8 21:18
+blanch   pts/2        Dec  8 21:28 (38.122.127.226)
+         pts/9        Dec  8 21:31
+ahern    pts/9        Dec  8 21:34 (10.245.149.154)
+blanch   pts/10       Dec  8 21:37 (38.122.127.226)
+batty    pts/18       Dec  8 21:37 (10.247.148.185)
+         pts/1        Dec  8 21:42
+bingaman pts/1        Dec  8 21:42 (10.245.151.0)
+bill     pts/19       Dec  8 21:42 (10.245.148.177)
+         pts/9        Dec  8 21:43
+         pts/11       Dec  8 21:44
+bentley  pts/9        Dec  8 21:47 (c-73-219-88-36.hsd1.ma.comcast.net)
+         pts/13       Dec  8 21:52
+         pts/0        Dec  8 22:10
+beachley pts/0        Dec  8 22:10 (wr-130-64-93-194.finland.linux.edu)
+         pts/17       Dec  8 22:14
+         pts/16       Dec  8 22:16
+         pts/2        Dec  8 22:30
+         pts/5        Dec  8 22:38
+         pts/10       Dec  8 22:39
+         pts/19       Dec  8 22:44
+         pts/0        Dec  8 22:50
+         pts/18       Dec  8 22:55
+bearse   pts/0        Dec  8 22:56 (209-6-200-114.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+bergeron pts/2        Dec  8 23:02 (c-76-19-67-106.hsd1.ma.comcast.net)
+         pts/0        Dec  8 23:08
+         pts/4        Dec  8 23:11
+bagg     pts/0        Dec  8 23:15 (10.245.154.138)
+         pts/1        Dec  8 23:20
+aikens   pts/1        Dec  8 23:21 (resnet144-20.finland.linux.edu)
+         pts/1        Dec  8 23:24
+         pts/3        Dec  8 23:27
+         pts/0        Dec  8 23:31
+bare     pts/0        Dec  8 23:34 (10.245.148.177)
+bierce   pts/1        Dec  8 23:36 (static-96-233-112-188.bstnma.ftas.verizon.net)
+binger   pts/3        Dec  8 23:47 (10.245.155.83)
+berrer   pts/4        Dec  8 23:53 (10.247.148.227)
+         pts/4        Dec  8 23:53
+         pts/3        Dec  9 00:11
+binger   pts/3        Dec  9 00:11 (10.245.155.83)
+         pts/3        Dec  9 00:28
+binger   pts/3        Dec  9 00:28 (10.245.155.83)
+         pts/0        Dec  9 00:34
+         pts/3        Dec  9 00:35
+         pts/1        Dec  9 00:42
+         pts/12       Dec  9 00:46
+         pts/9        Dec  9 00:49
+         pts/2        Dec  9 01:15
+beachley pts/0        Dec  9 01:20 (wr-130-64-93-194.finland.linux.edu)
+         pts/0        Dec  9 01:20
+adcock   pts/0        Dec  9 01:41 (10.245.149.153)
+         pts/15       Dec  9 01:53
+         pts/0        Dec  9 02:03
+bill     pts/0        Dec  9 02:25 (10.245.148.177)
+         pts/0        Dec  9 02:26
+         pts/6        Dec  9 02:50
+bing     pts/0        Dec  9 05:06 (10.247.141.228)
+bannick  pts/1        Dec  9 05:23 (c-73-238-152-216.hsd1.ma.comcast.net)
+bagshaw  pts/2        Dec  9 05:41 (c-73-238-152-216.hsd1.ma.comcast.net)
+         pts/2        Dec  9 06:01
+         pts/1        Dec  9 07:21
+baring   pts/1        Dec  9 08:15 (209-6-91-147.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/1        Dec  9 08:16
+         pts/0        Dec  9 08:34
+besse    pts/0        Dec  9 10:15 (c-50-157-208-175.hsd1.ma.comcast.net)
+         pts/0        Dec  9 10:16
+banta    pts/0        Dec  9 10:18 (130.64.159.6)
+bannick  pts/1        Dec  9 10:38 (10.245.148.44)
+         pts/1        Dec  9 10:55
+beers    pts/1        Dec  9 11:13 (kfisher-macbook.csci.linux.edu)
+bestler  pts/3        Dec  9 11:18 (10.245.142.92)
+adamson  pts/4        Dec  9 11:29 (10.245.149.186)
+barberie pts/5        Dec  9 11:37 (wr-130-64-196-190.finland.linux.edu)
+bare     pts/6        Dec  9 11:40 (10.245.145.206)
+         pts/3        Dec  9 11:44
+         pts/0        Dec  9 12:00
+bercier  pts/0        Dec  9 12:17 (resnet-130-64-128-158.finland.linux.edu)
+ablanalp pts/3        Dec  9 12:40 (10.245.142.92)
+         pts/4        Dec  9 12:41
+abbot    pts/4        Dec  9 12:53 (resnet141-166.finland.linux.edu)
+bevere   pts/9        Dec  9 12:54 (209-6-197-2.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+begg     pts/10       Dec  9 13:04 (resnet136-156.finland.linux.edu)
+berry    pts/11       Dec  9 13:04 (pool-108-20-157-39.bstnma.fios.verizon.net)
+         pts/4        Dec  9 13:14
+bachiler pts/4        Dec  9 13:15 (wr-130-64-190-68.finland.linux.edu)
+birrell  pts/12       Dec  9 13:33 (resnet161-228.finland.linux.edu)
+belton   pts/13       Dec  9 13:52 (d-p-14-204.csci.linux.edu)
+         pts/6        Dec  9 13:53
+         pts/9        Dec  9 13:54
+         pts/0        Dec  9 13:55
+         pts/3        Dec  9 13:59
+bergmann pts/0        Dec  9 14:01 (wr-130-64-193-123.finland.linux.edu)
+         pts/10       Dec  9 14:08
+         pts/11       Dec  9 14:09
+         pts/5        Dec  9 14:23
+beaufort pts/3        Dec  9 14:26 (10.245.147.205)
+aitken   pts/5        Dec  9 14:32 (resnet161-163.finland.linux.edu)
+         pts/5        Dec  9 14:35
+bagot    pts/5        Dec  9 14:48 (10.245.146.105)
+         pts/5        Dec  9 14:53
+         pts/12       Dec  9 15:01
+birrell  pts/5        Dec  9 15:02 (resnet161-228.finland.linux.edu)
+         pts/5        Dec  9 15:02
+birrell  pts/5        Dec  9 15:02 (resnet161-228.finland.linux.edu)
+addis    pts/6        Dec  9 15:03 (10.247.138.49)
+         pts/6        Dec  9 15:04
+bare     pts/6        Dec  9 15:06 (10.245.144.21)
+         pts/6        Dec  9 15:09
+belgrade pts/6        Dec  9 15:18 (38.122.127.226)
+belgrade pts/9        Dec  9 15:18 (38.122.127.226)
+belgrade pts/12       Dec  9 15:21 (10.245.145.215)
+         pts/4        Dec  9 15:27
+belgrade pts/4        Dec  9 15:27 (38.122.127.226)
+belgrade pts/15       Dec  9 15:28 (38.122.127.226)
+belgrade pts/16       Dec  9 15:30 (10.245.145.215)
+blackmer pts/17       Dec  9 15:32 (10.245.148.164)
+barnhart pts/18       Dec  9 15:37 (10.245.142.231)
+         pts/6        Dec  9 15:38
+         pts/9        Dec  9 15:38
+bertsch  pts/6        Dec  9 15:41 (10.245.145.174)
+balch    pts/9        Dec  9 15:45 (10.247.137.157)
+benda    pts/19       Dec  9 15:47 (10.245.142.105)
+benda    pts/20       Dec  9 15:48 (10.245.142.105)
+         pts/20       Dec  9 15:48
+benda    pts/20       Dec  9 15:48 (10.245.142.105)
+         pts/4        Dec  9 15:50
+balfour  pts/4        Dec  9 15:54 (wr-130-64-194-98.finland.linux.edu)
+         pts/5        Dec  9 15:54
+beattie  pts/5        Dec  9 15:54 (10.245.146.23)
+         pts/5        Dec  9 15:55
+belgrade pts/5        Dec  9 15:56 (38.122.127.226)
+         pts/20       Dec  9 16:09
+         pts/19       Dec  9 16:09
+         pts/15       Dec  9 16:09
+         pts/4        Dec  9 16:11
+         pts/13       Dec  9 16:13
+belgrade pts/4        Dec  9 16:15 (38.122.127.226)
+barrs    pts/13       Dec  9 16:19 (209-6-40-217.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+baltz    pts/15       Dec  9 16:26 (wr-130-64-194-52.finland.linux.edu)
+         pts/5        Dec  9 16:27
+beier    pts/5        Dec  9 16:28 (c-73-149-184-188.hsd1.ma.comcast.net)
+belgrade pts/19       Dec  9 16:29 (38.122.127.226)
+         pts/6        Dec  9 16:32
+         pts/17       Dec  9 16:33
+bachiler pts/6        Dec  9 16:39 (wr-130-64-190-68.finland.linux.edu)
+belgrade pts/20       Dec  9 16:41 (38.122.127.226)
+         pts/15       Dec  9 16:42
+         pts/4        Dec  9 16:44
+         pts/18       Dec  9 16:49
+         pts/19       Dec  9 16:54
+         pts/9        Dec  9 16:54
+blackmer pts/4        Dec  9 16:56 (10.245.148.164)
+         pts/4        Dec  9 16:58
+         pts/20       Dec  9 17:00
+         pts/16       Dec  9 17:01
+         pts/12       Dec  9 17:01
+         pts/6        Dec  9 17:03
+barstad  pts/4        Dec  9 17:06 (10.247.141.45)
+balfour  pts/6        Dec  9 17:16 (resnet143-22.finland.linux.edu)
+         pts/5        Dec  9 17:29
+beetham  pts/5        Dec  9 17:43 (resnet161-97.finland.linux.edu)
+balleau  pts/9        Dec  9 17:47 (wr-130-64-92-135.finland.linux.edu)
+becton   pts/12       Dec  9 17:50 (resnet159-162.finland.linux.edu)
+         pts/12       Dec  9 17:52
+belson   pts/12       Dec  9 18:08 (pool-108-20-130-139.bstnma.fios.verizon.net)
+birge    pts/15       Dec  9 18:08 (c-50-157-203-68.hsd1.ma.comcast.net)
+bayless  pts/16       Dec  9 18:11 (38.122.127.226)
+         pts/5        Dec  9 18:12
+         pts/4        Dec  9 18:15
+         pts/12       Dec  9 18:18
+         pts/6        Dec  9 18:27
+bigge    pts/4        Dec  9 18:35 (wr-130-64-193-168.finland.linux.edu)
+barrett  pts/5        Dec  9 18:56 (c-66-31-45-17.hsd1.ma.comcast.net)
+         pts/9        Dec  9 19:02
+bargy    pts/6        Dec  9 19:02 (209-6-54-82.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/3        Dec  9 19:11
+balls    pts/3        Dec  9 19:16 (10.245.152.154)
+bivens   pts/9        Dec  9 19:20 (10.245.152.133)
+acheson  pts/12       Dec  9 19:30 (10.245.143.108)
+         pts/12       Dec  9 19:32
+         pts/4        Dec  9 19:35
+behr     pts/4        Dec  9 19:41 (10.244.141.48)
+         pts/4        Dec  9 19:42
+         pts/1        Dec  9 19:58
+         pts/13       Dec  9 20:03
+         pts/9        Dec  9 20:09
+         pts/16       Dec  9 20:28
+baylis   pts/1        Dec  9 20:29 (10.247.148.48)
+         pts/5        Dec  9 20:36
+bayles   pts/2        Dec  9 20:38 (10.247.138.162)
+         pts/6        Dec  9 20:45
+behrens  pts/4        Dec  9 20:51 (static-98-110-144-7.bstnma.fios.verizon.net)
+         pts/15       Dec  9 20:52
+         pts/3        Dec  9 20:55
+         pts/4        Dec  9 20:59
+beaston  pts/3        Dec  9 21:01 (10.245.143.100)
+binger   pts/4        Dec  9 21:06 (10.245.155.243)
+         pts/3        Dec  9 21:16
+bargy    pts/3        Dec  9 21:28 (209-6-54-82.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/2        Dec  9 21:40
+abberley pts/2        Dec  9 21:44 (pool-173-69-40-121.prvdri.fios.verizon.net)
+bacon    pts/5        Dec  9 21:53 (wr-130-64-93-16.finland.linux.edu)
+baldock  pts/6        Dec  9 21:56 (resnet155-42.finland.linux.edu)
+adcock   pts/9        Dec  9 21:58 (10.245.149.22)
+         pts/4        Dec  9 22:03
+bakke    pts/4        Dec  9 22:15 (10.245.155.212)
+         pts/4        Dec  9 22:17
+         pts/6        Dec  9 22:20
+baldock  pts/4        Dec  9 22:20 (resnet155-42.finland.linux.edu)
+         pts/5        Dec  9 22:24
+         pts/9        Dec  9 22:30
+bergey   pts/5        Dec  9 22:35 (c-73-159-215-123.hsd1.ma.comcast.net)
+berlett  pts/9        Dec  9 22:52 (10.244.142.39)
+bagg     pts/12       Dec  9 22:54 (10.245.154.138)
+bailey   pts/13       Dec  9 22:55 (38.122.127.226)
+barbakow pts/15       Dec  9 23:13 (resnet155-58.finland.linux.edu)
+bilodeau pts/16       Dec  9 23:17 (10.245.151.146)
+         pts/15       Dec  9 23:22
+         pts/4        Dec  9 23:29
+         pts/3        Dec  9 23:39
+         pts/13       Dec  9 23:56
+         pts/16       Dec  9 23:57
+         pts/0        Dec 10 00:00
+beamer   pts/0        Dec 10 00:15 (130.64.158.47)
+         pts/2        Dec 10 00:56
+beede    pts/2        Dec 10 00:59 (10.245.153.51)
+         pts/1        Dec 10 01:05
+         pts/12       Dec 10 01:06
+         pts/5        Dec 10 01:52
+         pts/2        Dec 10 02:00
+benn     pts/1        Dec 10 02:10 (10.244.142.194)
+         pts/1        Dec 10 02:39
+         pts/9        Dec 10 02:48
+bisbee   pts/1        Dec 10 03:10 (10.245.141.168)
+abbot    pts/2        Dec 10 03:13 (resnet141-166.finland.linux.edu)
+         pts/1        Dec 10 03:16
+         pts/2        Dec 10 03:34
+         pts/0        Dec 10 04:28
+bing     pts/0        Dec 10 07:52 (resnet135-160.finland.linux.edu)
+         pts/0        Dec 10 07:53
+binger   pts/0        Dec 10 10:45 (10.245.155.243)
+         pts/0        Dec 10 11:10
+biam     pts/0        Dec 10 11:11 (38.122.127.226)
+balleau  pts/1        Dec 10 11:28 (38.122.127.226)
+         pts/0        Dec 10 12:13
+bawhey   pts/0        Dec 10 12:26 (141.133.215.231)
+         pts/1        Dec 10 12:28
+bidwell  pts/1        Dec 10 12:54 (c-50-169-37-78.hsd1.ma.comcast.net)
+         pts/1        Dec 10 12:54
+baldock  pts/1        Dec 10 13:05 (resnet155-42.finland.linux.edu)
+bain     pts/2        Dec 10 13:07 (10.245.149.28)
+barth    pts/3        Dec 10 13:13 (10.245.141.56)
+bisbee   pts/4        Dec 10 13:19 (wr-130-64-177-153.finland.linux.edu)
+         pts/0        Dec 10 13:28
+         pts/4        Dec 10 13:30
+bell     pts/0        Dec 10 13:31 (resnet161-135.finland.linux.edu)
+bach     pts/4        Dec 10 13:32 (10.245.140.114)
+         pts/4        Dec 10 13:41
+banfield pts/4        Dec 10 13:54 (10.245.140.130)
+bachiler pts/5        Dec 10 13:55 (wr-130-64-190-68.finland.linux.edu)
+barstad  pts/6        Dec 10 13:56 (10.247.140.160)
+bise     pts/9        Dec 10 14:10 (10.245.142.177)
+bach     pts/12       Dec 10 14:11 (10.245.140.114)
+becraft  pts/13       Dec 10 14:13 (38.122.127.226)
+beims    pts/15       Dec 10 14:15 (10.244.141.31)
+biddell  pts/16       Dec 10 14:33 (wr-130-64-98-199.finland.linux.edu)
+bitz     pts/17       Dec 10 14:38 (10.245.145.16)
+         pts/9        Dec 10 14:48
+bankston pts/9        Dec 10 14:51 (wr-130-64-95-23.finland.linux.edu)
+blakley  pts/18       Dec 10 14:52 (10.247.148.182)
+         pts/4        Dec 10 14:55
+         pts/6        Dec 10 14:59
+         pts/0        Dec 10 15:06
+         pts/12       Dec 10 15:14
+aikin    pts/0        Dec 10 15:15 (10.244.143.16)
+         pts/1        Dec 10 15:24
+beaufort pts/4        Dec 10 15:25 (10.245.148.92)
+bisbee   pts/6        Dec 10 15:43 (wr-130-64-177-153.finland.linux.edu)
+         pts/9        Dec 10 15:52
+         pts/18       Dec 10 15:52
+baldock  pts/9        Dec 10 15:54 (resnet155-42.finland.linux.edu)
+beadles  pts/12       Dec 10 15:54 (wr-130-64-190-181.finland.linux.edu)
+         pts/0        Dec 10 15:56
+         pts/2        Dec 10 15:57
+         pts/6        Dec 10 16:01
+         pts/5        Dec 10 16:02
+aikin    pts/0        Dec 10 16:08 (10.244.143.16)
+bingaman pts/2        Dec 10 16:11 (c-24-61-12-126.hsd1.ma.comcast.net)
+         pts/2        Dec 10 16:13
+berard   pts/2        Dec 10 16:15 (pool-72-93-116-10.bstnma.fios.verizon.net)
+         pts/2        Dec 10 16:16
+beall    pts/2        Dec 10 16:17 (wr-130-64-193-180.finland.linux.edu)
+         pts/12       Dec 10 16:21
+beaver   pts/5        Dec 10 16:21 (pool-71-184-115-203.bstnma.fios.verizon.net)
+binger   pts/6        Dec 10 16:23 (10.245.155.243)
+blackmer pts/12       Dec 10 16:26 (resnet160-208.finland.linux.edu)
+         pts/13       Dec 10 16:28
+beaman   pts/13       Dec 10 16:28 (10.245.152.101)
+         pts/4        Dec 10 16:28
+         pts/6        Dec 10 16:30
+         pts/15       Dec 10 16:32
+barthol  pts/4        Dec 10 16:46 (pool-173-48-178-111.bstnma.fios.verizon.net)
+balles   pts/6        Dec 10 16:48 (static-98-118-98-15.bstnma.fios.verizon.net)
+         pts/12       Dec 10 16:51
+         pts/13       Dec 10 16:57
+         pts/16       Dec 10 16:59
+bieber   pts/12       Dec 10 17:02 (c-76-24-19-53.hsd1.ma.comcast.net)
+         pts/6        Dec 10 17:15
+balles   pts/6        Dec 10 17:19 (static-98-118-98-15.bstnma.fios.verizon.net)
+bessent  pts/13       Dec 10 17:19 (10.245.155.93)
+         pts/5        Dec 10 17:22
+bahr     pts/5        Dec 10 17:30 (130.64.158.71)
+bewhey   pts/15       Dec 10 17:41 (c-66-31-45-17.hsd1.ma.comcast.net)
+bachiler pts/16       Dec 10 17:42 (wr-130-64-190-68.finland.linux.edu)
+         pts/15       Dec 10 17:42
+ackerman pts/15       Dec 10 17:46 (wr-130-64-188-98.finland.linux.edu)
+         pts/9        Dec 10 17:50
+         pts/15       Dec 10 17:51
+balls    pts/15       Dec 10 17:53 (10.245.152.11)
+         pts/16       Dec 10 17:58
+blaha    pts/16       Dec 10 18:04 (wr-130-64-196-116.finland.linux.edu)
+         pts/12       Dec 10 18:07
+         pts/17       Dec 10 18:08
+binyon   pts/17       Dec 10 18:08 (localhost:16.0)
+badgley  pts/18       Dec 10 18:08 (static-98-118-98-15.bstnma.fios.verizon.net)
+         pts/18       Dec 10 18:08
+binyon   pts/17       Dec 10 18:11
+         pts/16       Dec 10 18:18
+         pts/4        Dec 10 18:24
+         pts/13       Dec 10 18:30
+beadles  pts/4        Dec 10 18:49 (10.244.143.89)
+         pts/6        Dec 10 19:04
+birong   pts/6        Dec 10 19:07 (resnet143-58.finland.linux.edu)
+bedell   pts/12       Dec 10 19:09 (10.245.154.215)
+         pts/0        Dec 10 19:13
+         pts/12       Dec 10 19:14
+adsit    pts/0        Dec 10 19:22 (lab122l.csci.linux.edu)
+         pts/6        Dec 10 19:26
+bawhey   pts/1        Dec 10 19:34 (10.245.140.246)
+batdorf  pts/6        Dec 10 19:46 (c-66-31-40-120.hsd1.ma.comcast.net)
+         pts/6        Dec 10 19:47
+bixley   pts/6        Dec 10 19:52 (10.245.155.195)
+         pts/6        Dec 10 19:53
+balch    pts/6        Dec 10 19:59 (10.245.153.26)
+         pts/4        Dec 10 20:05
+baldwin  pts/4        Dec 10 20:09 (10.245.153.229)
+beals    pts/9        Dec 10 20:11 (10.245.145.75)
+         pts/6        Dec 10 20:11
+         pts/9        Dec 10 20:13
+         pts/2        Dec 10 20:16
+         pts/15       Dec 10 20:17
+         pts/1        Dec 10 20:18
+beck     pts/1        Dec 10 20:19 (209-6-231-107.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+abbot    pts/2        Dec 10 20:23 (resnet141-166.finland.linux.edu)
+bellamy  pts/6        Dec 10 20:27 (10.244.143.96)
+bethel   pts/9        Dec 10 20:31 (resnet149-60.finland.linux.edu)
+banfield pts/12       Dec 10 20:34 (10.245.140.130)
+badders  pts/13       Dec 10 20:34 (130.64.158.61)
+bauman   pts/15       Dec 10 20:36 (10.245.150.122)
+         pts/15       Dec 10 20:38
+baney    pts/15       Dec 10 20:47 (10.245.140.89)
+         pts/5        Dec 10 20:50
+         pts/0        Dec 10 20:55
+beaman   pts/0        Dec 10 20:55 (10.245.152.101)
+baker    pts/5        Dec 10 20:55 (10.244.141.8)
+         pts/12       Dec 10 21:00
+besly    pts/12       Dec 10 21:03 (10.245.154.78)
+beetham  pts/16       Dec 10 21:14 (resnet161-97.finland.linux.edu)
+         pts/15       Dec 10 21:15
+         pts/1        Dec 10 21:20
+becker   pts/1        Dec 10 21:20 (10.245.154.232)
+         pts/2        Dec 10 21:26
+         pts/6        Dec 10 21:28
+bellino  pts/2        Dec 10 21:34 (10.245.149.83)
+         pts/9        Dec 10 21:36
+belsham  pts/6        Dec 10 21:38 (10.245.150.170)
+beaufort pts/9        Dec 10 21:47 (10.245.148.92)
+         pts/9        Dec 10 21:54
+         pts/12       Dec 10 21:55
+         pts/2        Dec 10 21:57
+bland    pts/2        Dec 10 21:58 (146-115-59-188.c3-0.frm-ubr1.sbo-frm.ma.cable.rcn.com)
+         pts/13       Dec 10 21:59
+baldwin  pts/9        Dec 10 22:00 (10.245.141.166)
+bachiler pts/12       Dec 10 22:31 (wr-130-64-190-68.finland.linux.edu)
+         pts/0        Dec 10 22:53
+         pts/6        Dec 10 22:56
+belsham  pts/0        Dec 10 22:57 (10.245.150.170)
+         pts/0        Dec 10 22:59
+blagg    pts/0        Dec 10 23:17 (10.245.140.28)
+bisbee   pts/6        Dec 10 23:18 (c-76-119-211-252.hsd1.ma.comcast.net)
+         pts/4        Dec 10 23:31
+         pts/6        Dec 10 23:39
+beshear  pts/4        Dec 10 23:47 (10.245.155.222)
+bisbee   pts/6        Dec 11 00:04 (c-76-119-211-252.hsd1.ma.comcast.net)
+bacon    pts/13       Dec 11 00:04 (wr-130-64-93-16.finland.linux.edu)
+         pts/9        Dec 11 00:08
+         pts/16       Dec 11 00:09
+         pts/13       Dec 11 00:23
+bandy    pts/9        Dec 11 00:25 (146-115-41-55.c3-0.abr-ubr1.sbo-abr.ma.cable.rcn.com)
+         pts/9        Dec 11 00:25
+         pts/6        Dec 11 00:26
+         pts/12       Dec 11 00:26
+         pts/0        Dec 11 00:32
+         pts/5        Dec 11 00:34
+badders  pts/0        Dec 11 00:44 (38.122.127.226)
+         pts/1        Dec 11 01:00
+badders  pts/1        Dec 11 01:12 (38.122.127.226)
+becker   pts/5        Dec 11 01:12 (10.245.144.87)
+         pts/5        Dec 11 01:14
+         pts/2        Dec 11 01:16
+beckley  pts/2        Dec 11 01:40 (10.245.155.198)
+baney    pts/5        Dec 11 01:44 (10.245.140.89)
+         pts/4        Dec 11 01:55
+         pts/0        Dec 11 01:56
+beshear  pts/0        Dec 11 01:57 (10.245.155.222)
+abberley pts/4        Dec 11 02:01 (pool-173-69-40-121.prvdri.fios.verizon.net)
+         pts/0        Dec 11 02:03
+         pts/1        Dec 11 02:14
+         pts/2        Dec 11 02:15
+bair     pts/0        Dec 11 02:34 (38.122.127.226)
+beckley  pts/1        Dec 11 02:35 (10.245.155.198)
+         pts/5        Dec 11 02:37
+bagg     pts/2        Dec 11 02:41 (130.64.158.90)
+bakke    pts/5        Dec 11 03:05 (10.245.155.212)
+         pts/5        Dec 11 03:06
+bisbee   pts/5        Dec 11 03:15 (c-76-119-211-252.hsd1.ma.comcast.net)
+         pts/2        Dec 11 03:42
+         pts/5        Dec 11 03:46
+         pts/1        Dec 11 04:00
+         pts/4        Dec 11 04:15
+badders  pts/1        Dec 11 04:21 (38.122.127.226)
+binnie   pts/2        Dec 11 04:29 (wr-130-64-98-111.finland.linux.edu)
+         pts/0        Dec 11 04:54
+         pts/3        Dec 11 05:38
+         pts/1        Dec 11 06:34
+         pts/2        Dec 11 06:50
+badders  pts/0        Dec 11 07:39 (10.245.151.225)
+babcock  pts/1        Dec 11 08:25 (10.245.151.224)
+         pts/1        Dec 11 08:41
+bartz    pts/1        Dec 11 08:53 (38.122.127.226)
+bartz    pts/2        Dec 11 09:14 (38.122.127.226)
+backer   pts/3        Dec 11 09:16 (10.245.148.149)
+belson   pts/4        Dec 11 09:18 (50-245-61-156-static.hfc.comcastbusiness.net)
+         pts/3        Dec 11 09:22
+         pts/1        Dec 11 09:30
+         pts/0        Dec 11 09:51
+banfield pts/0        Dec 11 10:19 (10.245.140.130)
+balzer   pts/1        Dec 11 10:26 (73.114.34.82)
+         pts/2        Dec 11 10:30
+         pts/0        Dec 11 10:31
+         pts/1        Dec 11 10:34
+         pts/4        Dec 11 10:41
+belson   pts/0        Dec 11 10:48 (pool-108-20-130-139.bstnma.fios.verizon.net)
+belson   pts/1        Dec 11 10:48 (pool-108-20-130-139.bstnma.fios.verizon.net)
+beachley pts/2        Dec 11 11:09 (wr-130-64-93-194.finland.linux.edu)
+         pts/2        Dec 11 11:12
+battin   pts/2        Dec 11 11:13 (10.245.146.117)
+bay      pts/3        Dec 11 11:16 (10.245.147.17)
+beier    pts/4        Dec 11 11:35 (c-73-149-184-188.hsd1.ma.comcast.net)
+         pts/0        Dec 11 11:51
+         pts/1        Dec 11 11:51
+bacon    pts/0        Dec 11 11:57 (38.122.127.226)
+becton   pts/1        Dec 11 11:57 (resnet159-52.finland.linux.edu)
+         pts/0        Dec 11 12:00
+beachley pts/0        Dec 11 12:10 (10.245.145.91)
+         pts/0        Dec 11 12:12
+beckley  pts/0        Dec 11 12:20 (10.245.155.198)
+bachiler pts/5        Dec 11 12:29 (wr-130-64-190-68.finland.linux.edu)
+bachiler pts/6        Dec 11 12:29 (wr-130-64-190-68.finland.linux.edu)
+         pts/2        Dec 11 12:31
+adcock   pts/2        Dec 11 12:34 (10.245.149.14)
+abraham  pts/9        Dec 11 12:42 (10.245.142.200)
+         pts/4        Dec 11 12:42
+besly    pts/4        Dec 11 12:45 (10.245.154.78)
+         pts/0        Dec 11 12:47
+bing     pts/0        Dec 11 12:49 (resnet135-160.finland.linux.edu)
+beall    pts/12       Dec 11 12:49 (static-96-233-112-197.bstnma.ftas.verizon.net)
+ahern    pts/13       Dec 11 12:50 (73.114.33.3)
+         pts/9        Dec 11 12:51
+         pts/13       Dec 11 12:56
+biven    pts/9        Dec 11 12:59 (38.122.127.226)
+bearce   pts/13       Dec 11 13:01 (resnet135-159.finland.linux.edu)
+         pts/2        Dec 11 13:02
+         pts/4        Dec 11 13:07
+bauman   pts/2        Dec 11 13:08 (10.245.150.15)
+blackmer pts/4        Dec 11 13:17 (resnet160-208.finland.linux.edu)
+         pts/3        Dec 11 13:21
+beaufort pts/3        Dec 11 13:24 (10.245.148.219)
+         pts/3        Dec 11 13:30
+         pts/0        Dec 11 13:30
+balleau  pts/0        Dec 11 13:31 (38.122.127.226)
+barrows  pts/3        Dec 11 13:32 (10.245.148.121)
+baldwin  pts/15       Dec 11 13:32 (10.245.146.50)
+bair     pts/16       Dec 11 13:32 (38.122.127.226)
+         pts/4        Dec 11 13:37
+baughn   pts/4        Dec 11 13:38 (38.122.127.226)
+         pts/4        Dec 11 13:50
+behnke   pts/4        Dec 11 13:51 (10.245.152.21)
+         pts/4        Dec 11 13:51
+balleau  pts/4        Dec 11 13:54 (38.122.127.226)
+bain     pts/17       Dec 11 13:55 (10.245.148.106)
+balleau  pts/18       Dec 11 13:59 (38.122.127.226)
+         pts/9        Dec 11 13:59
+         pts/1        Dec 11 14:00
+affolter pts/1        Dec 11 14:01 (38.122.127.226)
+beaman   pts/9        Dec 11 14:02 (10.245.152.132)
+bissell  pts/19       Dec 11 14:09 (pool-96-237-114-125.bstnma.fios.verizon.net)
+         pts/0        Dec 11 14:11
+         pts/19       Dec 11 14:11
+balleau  pts/0        Dec 11 14:14 (38.122.127.226)
+         pts/4        Dec 11 14:15
+bentz    pts/4        Dec 11 14:16 (c-73-38-2-226.hsd1.ma.comcast.net)
+         pts/4        Dec 11 14:17
+         pts/17       Dec 11 14:20
+bain     pts/4        Dec 11 14:20 (10.245.148.106)
+         pts/2        Dec 11 14:23
+balleau  pts/2        Dec 11 14:30 (38.122.127.226)
+         pts/18       Dec 11 14:30
+balsen   pts/17       Dec 11 14:36 (10.245.146.112)
+bean     pts/18       Dec 11 14:38 (10.245.151.15)
+         pts/18       Dec 11 14:39
+barlow   pts/18       Dec 11 14:43 (10.245.140.209)
+         pts/0        Dec 11 14:47
+barfield pts/0        Dec 11 14:49 (10.245.152.188)
+         pts/3        Dec 11 14:52
+         pts/0        Dec 11 14:52
+         pts/4        Dec 11 14:54
+bellino  pts/0        Dec 11 14:58 (10.245.142.150)
+         pts/13       Dec 11 15:00
+         pts/1        Dec 11 15:01
+benyon   pts/1        Dec 11 15:02 (10.245.142.114)
+bair     pts/3        Dec 11 15:03 (38.122.127.226)
+babcock  pts/4        Dec 11 15:10 (10.245.151.224)
+         pts/0        Dec 11 15:22
+         pts/18       Dec 11 15:22
+         pts/9        Dec 11 15:23
+         pts/2        Dec 11 15:36
+balleau  pts/0        Dec 11 15:38 (38.122.127.226)
+         pts/17       Dec 11 15:42
+         pts/12       Dec 11 15:43
+barberie pts/9        Dec 11 15:44 (209-6-195-231.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/16       Dec 11 15:45
+         pts/4        Dec 11 15:46
+benge    pts/4        Dec 11 15:49 (resnet161-185.finland.linux.edu)
+battle   pts/2        Dec 11 16:00 (73.114.32.55)
+beetham  pts/12       Dec 11 16:04 (resnet161-193.finland.linux.edu)
+         pts/3        Dec 11 16:04
+         pts/15       Dec 11 16:10
+bain     pts/3        Dec 11 16:16 (10.245.148.106)
+         pts/5        Dec 11 16:19
+bauman   pts/5        Dec 11 16:20 (10.245.150.15)
+birdseye pts/13       Dec 11 16:21 (10.244.142.253)
+         pts/5        Dec 11 16:27
+         pts/6        Dec 11 16:31
+         pts/3        Dec 11 16:40
+         pts/0        Dec 11 16:40
+         pts/13       Dec 11 16:43
+bagg     pts/0        Dec 11 16:51 (130.64.158.90)
+         pts/4        Dec 11 16:52
+         pts/9        Dec 11 16:54
+         pts/2        Dec 11 17:01
+bigger   pts/2        Dec 11 17:05 (wr-130-64-178-108.finland.linux.edu)
+         pts/2        Dec 11 17:10
+         pts/1        Dec 11 17:20
+bartlett pts/1        Dec 11 17:36 (10.245.155.27)
+bascom   pts/2        Dec 11 17:41 (wr-130-64-196-8.finland.linux.edu)
+         pts/0        Dec 11 17:51
+         pts/1        Dec 11 17:55
+         pts/12       Dec 11 17:57
+bare     pts/0        Dec 11 18:11 (10.245.149.109)
+birong   pts/1        Dec 11 19:01 (tech-dhcp30-245.finland.linux.edu)
+         pts/0        Dec 11 19:11
+benn     pts/0        Dec 11 19:17 (10.244.142.105)
+baney    pts/3        Dec 11 19:50 (c-73-238-134-186.hsd1.ma.comcast.net)
+bangert  pts/4        Dec 11 20:05 (10.244.140.128)
+barthol  pts/5        Dec 11 20:05 (pool-173-48-178-111.bstnma.fios.verizon.net)
+         pts/0        Dec 11 20:07
+bergeron pts/0        Dec 11 20:08 (c-76-19-67-106.hsd1.ma.comcast.net)
+         pts/3        Dec 11 20:18
+bagg     pts/3        Dec 11 20:23 (130.64.158.90)
+advant   pts/6        Dec 11 20:53 (10.245.155.8)
+blakeley pts/9        Dec 11 20:53 (10.245.152.242)
+         pts/9        Dec 11 20:54
+bergeron pts/9        Dec 11 20:57 (c-76-19-67-106.hsd1.ma.comcast.net)
+benn     pts/12       Dec 11 20:57 (10.244.142.105)
+baney    pts/13       Dec 11 20:58 (c-73-238-134-186.hsd1.ma.comcast.net)
+bethune  pts/15       Dec 11 21:02 (10.245.153.223)
+         pts/6        Dec 11 21:03
+         pts/0        Dec 11 21:09
+barberie pts/0        Dec 11 21:12 (209-6-195-231.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/4        Dec 11 21:16
+         pts/15       Dec 11 21:17
+         pts/12       Dec 11 21:23
+balleau  pts/4        Dec 11 21:31 (38.122.127.226)
+         pts/3        Dec 11 21:35
+         pts/4        Dec 11 21:35
+barley   pts/3        Dec 11 21:48 (209-6-52-125.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/9        Dec 11 22:02
+baughman pts/4        Dec 11 22:03 (38.122.127.226)
+         pts/0        Dec 11 22:16
+         pts/13       Dec 11 22:25
+bendall  pts/0        Dec 11 22:25 (pool-98-118-104-72.bstnma.fios.verizon.net)
+         pts/0        Dec 11 22:26
+         pts/4        Dec 11 23:03
+         pts/2        Dec 11 23:40
+baughman pts/0        Dec 11 23:47 (10.245.148.15)
+         pts/0        Dec 11 23:58
+afkin    pts/0        Dec 12 00:04 (10.245.147.36)
+         pts/0        Dec 12 00:10
+birong   pts/0        Dec 12 00:20 (tech-dhcp30-245.finland.linux.edu)
+barre    pts/2        Dec 12 00:24 (38.122.127.226)
+         pts/3        Dec 12 01:15
+         pts/2        Dec 12 01:25
+         pts/0        Dec 12 01:37
+         pts/1        Dec 12 02:52
+         pts/5        Dec 12 03:10
+baring   pts/0        Dec 12 10:46 (resnet161-203.finland.linux.edu)
+         pts/0        Dec 12 10:48
+barley   pts/0        Dec 12 10:52 (209-6-52-125.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+bird     pts/1        Dec 12 12:29 (10.245.149.147)
+         pts/1        Dec 12 12:33
+beaty    pts/1        Dec 12 12:56 (10.245.155.224)
+beland   pts/2        Dec 12 13:48 (d-p-13-18.csci.linux.edu)
+beals    pts/3        Dec 12 14:02 (10.245.144.104)
+barrow   pts/4        Dec 12 14:03 (wr-130-64-184-201.finland.linux.edu)
+barnhill pts/5        Dec 12 14:04 (10.245.143.217)
+barbee   pts/6        Dec 12 14:08 (10.247.140.68)
+bertele  pts/9        Dec 12 14:10 (resnet142-190.finland.linux.edu)
+         pts/5        Dec 12 14:12
+blacker  pts/5        Dec 12 14:20 (10.244.141.123)
+beaty    pts/12       Dec 12 14:21 (10.245.155.224)
+beland   pts/13       Dec 12 14:40 (d-p-13-18.csci.linux.edu)
+         pts/12       Dec 12 14:42
+beals    pts/12       Dec 12 14:51 (10.245.144.104)
+         pts/12       Dec 12 14:52
+         pts/9        Dec 12 14:59
+benoit   pts/9        Dec 12 15:06 (wr-130-64-185-104.finland.linux.edu)
+         pts/9        Dec 12 15:07
+         pts/1        Dec 12 15:08
+         pts/0        Dec 12 15:12
+         pts/6        Dec 12 15:20
+         pts/2        Dec 12 15:22
+bertele  pts/0        Dec 12 15:22 (resnet159-108.finland.linux.edu)
+         pts/0        Dec 12 15:25
+         pts/3        Dec 12 15:30
+blackmon pts/0        Dec 12 15:34 (wr-130-64-179-52.finland.linux.edu)
+         pts/0        Dec 12 15:38
+         pts/4        Dec 12 15:40
+bigelow  pts/0        Dec 12 15:41 (wr-130-64-178-136.finland.linux.edu)
+aisquith pts/1        Dec 12 16:03 (wr-130-64-196-190.finland.linux.edu)
+         pts/13       Dec 12 16:18
+         pts/1        Dec 12 16:24
+         pts/0        Dec 12 16:47
+benfield pts/0        Dec 12 17:00 (10.245.147.220)
+beaty    pts/1        Dec 12 17:07 (10.245.154.10)
+         pts/1        Dec 12 17:25
+bange    pts/1        Dec 12 17:27 (resnet159-106.finland.linux.edu)
+         pts/1        Dec 12 17:28
+bishop   pts/1        Dec 12 17:28 (10.245.143.233)
+         pts/1        Dec 12 17:30
+         pts/5        Dec 12 17:48
+beaver   pts/1        Dec 12 17:56 (pool-71-184-115-203.bstnma.fios.verizon.net)
+ables    pts/2        Dec 12 18:45 (10.244.140.167)
+         pts/2        Dec 12 18:45
+bayliss  pts/2        Dec 12 19:07 (10.245.147.151)
+bandy    pts/3        Dec 12 19:40 (146-115-41-55.c3-0.abr-ubr1.sbo-abr.ma.cable.rcn.com)
+         pts/0        Dec 12 19:54
+         pts/1        Dec 12 20:08
+barthol  pts/0        Dec 12 20:09 (pool-173-48-178-111.bstnma.fios.verizon.net)
+bertele  pts/1        Dec 12 20:29 (resnet159-108.finland.linux.edu)
+         pts/3        Dec 12 20:47
+         pts/1        Dec 12 21:09
+bethel   pts/1        Dec 12 21:22 (10.245.151.10)
+barthol  pts/3        Dec 12 21:32 (pool-173-48-178-111.bstnma.fios.verizon.net)
+         pts/3        Dec 12 21:32
+barber   pts/3        Dec 12 22:53 (wr-130-64-190-155.finland.linux.edu)
+         pts/2        Dec 12 23:06
+barberie pts/2        Dec 12 23:16 (209-6-195-231.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/0        Dec 12 23:19
+         pts/3        Dec 12 23:29
+benjamin pts/0        Dec 12 23:29 (38.122.127.226)
+         pts/0        Dec 12 23:30
+         pts/1        Dec 12 23:36
+bankston pts/0        Dec 13 00:03 (10.244.142.175)
+         pts/0        Dec 13 00:04
+bigod    pts/0        Dec 13 00:10 (10.245.149.254)
+         pts/0        Dec 13 00:12
+         pts/2        Dec 13 00:18
+baisden  pts/0        Dec 13 02:54 (resnet161-95.finland.linux.edu)
+         pts/0        Dec 13 03:54
+bethel   pts/0        Dec 13 10:25 (10.245.151.188)
+bagg     pts/1        Dec 13 12:51 (130.64.158.90)
+beecher  pts/2        Dec 13 12:51 (sunfire61.csci.linux.edu)
+         pts/0        Dec 13 12:56
+baby     pts/0        Dec 13 12:56 (10.247.140.198)
+         pts/0        Dec 13 12:58
+bagot    pts/3        Dec 13 14:48 (10.245.148.19)
+         pts/3        Dec 13 15:07
+bernet   pts/3        Dec 13 15:13 (pool-72-74-254-11.bstnma.fios.verizon.net)
+         pts/2        Dec 13 15:17
+benda    pts/0        Dec 13 15:26 (10.244.143.228)
+         pts/1        Dec 13 15:27
+         pts/0        Dec 13 15:38
+barr     pts/0        Dec 13 16:04 (10.245.153.143)
+akins    pts/1        Dec 13 16:16 (wr-130-64-98-230.finland.linux.edu)
+         pts/1        Dec 13 16:26
+bangham  pts/1        Dec 13 16:28 (10.245.148.57)
+         pts/1        Dec 13 16:41
+         pts/3        Dec 13 17:13
+         pts/0        Dec 13 17:35
+beckham  pts/0        Dec 13 17:40 (wr-130-64-188-105.finland.linux.edu)
+         pts/0        Dec 13 17:40
+bailiff  pts/0        Dec 13 18:06 (38.122.127.226)
+         pts/0        Dec 13 18:07
+aikman   pts/0        Dec 13 18:09 (10.245.145.29)
+baglion  pts/1        Dec 13 18:31 (10.245.142.41)
+         pts/1        Dec 13 18:34
+         pts/0        Dec 13 19:10
+batman   pts/0        Dec 13 19:34 (c-98-216-110-41.hsd1.ma.comcast.net)
+bean     pts/1        Dec 13 19:39 (10.245.150.231)
+         pts/1        Dec 13 19:52
+         pts/0        Dec 13 19:59
+bareis   pts/0        Dec 13 20:24 (pool-72-74-49-51.bstnma.fios.verizon.net)
+birchall pts/1        Dec 13 20:24 (130.64.158.146)
+         pts/0        Dec 13 20:25
+birchall pts/0        Dec 13 20:28 (130.64.158.146)
+bernet   pts/2        Dec 13 20:37 (pool-72-74-254-11.bstnma.fios.verizon.net)
+barlage  pts/3        Dec 13 21:13 (209-6-88-114.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/0        Dec 13 21:28
+birchall pts/0        Dec 13 21:32 (130.64.158.146)
+berner   pts/4        Dec 13 21:41 (209-6-44-138.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/4        Dec 13 21:42
+bland    pts/4        Dec 13 22:12 (146-115-59-188.c3-0.frm-ubr1.sbo-frm.ma.cable.rcn.com)
+bevans   pts/5        Dec 13 22:19 (10.244.143.114)
+         pts/5        Dec 13 22:24
+bagg     pts/5        Dec 13 22:29 (130.64.158.90)
+         pts/1        Dec 13 22:39
+         pts/3        Dec 13 23:19
+beatty   pts/1        Dec 13 23:20 (10.245.150.179)
+         pts/4        Dec 13 23:39
+         pts/0        Dec 13 23:45
+balzer   pts/0        Dec 14 00:03 (73.114.32.35)
+         pts/0        Dec 14 00:03
+         pts/1        Dec 14 00:22
+         pts/5        Dec 14 00:25
+bagg     pts/0        Dec 14 00:25 (130.64.158.90)
+         pts/0        Dec 14 00:28
+         pts/2        Dec 14 00:33
+blahnik  pts/0        Dec 14 01:35 (10.245.151.198)
+         pts/0        Dec 14 01:35
+bath     pts/0        Dec 14 02:21 (209-6-54-82.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/0        Dec 14 02:23
+bargy    pts/0        Dec 14 03:15 (209-6-54-82.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/0        Dec 14 05:28
+bethel   pts/0        Dec 14 07:51 (10.245.150.119)
+         pts/0        Dec 14 10:10
+bidwell  pts/0        Dec 14 10:57 (c-50-169-37-78.hsd1.ma.comcast.net)
+         pts/0        Dec 14 10:58
+bangert  pts/0        Dec 14 11:19 (10.244.141.192)
+         pts/0        Dec 14 12:20
+bilger   pts/0        Dec 14 13:39 (209-6-39-15.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+bestler  pts/1        Dec 14 14:32 (10.245.142.167)
+         pts/1        Dec 14 15:33
+bartel   pts/2        Dec 14 15:38 (wr-130-64-95-180.finland.linux.edu)
+bannick  pts/3        Dec 14 15:40 (10.245.148.252)
+benda    pts/4        Dec 14 15:48 (10.245.142.153)
+         pts/4        Dec 14 15:53
+aitken   pts/1        Dec 14 16:11 (resnet161-48.finland.linux.edu)
+         pts/1        Dec 14 16:11
+         pts/3        Dec 14 16:22
+blahnik  pts/1        Dec 14 16:35 (10.245.151.99)
+         pts/1        Dec 14 16:36
+         pts/2        Dec 14 16:48
+bible    pts/1        Dec 14 17:01 (wr-130-64-195-230.finland.linux.edu)
+bannick  pts/2        Dec 14 17:15 (10.245.142.98)
+balsen   pts/3        Dec 14 17:32 (10.245.155.88)
+         pts/1        Dec 14 18:10
+         pts/2        Dec 14 18:39
+         pts/0        Dec 14 18:45
+belson   pts/0        Dec 14 18:46 (pool-96-237-52-224.bstnma.fios.verizon.net)
+         pts/0        Dec 14 18:51
+baskin   pts/0        Dec 14 18:59 (10.245.140.132)
+         pts/3        Dec 14 20:11
+bachmann pts/1        Dec 14 20:33 (10.245.154.28)
+         pts/1        Dec 14 20:35
+acord    pts/1        Dec 14 20:51 (resnet133-74.finland.linux.edu)
+         pts/0        Dec 14 21:38
+         pts/1        Dec 14 21:52
+belson   pts/0        Dec 14 21:55 (pool-96-237-52-224.bstnma.fios.verizon.net)
+bent     pts/1        Dec 14 22:06 (10.245.153.142)
+beaver   pts/2        Dec 14 22:24 (resnet154-95.finland.linux.edu)
+         pts/2        Dec 14 22:26
+balsen   pts/2        Dec 14 23:21 (10.245.154.167)
+         pts/2        Dec 14 23:23
+         pts/1        Dec 14 23:41
+bangham  pts/1        Dec 15 00:22 (10.245.149.64)
+bickley  pts/2        Dec 15 00:25 (209-6-207-169.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/1        Dec 15 00:27
+         pts/0        Dec 15 01:48
+         pts/2        Dec 15 02:42
+belew    pts/0        Dec 15 08:38 (209-6-52-61.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+airov    pts/1        Dec 15 09:06 (c-50-157-206-190.hsd1.ma.comcast.net)
+         pts/1        Dec 15 09:08
+         pts/0        Dec 15 09:52
+bickley  pts/0        Dec 15 13:52 (209-6-207-169.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+batz     pts/1        Dec 15 13:55 (c-73-149-179-41.hsd1.ma.comcast.net)
+banton   pts/2        Dec 15 13:57 (4.53.55.235)
+         pts/2        Dec 15 13:57
+         pts/1        Dec 15 13:58
+         pts/0        Dec 15 13:59
+abney    pts/0        Dec 15 14:03 (10.245.141.230)
+abbott   pts/1        Dec 15 14:05 (10.247.141.13)
+binford  pts/2        Dec 15 14:13 (10.245.151.92)
+         pts/2        Dec 15 15:29
+         pts/0        Dec 15 15:36
+         pts/1        Dec 15 15:36
+bettin   pts/0        Dec 15 18:39 (10.245.155.20)
+         pts/0        Dec 15 18:59
+acree    pts/0        Dec 15 20:47 (10.245.151.225)
+         pts/0        Dec 15 20:47
+barrs    pts/0        Dec 15 21:36 (10.245.150.115)
+         pts/0        Dec 15 21:38
+berlett  pts/0        Dec 15 21:47 (10.244.142.227)
+         pts/0        Dec 15 21:49
+beal     pts/0        Dec 15 22:12 (209-6-207-103.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/0        Dec 15 22:12
+beyette  pts/0        Dec 15 22:49 (resnet133-72.finland.linux.edu)
+         pts/0        Dec 15 22:50
+blaney   pts/0        Dec 15 23:13 (10.245.151.9)
+         pts/0        Dec 15 23:14
+bewley   pts/0        Dec 16 00:10 (c-24-61-45-190.hsd1.ma.comcast.net)
+         pts/0        Dec 16 00:12
+adams    pts/0        Dec 16 02:24 (38.122.127.226)
+         pts/0        Dec 16 02:24
+baca     pts/0        Dec 16 10:04 (c-73-17-0-123.hsd1.ma.comcast.net)
+blackall pts/1        Dec 16 10:22 (130.64.158.70)
+         pts/1        Dec 16 10:26
+birchall pts/1        Dec 16 10:58 (38.122.127.226)
+         pts/0        Dec 16 11:02
+         pts/1        Dec 16 11:59
+acland   pts/0        Dec 16 12:13 (209-6-193-67.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/0        Dec 16 12:13
+barr     pts/0        Dec 16 13:36 (10.245.152.91)
+bennis   pts/1        Dec 16 13:39 (10.245.151.233)
+         pts/1        Dec 16 13:40
+bickle   pts/1        Dec 16 13:40 (hrilab.linux.edu)
+bellah   pts/2        Dec 16 14:12 (209-6-42-88.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+         pts/2        Dec 16 14:34
+         pts/1        Dec 16 14:44
+birchall pts/1        Dec 16 15:07 (38.122.127.226)
+         pts/0        Dec 16 15:56
+barley   pts/0        Dec 16 16:03 (10.245.145.229)
+         pts/1        Dec 16 16:08
+admire   pts/1        Dec 16 17:14 (10.244.143.213)
+         pts/1        Dec 16 17:14
+barker   pts/1        Dec 16 17:41 (10.244.144.215)
+         pts/1        Dec 16 17:41
+bastian  pts/1        Dec 16 18:00 (10.245.151.195)
+bible    pts/2        Dec 16 18:02 (c-24-60-47-126.hsd1.ma.comcast.net)
+         pts/1        Dec 16 18:55
+         pts/2        Dec 16 19:02
+         pts/0        Dec 16 19:06
+bastin   pts/0        Dec 16 21:51 (10.245.154.81)
+         pts/0        Dec 16 21:55
+bernet   pts/0        Dec 16 22:18 (pool-72-74-254-11.bstnma.fios.verizon.net)
+         pts/0        Dec 16 23:42
+bagg     pts/0        Dec 17 00:31 (130.64.158.90)
+         pts/0        Dec 17 01:31
+bailey   pts/0        Dec 17 09:00 (38.122.127.226)
+         pts/0        Dec 17 10:01
+bernhard pts/0        Dec 17 11:20 (c-73-182-207-45.hsd1.ma.comcast.net)
+         pts/0        Dec 17 11:48
+bareis   pts/0        Dec 17 14:01 (pool-72-74-49-51.bstnma.fios.verizon.net)
+         pts/0        Dec 17 14:02
+bevans   pts/0        Dec 17 14:07 (10.245.150.118)
+         pts/0        Dec 17 14:08
+ahern    pts/0        Dec 17 16:24 (10.245.148.201)
+         pts/0        Dec 17 16:48
+baird    pts/0        Dec 17 21:31 (10.245.151.17)
+         pts/0        Dec 17 21:33
+betton   pts/0        Dec 17 21:49 (c-65-96-40-165.hsd1.ma.comcast.net)
+binyon   pts/1        Dec 17 22:28 (localhost:11.0)
+bevan    pts/2        Dec 17 22:50 (wr-130-64-96-74.finland.linux.edu)
+         pts/2        Dec 17 23:16
+bernet   pts/2        Dec 17 23:33 (pool-72-74-254-11.bstnma.fios.verizon.net)
+binyon   pts/1        Dec 17 23:34
+         pts/2        Dec 17 23:41
+betton   pts/1        Dec 18 00:38 (73.114.26.33)
+         pts/0        Dec 18 01:01
+         pts/1        Dec 18 01:20
+acree    pts/0        Dec 18 07:44 (the-himmer.car1.boston1.level3.net)
+         pts/0        Dec 18 08:45
+bailiff  pts/0        Dec 18 11:48 (38.122.127.226)
+         pts/0        Dec 18 11:49
+bixby    pts/0        Dec 18 12:18 (resnet159-165.finland.linux.edu)
+         pts/0        Dec 18 12:19
+bidwell  pts/0        Dec 18 12:28 (c-50-169-37-78.hsd1.ma.comcast.net)
+         pts/0        Dec 18 12:34
+black    pts/0        Dec 18 12:54 (38.97.94.18)
+         pts/0        Dec 18 12:57
+bergen   pts/0        Dec 18 13:12 (10.245.153.94)
+barrows  pts/1        Dec 18 13:24 (resnet148-165.finland.linux.edu)
+         pts/1        Dec 18 13:35
+         pts/0        Dec 18 14:12
+bancker  pts/1        Dec 18 15:04 (10.245.148.125)
+balchin  pts/2        Dec 18 15:06 (64.94.31.206)
+         pts/2        Dec 18 15:14
+birchall pts/2        Dec 18 15:27 (38.122.127.226)
+         pts/2        Dec 18 16:33
+barada   pts/0        Dec 18 17:00 (38.122.127.226)
+         pts/1        Dec 18 17:42
+belsham  pts/1        Dec 18 17:51 (10.245.151.20)
+         pts/0        Dec 18 18:01
+barthol  pts/0        Dec 18 18:10 (pool-173-48-178-111.bstnma.fios.verizon.net)
+         pts/0        Dec 18 18:11
+         pts/1        Dec 18 18:51
+bareis   pts/0        Dec 18 21:02 (wr-130-64-94-198.finland.linux.edu)
+         pts/0        Dec 18 21:03
+bellamy  pts/0        Dec 18 21:06 (wr-130-64-93-42.finland.linux.edu)
+         pts/0        Dec 18 21:07
+bevans   pts/0        Dec 18 21:11 (10.244.142.103)
+         pts/0        Dec 18 21:12
+ables    pts/0        Dec 18 21:25 (10.244.141.59)
+         pts/0        Dec 18 21:29
+akins    pts/0        Dec 18 22:10 (c-73-182-155-215.hsd1.ma.comcast.net)
+         pts/0        Dec 18 22:11
+back     pts/0        Dec 18 22:29 (c-73-228-202-36.hsd1.mn.comcast.net)
+blaney   pts/1        Dec 18 22:45 (10.245.150.130)
+         pts/0        Dec 18 23:42
+bailiff  pts/0        Dec 19 00:11 (10.245.154.191)
+bagot    pts/2        Dec 19 00:16 (10.245.149.228)
+         pts/1        Dec 19 00:57
+         pts/2        Dec 19 01:06
+         pts/0        Dec 19 02:12
+bixby    pts/0        Dec 19 08:38 (c-71-233-47-133.hsd1.ma.comcast.net)
+         pts/0        Dec 19 08:42
+bayne    pts/0        Dec 19 11:12 (10.245.146.146)
+bayne    pts/1        Dec 19 11:13 (:pts/0:S.0)
+bernhard pts/3        Dec 19 11:49 (c-73-182-207-45.hsd1.ma.comcast.net)
+         pts/3        Dec 19 11:53
+bayne    pts/1        Dec 19 11:53
+         pts/0        Dec 19 11:53
+belden   pts/0        Dec 19 12:29 (wr-130-64-176-16.finland.linux.edu)
+         pts/0        Dec 19 12:58
+beery    pts/0        Dec 19 12:58 (10.247.142.119)
+bailey   pts/1        Dec 19 13:45 (38.122.127.226)
+         pts/1        Dec 19 14:00
+         pts/0        Dec 19 14:04
+bias     pts/0        Dec 19 15:44 (10.244.141.65)
+         pts/0        Dec 19 15:47
+battle   pts/0        Dec 19 16:20 (73.114.32.93)
+bellis   pts/1        Dec 19 17:18 (c-107-2-51-146.hsd1.az.comcast.net)
+         pts/0        Dec 19 17:20
+bernet   pts/0        Dec 19 17:21 (d-p-13-152.csci.linux.edu)
+         pts/0        Dec 19 17:34
+bair     pts/0        Dec 19 17:51 (38.122.127.226)
+         pts/0        Dec 19 18:56
+bisler   pts/0        Dec 19 19:00 (c-24-61-45-190.hsd1.ma.comcast.net)
+         pts/0        Dec 19 19:00
+bickel   pts/0        Dec 19 19:09 (10.244.142.140)
+baldauf  pts/2        Dec 19 19:21 (10.244.143.17)
+         pts/2        Dec 19 19:23
+baldauf  pts/2        Dec 19 19:23 (10.244.143.17)
+         pts/2        Dec 19 19:23
+         pts/0        Dec 19 20:09
+bissell  pts/0        Dec 19 20:09 (modemcable053.188-178-173.mc.videotron.ca)
+         pts/0        Dec 19 20:10
+         pts/1        Dec 19 20:26
+acree    pts/0        Dec 19 20:34 (65.129.80.248)
+         pts/0        Dec 19 20:34
+bierce   pts/0        Dec 19 20:51 (c-24-91-162-169.hsd1.vt.comcast.net)
+         pts/0        Dec 19 22:00
+baumes   pts/0        Dec 19 22:55 (10.245.149.74)
+         pts/0        Dec 19 23:09
+bagur    pts/0        Dec 19 23:38 (c-73-29-124-33.hsd1.nj.comcast.net)
+         pts/0        Dec 20 00:38
+baumes   pts/0        Dec 20 10:35 (10.247.148.239)
+         pts/0        Dec 20 10:37
+aikin    pts/0        Dec 20 11:39 (10.244.143.242)
+bernhard pts/1        Dec 20 11:46 (c-73-182-207-45.hsd1.ma.comcast.net)
+backster pts/2        Dec 20 12:07 (c-67-190-85-64.hsd1.co.comcast.net)
+         pts/2        Dec 20 12:10
+         pts/1        Dec 20 12:47
+bixby    pts/1        Dec 20 14:12 (resnet159-14.finland.linux.edu)
+         pts/1        Dec 20 14:16
+bessey   pts/1        Dec 20 14:49 (mobile-107-107-56-22.mycingular.net)
+         pts/1        Dec 20 14:49
+blaicher pts/1        Dec 20 15:25 (c-71-232-12-219.hsd1.ma.comcast.net)
+bammel   pts/2        Dec 20 15:27 (10.245.148.181)
+bevans   pts/3        Dec 20 15:32 (10.245.151.192)
+         pts/3        Dec 20 15:32
+bevans   pts/3        Dec 20 15:33 (10.245.151.192)
+         pts/3        Dec 20 15:33
+         pts/2        Dec 20 16:18
+         pts/1        Dec 20 16:30
+bechlem  pts/1        Dec 20 16:35 (10.245.154.187)
+addis    pts/2        Dec 20 16:51 (10.245.155.50)
+bammel   pts/3        Dec 20 16:57 (10.245.148.181)
+         pts/3        Dec 20 17:03
+blakely  pts/3        Dec 20 17:08 (10.247.140.100)
+         pts/3        Dec 20 17:15
+         pts/1        Dec 20 17:37
+aiello   pts/1        Dec 20 17:52 (198-48-200-236.cpe.pppoe.ca)
+         pts/1        Dec 20 17:53
+belknap  pts/1        Dec 20 18:01 (10.245.144.60)
+         pts/1        Dec 20 18:03
+         pts/2        Dec 20 18:28
+beland   pts/1        Dec 20 19:07 (38.122.127.226)
+barrick  pts/2        Dec 20 19:08 (209.117.102.182)
+         pts/2        Dec 20 19:09
+         pts/1        Dec 20 20:08
+         pts/0        Dec 20 20:55
+baumann  pts/0        Dec 20 21:49 (101.229.124.233)
+ables    pts/1        Dec 20 22:11 (10.244.141.179)
+abney    pts/2        Dec 20 22:12 (pool-98-118-58-189.bstnma.fios.verizon.net)
+         pts/0        Dec 20 22:19
+biddy    pts/0        Dec 20 22:26 (wr-130-64-96-130.finland.linux.edu)
+         pts/0        Dec 20 22:26
+baumann  pts/0        Dec 20 22:41 (130.64.14.207)
+agoston  pts/3        Dec 20 22:56 (130.64.158.140)
+         pts/3        Dec 20 22:57
+         pts/2        Dec 20 23:34
+         pts/0        Dec 20 23:42
+         pts/1        Dec 21 00:59
+bevere   pts/0        Dec 21 02:15 (209-6-197-2.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+         pts/0        Dec 21 02:15
+bixby    pts/0        Dec 21 11:10 (resnet159-14.finland.linux.edu)
+         pts/0        Dec 21 11:15
+bandy    pts/0        Dec 21 11:51 (75.69.239.199)
+         pts/0        Dec 21 11:51
+bagg     pts/0        Dec 21 11:53 (wr-130-64-195-36.finland.linux.edu)
+         pts/0        Dec 21 11:54
+bagg     pts/0        Dec 21 12:09 (wr-130-64-195-36.finland.linux.edu)
+         pts/0        Dec 21 13:18
+beacham  pts/0        Dec 21 13:50 (pool-108-7-43-13.bstnma.fios.verizon.net)
+barter   pts/1        Dec 21 15:07 (c-73-189-34-144.hsd1.ca.comcast.net)
+         pts/1        Dec 21 17:18
+         pts/0        Dec 21 17:39
+beattie  pts/0        Dec 21 18:31 (10.245.146.168)
+         pts/0        Dec 21 19:12
+bertele  pts/0        Dec 21 19:36 (108-252-149-91.lightspeed.nworla.sbcglobal.net)
+baldwyn  pts/1        Dec 21 21:06 (c-50-133-199-197.hsd1.nh.comcast.net)
+         pts/0        Dec 21 21:07
+         pts/1        Dec 21 21:07
+bedell   pts/0        Dec 21 23:35 (10.245.154.53)
+bennison pts/1        Dec 21 23:58 (pool-108-51-79-24.washdc.fios.verizon.net)
+         pts/1        Dec 22 00:01
+         pts/0        Dec 22 00:50
+aisquith pts/1        Dec 22 00:54 (pool-173-76-244-66.bstnma.fios.verizon.net)
+         pts/1        Dec 22 01:02
+aisquith pts/1        Dec 22 02:15 (pool-173-76-244-66.bstnma.fios.verizon.net)
+         pts/1        Dec 22 02:33
+bala     pts/0        Dec 22 13:43 (10.247.140.38)
+         pts/0        Dec 22 13:46
+bechlem  pts/0        Dec 22 20:30 (10.245.154.187)
+         pts/0        Dec 22 21:37
+baggett  pts/0        Dec 22 23:50 (cpe-45-49-252-43.socal.res.rr.com)
+blalock  pts/1        Dec 22 23:59 (c-24-61-11-69.hsd1.ma.comcast.net)
+         pts/1        Dec 22 23:59
+         pts/0        Dec 23 01:06
+bacon    pts/0        Dec 23 01:37 (c-73-162-22-194.hsd1.ca.comcast.net)
+         pts/0        Dec 23 01:42
+aisquith pts/0        Dec 23 12:43 (pool-173-76-244-66.bstnma.fios.verizon.net)
+         pts/0        Dec 23 15:15
+benda    pts/0        Dec 23 17:13 (c-67-180-23-27.hsd1.ca.comcast.net)
+         pts/0        Dec 23 17:13
+ballew   pts/0        Dec 23 22:44 (pool-108-6-195-249.nycmny.fios.verizon.net)
+         pts/0        Dec 23 22:47
+bixler   pts/0        Dec 25 01:09 (122.177.134.253)
+         pts/0        Dec 25 01:49
+bawhey   pts/0        Dec 25 11:38 (pool-72-93-7-27.bstnma.east.verizon.net)
+         pts/0        Dec 25 11:53
+blaney   pts/0        Dec 25 14:57 (108-251-184-158.lightspeed.bcvloh.sbcglobal.net)
+         pts/0        Dec 25 14:57
+bajwa    pts/0        Dec 25 19:59 (73.93.143.0)
+         pts/0        Dec 25 20:01
+blaney   pts/0        Dec 26 01:47 (108-251-184-158.lightspeed.bcvloh.sbcglobal.net)
+blaney   pts/1        Dec 26 02:58 (108-251-184-158.lightspeed.bcvloh.sbcglobal.net)
+         pts/1        Dec 26 03:25
+         pts/0        Dec 26 03:53
+beaufort pts/0        Dec 26 11:11 (71.95.89.138)
+bendall  pts/2        Dec 26 11:28 (139.sub-174-204-3.myvzw.com)
+         pts/2        Dec 26 11:29
+         pts/0        Dec 26 12:12
+bacon    pts/0        Dec 26 12:22 (c-73-162-22-194.hsd1.ca.comcast.net)
+         pts/0        Dec 26 12:36
+balcom   pts/0        Dec 26 18:59 (32.209.178.200)
+baber    pts/2        Dec 26 19:58 (pool-108-7-78-73.bstnma.fios.verizon.net)
+         pts/2        Dec 26 20:11
+         pts/0        Dec 26 20:12
+bigham   pts/0        Dec 27 02:10 (pool-71-126-235-16.bstnma.east.verizon.net)
+         pts/0        Dec 27 03:33
+bellis   pts/0        Dec 27 11:41 (c-107-2-51-146.hsd1.az.comcast.net)
+         pts/0        Dec 27 11:42
+bellis   pts/0        Dec 27 11:44 (c-107-2-51-146.hsd1.az.comcast.net)
+bartfai  pts/2        Dec 27 11:45 (c-71-61-58-139.hsd1.pa.comcast.net)
+         pts/0        Dec 27 12:21
+         pts/2        Dec 27 17:02
+baird    pts/0        Dec 27 19:30 (pool-96-230-193-101.bstnma.fios.verizon.net)
+         pts/0        Dec 27 19:36
+acree    pts/0        Dec 27 23:55 (73.109.58.255)
+         pts/0        Dec 28 01:32
+behnke   pts/0        Dec 28 03:15 (cpe-172-248-11-13.socal.res.rr.com)
+         pts/0        Dec 28 03:16
+bellis   pts/0        Dec 28 12:04 (c-107-2-51-146.hsd1.az.comcast.net)
+         pts/0        Dec 28 12:23
+bellis   pts/0        Dec 28 16:05 (c-107-2-51-146.hsd1.az.comcast.net)
+         pts/0        Dec 28 16:13
+beaty    pts/0        Dec 29 01:53 (124.51.199.244)
+         pts/0        Dec 29 02:00
+bergie   pts/0        Dec 29 11:16 (10.245.154.201)
+         pts/0        Dec 29 12:45
+benbow   pts/0        Dec 29 12:48 (pool-71-174-48-239.bstnma.fios.verizon.net)
+         pts/0        Dec 29 13:04
+behr     pts/0        Dec 29 13:24 (adsl-177.91.140.91.tellas.gr)
+         pts/0        Dec 29 13:28
+ballard  pts/0        Dec 29 14:15 (196.207.28.174)
+         pts/0        Dec 29 14:16
+beauvais pts/0        Dec 29 16:29 (97-127-181-190.cdrr.qwest.net)
+         pts/0        Dec 29 18:17
+beaty    pts/0        Dec 29 18:31 (124.51.199.244)
+         pts/0        Dec 29 18:35
+bellis   pts/0        Dec 30 10:52 (c-107-2-51-146.hsd1.az.comcast.net)
+         pts/0        Dec 30 10:56
+bergman  pts/0        Dec 30 11:50 (c-73-114-51-56.hsd1.ma.comcast.net)
+         pts/0        Dec 30 11:54
+barkman  pts/0        Dec 30 23:59 (c-76-105-118-52.hsd1.ga.comcast.net)
+         pts/0        Dec 31 00:04
+bent     pts/0        Dec 31 13:25 (108-90-238-7.lightspeed.stlsmo.sbcglobal.net)
+         pts/0        Dec 31 13:27
+akright  pts/0        Dec 31 19:21 (pcd534105.netvigator.com)
+         pts/0        Dec 31 20:26
+birdsall pts/0        Jan  2 01:54 (cpe-104-173-230-187.socal.res.rr.com)
+         pts/0        Jan  2 03:33
+balsen   pts/0        Jan  2 10:40 (pool-71-184-221-117.bstnma.fios.verizon.net)
+berryman pts/2        Jan  2 12:14 (pool-96-245-118-201.phlapa.fios.verizon.net)
+         pts/0        Jan  2 12:34
+         pts/2        Jan  2 12:55
+beatty   pts/0        Jan  2 21:54 (ip68-13-56-222.om.om.cox.net)
+able     pts/2        Jan  2 22:21 (c-71-192-34-21.hsd1.ma.comcast.net)
+         pts/2        Jan  2 22:31
+         pts/0        Jan  2 22:55
+birdsall pts/0        Jan  3 03:50 (cpe-104-173-230-187.socal.res.rr.com)
+         pts/0        Jan  3 03:52
+behymer  pts/0        Jan  3 08:28 (pool-72-69-198-212.nycmny.fios.verizon.net)
+batman   pts/2        Jan  3 09:12 (c-71-235-191-205.hsd1.nh.comcast.net)
+         pts/2        Jan  3 09:31
+         pts/0        Jan  3 09:32
+biddix   pts/0        Jan  3 09:39 (wr-130-64-194-248.finland.linux.edu)
+         pts/0        Jan  3 09:40
+batman   pts/0        Jan  3 11:50 (c-71-235-191-205.hsd1.nh.comcast.net)
+bernet   pts/2        Jan  3 12:10 (d-p-13-152.csci.linux.edu)
+         pts/0        Jan  3 13:36
+         pts/2        Jan  3 14:42
+bignall  pts/0        Jan  3 20:33 (pool-71-191-132-212.washdc.fios.verizon.net)
+         pts/0        Jan  3 23:13
+blaney   pts/0        Jan  4 00:29 (108-251-184-158.lightspeed.bcvloh.sbcglobal.net)
+         pts/0        Jan  4 00:31

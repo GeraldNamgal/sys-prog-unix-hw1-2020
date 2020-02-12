@@ -39,7 +39,7 @@ wow.o: wow.c
 	$(CC) $(CFLAGS) -c wow.c
 
 clean:
-	rm -f who1 who2 who3 llcopy utmplib.o who3.o wow.o
+	rm -f who1 who2 who3 wow swow bwow llcopy utmplib.o who3.o wow.o
 #
 # tests if llcopy works like cp
 #
