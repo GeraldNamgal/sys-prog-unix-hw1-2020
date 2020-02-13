@@ -16,7 +16,7 @@
 #include        <utmp.h>
 #include	<unistd.h>
 
-#define NRECS   5
+#define NRECS   1
 #define UTSIZE  (sizeof(struct utmp))
 
 static	struct utmp utmpbuf[NRECS];			/* storage	*/
@@ -24,7 +24,7 @@ static  int     num_recs;                               /* num stored   */
 static  int     cur_rec;                                /* next to go   */
 static  int     fd_utmp = -1;                           /* read from    */
 
-//static  int  utmp_reload();
+static  int  utmp_reload();
 
 /*
  * utmp_open -- connect to specified file
@@ -36,23 +36,6 @@ int utmp_open( char *filename )
         fd_utmp = open( filename, O_RDONLY );           /* open it      */
         cur_rec = num_recs = 0;                         /* no recs yet  */
         return fd_utmp;                                 /* report       */
-}
-
-int utmp_reload()
-/*
- *      read next bunch of records into buffer
- *      rets: 0=>EOF, -1=>error, else number of records read
- */
-{
-        int     amt_read;
-                                                
-	amt_read = read(fd_utmp, utmpbuf, NRECS*UTSIZE);   /* read data	*/
-	if ( amt_read < 0 )			/* mark errors as EOF   */
-		return -1;
-                                                
-        num_recs = amt_read/UTSIZE;		/* how many did we get?	*/
-        cur_rec  = 0;				/* reset pointer	*/
-        return num_recs;			/* report results	*/
 }
 
 /*
@@ -75,6 +58,23 @@ struct utmp *utmp_next()
         return recp;
 }
 
+static int utmp_reload()
+/*
+ *      read next bunch of records into buffer
+ *      rets: 0=>EOF, -1=>error, else number of records read
+ */
+{
+        int     amt_read;
+                                                
+	amt_read = read(fd_utmp, utmpbuf, NRECS*UTSIZE);   /* read data	*/
+	if ( amt_read < 0 )			/* mark errors as EOF   */
+		return -1;
+                                                
+        num_recs = amt_read/UTSIZE;		/* how many did we get?	*/
+        cur_rec  = 0;				/* reset pointer	*/
+        return num_recs;			/* report results	*/
+}
+
 /*
  * utmp_close -- disconnenect
  *  args: none
@@ -88,14 +88,4 @@ int utmp_close()
 		fd_utmp = -1;			/* record as closed	*/
 	}
 	return rv;
-}
-
-int getNRECS()
-{
-        return NRECS;
-}
-
-int getNumRecs()
-{
-        return num_recs;
 }
