@@ -71,32 +71,62 @@ int main(int ac, char **av)
 		fprintf(stderr,"%s: cannot open %s\n", *av, wtmpFile);
 		exit(1);
 	}
+	// get number of records (referenced https://gist.github.com/jakekara/c4ae2fc2ba4ec210252a184eece4c2d2)
+	int fileSize = lseek(fdUtmp, 0, SEEK_END),	
+	numRecords = fileSize / sizeof(struct utmp);
 	// search for records matching date input
 	time_t rawInput = mktime(&dateInput);			/* convert date input */
 	int secsPerDay = 86400;
 	bool foundStart = false;				/* "found" flag for records matching date input */
 	// linear search		
-	if (strcmp(av[0], "./swow") == 0) {
+	if (numRecords > 0 && strcmp(av[0], "./swow") == 0) {
 		while ( foundStart == false && ( utbufp = utmp_next() ) != NULL ) {		
 			if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay) 
 				foundStart = true;		/* flag start of records matching input */								
 		}
 	}
 	// TODO: binary search (referenced https://www.programmingsimplified.com/c/source-code/c-program-binary-search)
-	if (strcmp(av[0], "./bwow") == 0) {
-		// get size of file (referenced https://gist.github.com/jakekara/c4ae2fc2ba4ec210252a184eece4c2d2)
-		int fileSize = lseek(fdUtmp, 0, SEEK_END),	
-		    numRecords = fileSize / sizeof(struct utmp),
+	if (numRecords > 0 && strcmp(av[0], "./bwow") == 0) {		
+		int bufferSize = getNRECS(),
 		    first = 0,
 		    last = numRecords - 1,
-		    middle = ((first + last) / 2) * sizeof(struct utmp) - (NRECS / 2) * sizeof(struct utmp);
-		    bool notFirst = false;			/* a record matching input isn't first in buffer */
+		    middle = ( (first + last) / 2 ) - (bufferSize / 2);
+		bool isFirst = false;				/* is a record that matches input first in buffer? */		
 
-		while(first <= last) {
-			lseek(fdUtmp, middle, SEEK_SET);	/* move offset to middle */
-
-		}			
-	}	
+		if (middle < 0)						/* enforce lower bound of record indexes */
+			middle = 0;
+		lseek(fdUtmp, middle * sizeof(struct utmp), SEEK_SET);	/* move offset to middle */
+		utbufp = utmp_next();					/* point to first record in buffer */
+		while ( first <= last ) {			
+			if (utbufp->ut_time > rawInput)			/* first record is greater than input? */
+				last = middle - 1;			
+			else if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay) {
+				isFirst = true;
+				foundStart = true; // TODO: remove this?				
+				break;
+			}
+			else {						/* check rest of buffer for a match */
+				for (int i = 1; i < getNumRecs(); i++) {
+					utbufp = utmp_next();
+					if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay) {
+						foundStart = true;
+						break;
+					}
+				}
+				if (foundStart == true)
+					break;
+			}
+			if (utbufp->ut_time < rawInput) 		/* last buffer record is less than input? */
+				first = middle + getNumRecs();
+			middle = ( (first + last) / 2 ) - (bufferSize / 2);	/* adjust middle */
+			if (middle < 0)					/* enforce lower bound of record indexes */
+				middle = 0;
+			lseek(fdUtmp, middle * sizeof(struct utmp), SEEK_SET);	/* move offset to middle */
+			utmp_reload();					/* reload buffer */
+			utbufp = utmp_next();				/* point to first record in new buffer */
+		}
+		// TODO: handle if isFirst = true			
+	}
 	// print any records that match date input
 	if (foundStart == true) {
 		while (utbufp != NULL) {
@@ -107,8 +137,7 @@ int main(int ac, char **av)
 				utbufp = utmp_next();
 			}
 		}
-	}	
-
+	}
 	utmp_close( );
 	return 0;
 }
