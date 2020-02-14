@@ -7,5 +7,8 @@
 int utmp_open(char *);
 struct utmp *utmp_next();
 int utmp_close();
+int getNRECS();
+int getNumRecs();
+struct utmp *getBuffElement(int);
 
 #endif

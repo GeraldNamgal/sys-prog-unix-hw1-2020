@@ -74,70 +74,45 @@ int main(int ac, char **av)
 	int fileSize = lseek(fdUtmp, 0, SEEK_END),	
 	numRecords = fileSize / sizeof(struct utmp);	
 	// search for records matching date input
-	time_t rawInput = mktime(&dateInput);			/* convert date input */
+	time_t searchInput = mktime(&dateInput);			/* convert date input */
 	int secsPerDay = 86400;
 	bool foundStart = false;				/* "found" flag for records matching date input */
 	// linear search		
 	if (numRecords > 0 && strcmp(av[0], "./swow") == 0) {
 		lseek(fdUtmp, 0, SEEK_SET);			/* move offset back to first record */
 		while ( foundStart == false && ( utbufp = utmp_next() ) != NULL ) {		
-			if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay) 
+			if (utbufp->ut_time >= searchInput && utbufp->ut_time < searchInput + secsPerDay) 
 				foundStart = true;		/* flag start of records matching input */								
 		}
 	}
 	// TODO: binary search (referenced https://www.programmingsimplified.com/c/source-code/c-program-binary-search)
 	if (numRecords > 0 && strcmp(av[0], "./bwow") == 0) {		
-		// TODO: get buffer size?		
-		int firstRec = 0,
+		int bufferSize = getNRECS(),		
+		    firstRec = 0,
 		    lastRec = numRecords - 1,
-		    middleBuff = ( (firstRec + lastRec) / 2 ); // TODO - (bufferSize / 2);
-		bool isFirst = false;				/* is a record that matches input first in buffer? */		
-
-		if (middleBuff < 0)					/* enforce lower bound of record indexes */
+		    middleBuff = ( (firstRec + lastRec) / 2 ) - (bufferSize / 2);
+		    if (middleBuff < 0)				/* enforce lower bound of record indexes */
 			middleBuff = 0;
+		bool isFirst = false;				/* is a record that matches input first in buffer? */
+
 		lseek(fdUtmp, middleBuff * sizeof(struct utmp), SEEK_SET);	/* move offset to middle buffer */
-		utbufp = utmp_next();					/* point to first record in buffer */
-		while ( firstRec <= lastRec ) {			
-			if (utbufp->ut_time > rawInput)			/* first record is greater than input? */
-				lastRec = middleBuff - 1;			
-			else if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay) {
+		utbufp = utmp_next();				/* point to first record in buffer */
+		/* TODO: debugging -- */
+		printf("bufferSize = %d\nfirstRec = %d\nlastRect = %d\nnumRecords = %d\nmiddleBuff = %d\n", bufferSize, firstRec, lastRec, numRecords, middleBuff);
+		show_info(utbufp);
+		utbufp = getBuffElement(getNumRecs() - 1);
+		show_info(utbufp);
+		/*while ( firstRec <= lastRec ) {
+			if (searchInput < utbufp->ut_time)	// search input less than first rec in buffer?
+				lastRec = middleBuff - 1;
+			// search input matches first rec in buffer?
+			else if (utbufp->ut_time >= searchInput && utbufp->ut_time < searchInput + secsPerDay) {
 				isFirst = true;
 				foundStart = true; // TODO: remove this?				
 				break;
-			}
-			else {						/* check rest of buffer for a match */
-				// TODO: loop goes here
-				{
-					utbufp = utmp_next();
-					if (utbufp->ut_time >= rawInput && utbufp->ut_time < rawInput + secsPerDay) {
-						foundStart = true;
-						break;
-					}
-				}
-				if (foundStart == true)
-					break;
-			}
-			if (utbufp->ut_time < rawInput) 		/* last buffer record is less than input? */
-				// TODO: firstRec = middleBuff + getNumRecs();
-			middleBuff = ( (firstRec + lastRec) / 2 ); // TODO - (bufferSize / 2);	/* adjust middle buffer */
-			if (middleBuff < 0)					/* enforce lower bound of record indexes */
-				middleBuff = 0;
-			lseek(fdUtmp, middleBuff * sizeof(struct utmp), SEEK_SET);	/* move offset to middle buffer */
-								/* TODO: reload buffer */
-			utbufp = utmp_next();				/* point to first record in new buffer? */							
-		}
-		// TODO: handle if isFirst = true			
-	}
-	// print any records that match date input
-	if (foundStart == true) {
-		while (utbufp != NULL) {
-			if (utbufp->ut_time >= rawInput + secsPerDay)
-				break;				/* stop reading if past matching records */
-			else {
-				show_info(utbufp);
-				utbufp = utmp_next();
-			}
-		}
+			}			
+		}*/
+
 	}
 	utmp_close( );
 	return 0;
@@ -154,8 +129,9 @@ show_info( struct utmp *utbufp )
 {
 	void	showtime( time_t , char *);
 
+	/* TODO: uncomment this after debugging --
 	if ( utbufp->ut_type != USER_PROCESS )
-		return;
+		return;*/
 	
 	printf("%-8s", utbufp->ut_name);		/* the logname	*/
 	printf(" ");					/* a space	*/
