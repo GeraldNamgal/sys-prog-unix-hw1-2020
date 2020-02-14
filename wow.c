@@ -187,7 +187,7 @@ void searchFile(int fdUtmp)
 		    middleBuff = ( (firstRec + lastRec) / 2 ) - (bufferSize / 2);
 		    if (middleBuff < 0)			/* enforce lower bound of record indexes */
 			middleBuff = 0;
-		bool isFirst = false;			/* is a record that matches the input first in buffer? */
+		bool isFirst = false;			/* is a record that matches the input first buffer element? */
 
 		lseek(fdUtmp, middleBuff * sizeof(struct utmp), SEEK_SET);	/* move offset to middle buffer */
 		utbufp = utmp_next();			/* point to first record in buffer */
