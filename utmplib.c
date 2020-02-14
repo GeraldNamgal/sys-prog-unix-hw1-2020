@@ -16,7 +16,7 @@
 #include        <utmp.h>
 #include	<unistd.h>
 
-#define NRECS   1
+#define NRECS   10
 #define UTSIZE  (sizeof(struct utmp))
 
 static	struct utmp utmpbuf[NRECS];			/* storage	*/
@@ -100,11 +100,11 @@ int getNumRecs()
         return num_recs;
 }
 
-struct utmp *getBuffElement(int index)
+struct utmp *getLastBuffElmnt()
 {
         struct utmp *recp;
 
-        recp = &(utmpbuf[index]);	/* get address of requested record   */
+        recp = &(utmpbuf[num_recs - 1]);	/* get address of requested record   */
         return recp;
 }
 

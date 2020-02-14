@@ -9,7 +9,7 @@ struct utmp *utmp_next();
 int utmp_close();
 int getNRECS();
 int getNumRecs();
-struct utmp *getBuffElement(int);
+struct utmp *getLastBuffElmnt();
 void callReload();
 
 #endif
