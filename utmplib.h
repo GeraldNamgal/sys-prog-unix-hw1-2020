@@ -10,5 +10,6 @@ int utmp_close();
 int getNRECS();
 int getNumRecs();
 struct utmp *getBuffElement(int);
+void callReload();
 
 #endif
