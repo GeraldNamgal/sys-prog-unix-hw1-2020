@@ -211,7 +211,8 @@ static bool binarySearch(int fdUtmp)
         }
 
         middle = (low + high) / 2;
-        utbufp = utmpSeek(middle, firstSecOfDate, lastSecOfDate);
+        if ( utmpSeek(middle, firstSecOfDate, lastSecOfDate) == -2 )
+            return true;
         utbufp = utmp_next();        // point to next record			
     }
     // TODO: backtrack to first record that matches date input...

@@ -91,7 +91,8 @@ int utmp_close()
 }
 
 /* getTotalNumRecs
- *
+ *   args: none
+ *   rets: the number of records in the file
  * referenced https://gist.github.com/jakekara/c4ae2fc2ba4ec210252a184eece4c2d2
  */
 int getTotalNumRecs()
@@ -102,9 +103,11 @@ int getTotalNumRecs()
 }
 
 /* utmpSeek
- *    
+ *   args: index of record position 
+ *   rets: index of record position; -2 if a noninitial record in buffer
+ *         matched input; -1 on error
  */ 
-struct utmp *utmpSeek(int position, int firstSecOfDate, int lastSecOfDate)
+int *utmpSeek(int position, int firstSecOfDate, int lastSecOfDate)
 {
     if (num_recs > 0) {      // are there records in the buffer?
         struct utmp minElement = utmpbuf[0];
@@ -112,6 +115,10 @@ struct utmp *utmpSeek(int position, int firstSecOfDate, int lastSecOfDate)
         if (lastSecOfDate >= minElement.ut_time &&
              firstSecOfDate <= maxElement.ut_time) {
             // TODO: dateInput is in array, return that position
+            for (int i = 1; i < num_recs; i ++) {
+                // TODO: next() over the rest of the recs to find match
+            }
+            return -2;
         }
 
         
