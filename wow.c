@@ -39,8 +39,16 @@ static time_t lastSecOfDate;	  /* 11:59 PM on input date in epoch seconds */
 
 static int handleArgs(int, char **);
 static void searchFile(int);
+static bool linearSearch(int);
 static bool binarySearch(int);	 
 
+// TODO: Javadoc comments including args, etc.
+ 
+/* main(int ac, char **av)
+ * purpose:
+ * args:
+ * rets:
+ */
 int main(int ac, char **av)
 {
     if ( handleArgs(ac, av) == -1 )		/* handle command line arguments */
@@ -59,8 +67,7 @@ int main(int ac, char **av)
  *	show info()
  *			displays the contents of the utmp struct
  *			in human readable form
- *			* displays nothing if record has no user name
- *	TODO: Javadoc comments including args, etc.
+ *			* displays nothing if record has no user name	
  */
 void
 show_info( struct utmp *utbufp )
@@ -98,13 +105,12 @@ showtime( time_t timeval , char *fmt )
         fputs(result, stdout);
 }
 
-/* handleArgs()
- *  
- *	Puts user input into dateInput struct as midnight on the input date, and
- *  determines which search method and wtmp file to use.
- * 	args: the number of command line arguments and the arguments themselves
- * 	rets: an integer for completion status
- *  (code referenced: https://www.epochconverter.com/programming/c)
+/* handleArgs(int ac, char **av)  
+ * purpose: Puts user input into dateInput struct as midnight on the input date
+ * and determines which search method and wtmp file to use.
+ * args: the number of command line arguments and the arguments themselves
+ * rets: an integer for completion status
+ * note: (code referenced: https://www.epochconverter.com/programming/c)
  */ 
 static int handleArgs(int ac, char **av)
 {
@@ -134,9 +140,12 @@ static int handleArgs(int ac, char **av)
             return 0;
         }
     }						
-    return -1;				/* return -1 if invalid arguments error */
+    return -1;				        /* invalid arguments error */
 }
 
+/*  searchFile(int fdUtmp)
+ *
+ */ 
 static void searchFile(int fdUtmp)
 {
     struct utmp	*utbufp,		    /* holds pointer to next rec */
@@ -144,42 +153,49 @@ static void searchFile(int fdUtmp)
     void		show_info( struct utmp * );
     
     int totalNumRecords = getTotalNumRecs();    // function from utmplib.c   		
-    firstSecOfDate = mktime(&dateInput);		// 12:00 AM (in epoch seconds)
-    lastSecOfDate = firstSecOfDate + secondsInADay - 1;	// 11:59 PM 
-    bool foundStartOfList = false;			    // start of matching records
-    
-    /* 
-        * linear search (if command line argument was for swow)
-        *	
-        * 	Searches through record times one by one to find any that match the input date. A record's time
-        * 	matches the input date if it falls between 12:00 AM to 11:59 PM on the input date (those times
-        * 	correspond to the variables "firstSecOfDate" and "lastSecOfDate", respectively, which are
-        * 	in epoch seconds).
-        */		
+    firstSecOfDate = mktime(&dateInput);		// 12:00AM (in epoch seconds)
+    lastSecOfDate = firstSecOfDate + secondsInADay - 1;	// 11:59PM (epoch secs)
+    bool foundStartOfList = false;			    // start of matching records        
+   	// call linear search fxn if command line argument was for swow	
     if (totalNumRecords > 0 && strcmp(wowVersion, "swow") == 0) {
-        lseek(fdUtmp, 0, SEEK_SET);			// move offset to beginning 
-        while ( foundStartOfList == false && ( utbufp = utmp_next() ) != NULL ) {					
-            if (utbufp->ut_time >= firstSecOfDate && utbufp->ut_time <= lastSecOfDate) 
-                foundStartOfList = true;	// found start of records that match date input 								
-        }
-    }	
-    
+        foundStartOfList = linearSearch(fdUtmp);
+    }	    
     // call binarySearch fxn if command line argument was for bwow
     if (totalNumRecords > 0 && strcmp(wowVersion, "bwow") == 0) {
         foundStartOfList = binarySearch(fdUtmp);
     }
-
     // if searching found records that match date input, then print them
-    if (foundStartOfList == true) {			// print records that match date input
+    if (foundStartOfList == true) {		 // print records that match date input
         while (utbufp != NULL) {
             if (utbufp->ut_time > lastSecOfDate)
-                break;			// stop reading records if past matching records
+                break;		   // stop reading records if past matching records
             else {
                 show_info(utbufp);
                 utbufp = utmp_next();
             }
         }
     }
+}
+
+/*  linear search(int fdUtmp)
+ *	
+ *  Searches through record times one by one to find any that match the input date. A record's time
+ *  matches the input date if it falls between 12:00 AM to 11:59 PM on the input date (those times
+ *  correspond to the variables "firstSecOfDate" and "lastSecOfDate", respectively, which are
+ *  in epoch seconds).
+ */
+static bool linearSearch(int fdUtmp)
+{
+    struct utmp	*utbufp,		    /* holds pointer to next rec */
+                *utmp_next();		/* returns pointer to next	*/  
+    
+    utmpSeek(0, firstSecOfDate, lastSecOfDate);     // move offset to 0
+    while ( ( utbufp = utmp_next() ) != NULL ) {					
+        if (utbufp->ut_time >= firstSecOfDate && utbufp->ut_time <= lastSecOfDate) 
+            return true;        	// found matching block of records								
+    }
+
+    return false;
 }
 
 /*
@@ -196,24 +212,26 @@ static bool binarySearch(int fdUtmp)
     struct utmp	*utbufp,		    /* holds pointer to next rec */
                 *utmp_next();		/* returns pointer to next	*/    
     int  low = 0,  high = getTotalNumRecs() - 1,  middle = (low + high) / 2;		
-    bool foundMatch = false;		// a record matches input date
-    bool foundStartOfList = false;	// flag for start of block matching input    
-    utmpSeek(middle, firstSecOfDate, lastSecOfDate); // find next record    
-    utbufp = utmp_next();			// point to next record    
+    bool foundMatch = false;		// a record matches input date   
+    utmpSeek(middle * sizeof(struct utmp), firstSecOfDate, lastSecOfDate);    
+    utbufp = utmp_next();			// point to middle record    
     while (low <= high && utbufp != NULL) {		
-        if (lastSecOfDate < utbufp->ut_time) {  // input date < record time?
+        if (lastSecOfDate < utbufp->ut_time) {     // input date < record time?
             high = middle - 1;
         }
-        else if (firstSecOfDate > utbufp->ut_time) {    // is input greater?			
+        else if (firstSecOfDate > utbufp->ut_time) {       // is input greater?			
             low = middle + 1;		
         }
         else {					             // else input date equals record's
             foundMatch = true;
             break;													
         }
-
+        /* Set up for next loop iteration. Return true if utmpSeek didn't
+         * return error or index requested (i.e. it found block of records)
+         */
         middle = (low + high) / 2;
-        if ( utmpSeek(middle, firstSecOfDate, lastSecOfDate) == -2 )
+        int returnValue = utmpSeek(middle* sizeof(struct utmp), firstSecOfDate, lastSecOfDate);
+        if ( returnValue != -1 && returnValue != ( middle * sizeof( struct utmp ) ) )
             return true;
         utbufp = utmp_next();        // point to next record			
     }
@@ -231,7 +249,6 @@ static bool binarySearch(int fdUtmp)
             // TODO: ...
             // TODO: startPoint = startPoint - backtrackAmt
     }
-    if (foundStartOfList == true)					 
-        return true;			   // return true if found block matching input
+    
     return false;	
 }

@@ -7,7 +7,7 @@
 int utmp_open(char *);
 struct utmp *utmp_next();
 int utmp_close();
-struct utmp *utmpSeek(int, int, int);
+int utmpSeek(int, int, int);
 struct utmp *getLastInBuff();
 int getTotalNumRecs(); 
 

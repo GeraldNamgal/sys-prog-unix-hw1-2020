@@ -104,26 +104,28 @@ int getTotalNumRecs()
 
 /* utmpSeek
  *   args: index of record position 
- *   rets: index of record position; -2 if a noninitial record in buffer
- *         matched input; -1 on error
+ *   rets: index of record position; -1 on error
  */ 
-int *utmpSeek(int position, int firstSecOfDate, int lastSecOfDate)
+int utmpSeek(int position, int firstSecOfDate, int lastSecOfDate)
 {
-    if (num_recs > 0) {      // are there records in the buffer?
+    int returnValue = -1;                       // default return value (error)    
+    if (num_recs > 0) {                     // are there records in the buffer?
         struct utmp minElement = utmpbuf[0];
         struct utmp maxElement = utmpbuf[num_recs - 1];
-        if (lastSecOfDate >= minElement.ut_time &&
-             firstSecOfDate <= maxElement.ut_time) {
-            // TODO: dateInput is in array, return that position
-            for (int i = 1; i < num_recs; i ++) {
-                // TODO: next() over the rest of the recs to find match
+        if ( lastSecOfDate >= minElement.ut_time    // is date input in buffer?
+             && firstSecOfDate <= maxElement.ut_time ) {            
+            for (int i = 1; i < num_recs; i ++) {          // check for matches
+                // TODO
+                if (utmpbuf[i].ut_time && utmpbuf[i].ut_time) {
+                    
+                }
             }
-            return -2;
-        }
-
-        
-    }
-    lseek(fd_utmp, position * sizeof(struct utmp), SEEK_SET);   
-    utmp_reload();					                         
+            // TODO: returnValue = lseek(..position in buffer..);
+        }        
+    }    
+    else
+        returnValue = lseek(fd_utmp, position, SEEK_SET);    
+    utmp_reload();
+    return returnValue;					                         
 }
 
