@@ -8,6 +8,6 @@ int utmp_open(char *);
 struct utmp *utmp_next();
 int utmp_close();
 int getTotalNumRecs(); 
-int utmpSeek(int, int, int);
+int utmpSeek(off_t, int, int);
 
 #endif

@@ -223,17 +223,14 @@ static bool binarySearch()
          * return error or index requested (i.e. it found block of records)
          */
         middle = (low + high) / 2;
-        int returnValue = utmpSeek(middle* sizeof(struct utmp), firstSecOfDate, lastSecOfDate);
-        if ( returnValue != -1 && returnValue != (int) ( middle * sizeof( struct utmp ) ) )
+        off_t returnValue = utmpSeek(middle* sizeof(struct utmp), firstSecOfDate, lastSecOfDate);
+        if ( returnValue != (off_t) -1 && returnValue != (off_t) ( middle * sizeof( struct utmp ) ) )
             return true;
         utbufp = utmp_next();        // point to next record			
     }
     // TODO: backtrack to first record that matches date input...
-    if (foundMatch == true) {	
-        /* used ceiling the quotient formula (dividend + divisor - 1) / divisor
-          (referenced https://stackoverflow.com/questions/2745074/fast-ceiling-
-           of-an-integer-division-in-c-c) */	
-        int backtrackAmt = (getTotalNumRecs() + 30 - 1) / 30;	 // TODO: 30 because it's avg days in a month
+    if (foundMatch == true) {		
+        int backtrackAmt = getTotalNumRecs() / 30;	 // TODO: 30 because it's avg days in a month
         int startPoint = middle - backtrackAmt;		
         // TODO: some loop for code below...
             //lseek(fdUtmp, startPoint, SEEK_CUR);

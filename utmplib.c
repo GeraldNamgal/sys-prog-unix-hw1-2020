@@ -106,7 +106,7 @@ int getTotalNumRecs()
  *   args: index of record position 
  *   rets: index of record position; -1 on error
  */ 
-int utmpSeek(int position, int firstSecOfDate, int lastSecOfDate)
+int utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
 {
     int returnValue = -1;                       // default return value (error)    
     if (num_recs > 0) {                     // are there records in the buffer?
