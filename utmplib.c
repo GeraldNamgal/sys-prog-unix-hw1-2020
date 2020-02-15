@@ -14,12 +14,12 @@
 #include        <fcntl.h>
 #include        <sys/types.h>
 #include        <utmp.h>
-#include	<unistd.h>
+#include	    <unistd.h>
 
 #define NRECS   10
 #define UTSIZE  (sizeof(struct utmp))
 
-static	struct utmp utmpbuf[NRECS];			/* storage	*/
+static	struct utmp utmpbuf[NRECS];			            /* storage	*/
 static  int     num_recs;                               /* num stored   */
 static  int     cur_rec;                                /* next to go   */
 static  int     fd_utmp = -1;                           /* read from    */
@@ -53,7 +53,7 @@ struct utmp *utmp_next()
         if ( cur_rec==num_recs && utmp_reload() <= 0 )  /* any more ?   */
                 return NULL;
 
-	recp = &(utmpbuf[cur_rec]);	/* get address of next record   */
+	    recp = &(utmpbuf[cur_rec]);	/* get address of next record   */
         cur_rec++;
         return recp;
 }
@@ -66,8 +66,8 @@ static int utmp_reload()
 {
         int     amt_read;
                                                 
-	amt_read = read(fd_utmp, utmpbuf, NRECS*UTSIZE);   /* read data	*/
-	if ( amt_read < 0 )			/* mark errors as EOF   */
+        amt_read = read(fd_utmp, utmpbuf, NRECS*UTSIZE);   /* read data	*/
+        if ( amt_read < 0 )			/* mark errors as EOF   */
 		return -1;
                                                 
         num_recs = amt_read/UTSIZE;		/* how many did we get?	*/
@@ -84,31 +84,39 @@ int utmp_close()
 {
 	int rv = 0;
         if ( fd_utmp != -1 ){                   /* don't close if not   */
-                rv = close( fd_utmp );          /* open                 */
-		fd_utmp = -1;			/* record as closed	*/
+            rv = close( fd_utmp );              /* open                 */
+		fd_utmp = -1;			                /* record as closed	*/
 	}
 	return rv;
 }
 
-int getNRECS()
+/* getTotalNumRecs
+ *
+ * referenced https://gist.github.com/jakekara/c4ae2fc2ba4ec210252a184eece4c2d2
+ */
+int getTotalNumRecs()
 {
-        return NRECS;
+    int fileSize = lseek(fd_utmp, 0, SEEK_END);	               // get file size
+    int totalNumRecords = fileSize / sizeof(struct utmp);	
+    return totalNumRecords;
 }
 
-int getNumRecs()
+/* utmpSeek
+ *    
+ */ 
+struct utmp *utmpSeek(int position, int firstSecOfDate, int lastSecOfDate)
 {
-        return num_recs;
+    if (num_recs > 0) {      // are there records in the buffer?
+        struct utmp minElement = utmpbuf[0];
+        struct utmp maxElement = utmpbuf[num_recs - 1];
+        if (lastSecOfDate >= minElement.ut_time &&
+             firstSecOfDate <= maxElement.ut_time) {
+            // TODO: dateInput is in array, return that position
+        }
+
+        
+    }
+    lseek(fd_utmp, position * sizeof(struct utmp), SEEK_SET);   
+    utmp_reload();					                         
 }
 
-struct utmp *getLastBuffElmnt()
-{
-        struct utmp *recp;
-
-        recp = &(utmpbuf[num_recs - 1]);	/* get address of requested record   */
-        return recp;
-}
-
-void callReload()
-{
-        utmp_reload();
-}

@@ -7,9 +7,8 @@
 int utmp_open(char *);
 struct utmp *utmp_next();
 int utmp_close();
-int getNRECS();
-int getNumRecs();
-struct utmp *getLastBuffElmnt();
-void callReload();
+struct utmp *utmpSeek(int, int, int);
+struct utmp *getLastInBuff();
+int getTotalNumRecs(); 
 
 #endif
