@@ -37,6 +37,8 @@ static char *wowVersion;		  /* version of wow ran (swow or bwow) */
 static time_t firstSecOfDate;  /* 12:00 AM on input date in epoch seconds */
 static time_t lastSecOfDate;	  /* 11:59 PM on input date in epoch seconds */
 
+static struct utmp *utbufp;		    /* holds pointer to next rec */
+       //struct utmp *utmp_next();		/* returns pointer to next	*/
 static int handleArgs(int, char **);
 static void searchFile(int);
 static bool linearSearch(int);
@@ -147,15 +149,13 @@ static int handleArgs(int ac, char **av)
  *
  */ 
 static void searchFile(int fdUtmp)
-{
-    struct utmp	*utbufp,		    /* holds pointer to next rec */
-                *utmp_next();		/* returns pointer to next	*/
-    void		show_info( struct utmp * );
-    
+{   
     int totalNumRecords = getTotalNumRecs();    // function from utmplib.c   		
     firstSecOfDate = mktime(&dateInput);		// 12:00AM (in epoch seconds)
     lastSecOfDate = firstSecOfDate + secondsInADay - 1;	// 11:59PM (epoch secs)
-    bool foundStartOfList = false;			    // start of matching records        
+    bool foundStartOfList = false;			    // start of matching records
+    void	show_info( struct utmp * );
+
    	// call linear search fxn if command line argument was for swow	
     if (totalNumRecords > 0 && strcmp(wowVersion, "swow") == 0) {
         foundStartOfList = linearSearch(fdUtmp);
@@ -185,10 +185,7 @@ static void searchFile(int fdUtmp)
  *  in epoch seconds).
  */
 static bool linearSearch(int fdUtmp)
-{
-    struct utmp	*utbufp,		    /* holds pointer to next rec */
-                *utmp_next();		/* returns pointer to next	*/  
-    
+{    
     utmpSeek(0, firstSecOfDate, lastSecOfDate);     // move offset to 0
     while ( ( utbufp = utmp_next() ) != NULL ) {					
         if (utbufp->ut_time >= firstSecOfDate && utbufp->ut_time <= lastSecOfDate) 
@@ -208,9 +205,7 @@ static bool linearSearch(int fdUtmp)
  *   rets: true if found start of block of matching records and false otherwise  
  */
 static bool binarySearch(int fdUtmp)
-{
-    struct utmp	*utbufp,		    /* holds pointer to next rec */
-                *utmp_next();		/* returns pointer to next	*/    
+{  
     int  low = 0,  high = getTotalNumRecs() - 1,  middle = (low + high) / 2;		
     bool foundMatch = false;		// a record matches input date   
     utmpSeek(middle * sizeof(struct utmp), firstSecOfDate, lastSecOfDate);    
@@ -231,7 +226,7 @@ static bool binarySearch(int fdUtmp)
          */
         middle = (low + high) / 2;
         int returnValue = utmpSeek(middle* sizeof(struct utmp), firstSecOfDate, lastSecOfDate);
-        if ( returnValue != -1 && returnValue != ( middle * sizeof( struct utmp ) ) )
+        if ( returnValue != -1 && returnValue != (int) ( middle * sizeof( struct utmp ) ) )
             return true;
         utbufp = utmp_next();        // point to next record			
     }
