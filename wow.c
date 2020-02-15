@@ -188,6 +188,8 @@ static void searchFile(int fdUtmp)
  * 	Uses binary search to search through record times to find any that match the input. A record's time
  * 	matches the input date if it falls between 12:00 AM to 11:59 PM on the input date (those times correspond
  * 	to the variables "firstSecOfDate" and "lastSecOfDate", respectively, which are in epoch seconds).
+ *   args: 
+ *   rets: true if found start of block of matching records and false otherwise  
  */
 static bool binarySearch(int fdUtmp)
 {
