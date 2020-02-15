@@ -37,12 +37,11 @@ static char *wowVersion;		  /* version of wow ran (swow or bwow) */
 static time_t firstSecOfDate;  /* 12:00 AM on input date in epoch seconds */
 static time_t lastSecOfDate;	  /* 11:59 PM on input date in epoch seconds */
 
-static struct utmp *utbufp;		    /* holds pointer to next rec */
-       //struct utmp *utmp_next();		/* returns pointer to next	*/
+static struct utmp *utbufp;		    /* holds pointer to next rec */       
 static int handleArgs(int, char **);
-static void searchFile(int);
-static bool linearSearch(int);
-static bool binarySearch(int);	 
+static void searchFile();
+static bool linearSearch();
+static bool binarySearch();	 
 
 // TODO: Javadoc comments including args, etc.
  
@@ -53,14 +52,13 @@ static bool binarySearch(int);
  */
 int main(int ac, char **av)
 {
-    if ( handleArgs(ac, av) == -1 )		/* handle command line arguments */
-        exit(1);			            /* exit on error */    
-    int fdUtmp = utmp_open( wtmpFile );	/* open file */
-    if ( fdUtmp == -1 ){
+    if ( handleArgs(ac, av) == -1 )		    /* handle command line arguments */
+        exit(1);			                /* exit on error */    	
+    if ( utmp_open( wtmpFile ) == -1 ){     /* open file */
         fprintf(stderr,"%s: cannot open %s\n", *av, wtmpFile);
         exit(1);
     }	
-    searchFile(fdUtmp);			    /* search file's records for date input */	
+    searchFile();			         /* search file's records for date input */	
     utmp_close();
     return 0;
 }
@@ -145,10 +143,10 @@ static int handleArgs(int ac, char **av)
     return -1;				        /* invalid arguments error */
 }
 
-/*  searchFile(int fdUtmp)
+/*  searchFile()
  *
  */ 
-static void searchFile(int fdUtmp)
+static void searchFile()
 {   
     int totalNumRecords = getTotalNumRecs();    // function from utmplib.c   		
     firstSecOfDate = mktime(&dateInput);		// 12:00AM (in epoch seconds)
@@ -158,11 +156,11 @@ static void searchFile(int fdUtmp)
 
    	// call linear search fxn if command line argument was for swow	
     if (totalNumRecords > 0 && strcmp(wowVersion, "swow") == 0) {
-        foundStartOfList = linearSearch(fdUtmp);
+        foundStartOfList = linearSearch();
     }	    
     // call binarySearch fxn if command line argument was for bwow
     if (totalNumRecords > 0 && strcmp(wowVersion, "bwow") == 0) {
-        foundStartOfList = binarySearch(fdUtmp);
+        foundStartOfList = binarySearch();
     }
     // if searching found records that match date input, then print them
     if (foundStartOfList == true) {		 // print records that match date input
@@ -177,14 +175,14 @@ static void searchFile(int fdUtmp)
     }
 }
 
-/*  linear search(int fdUtmp)
+/*  linear search(int)
  *	
  *  Searches through record times one by one to find any that match the input date. A record's time
  *  matches the input date if it falls between 12:00 AM to 11:59 PM on the input date (those times
  *  correspond to the variables "firstSecOfDate" and "lastSecOfDate", respectively, which are
  *  in epoch seconds).
  */
-static bool linearSearch(int fdUtmp)
+static bool linearSearch()
 {    
     utmpSeek(0, firstSecOfDate, lastSecOfDate);     // move offset to 0
     while ( ( utbufp = utmp_next() ) != NULL ) {					
@@ -204,7 +202,7 @@ static bool linearSearch(int fdUtmp)
  *   args: 
  *   rets: true if found start of block of matching records and false otherwise  
  */
-static bool binarySearch(int fdUtmp)
+static bool binarySearch()
 {  
     int  low = 0,  high = getTotalNumRecs() - 1,  middle = (low + high) / 2;		
     bool foundMatch = false;		// a record matches input date   
@@ -238,7 +236,7 @@ static bool binarySearch(int fdUtmp)
         int backtrackAmt = (getTotalNumRecs() + 30 - 1) / 30;	 // TODO: 30 because it's avg days in a month
         int startPoint = middle - backtrackAmt;		
         // TODO: some loop for code below...
-            lseek(fdUtmp, startPoint, SEEK_CUR);
+            //lseek(fdUtmp, startPoint, SEEK_CUR);
             // TODO: callReload();		   // reload buffer; callReload() is from utmplib.c
             // TODO: utbufp = utmp_next();  // point to next record
             // TODO: ...
