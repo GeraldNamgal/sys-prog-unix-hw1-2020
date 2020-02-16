@@ -88,7 +88,7 @@ show_info( struct utmp *utbufp )
         printf("\n");					/* newline	*/	
 }
 
-#define	MAXDATELEN	1
+#define	MAXDATELEN	100
 
 void
 showtime( time_t timeval , char *fmt )
