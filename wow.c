@@ -210,23 +210,20 @@ static bool binarySearch()
     utmpSeek(middle * sizeof(struct utmp), firstSecOfDate, lastSecOfDate);    
     utbufp = utmp_next();			                  // point to middle record    
     while (low <= high && utbufp != NULL) {
-        printf("firstSecOfDate = %ld\n", firstSecOfDate);
-        printf("lastSecOfDate = %ld\n", lastSecOfDate);
+        
         if (lastSecOfDate < utbufp->ut_time) {  // is input date < record's time?
-            printf("Here2\n");
-            printf("utbufp time = %d\n", utbufp->ut_time);
+            
             high = middle - 1;
             
             
         }        
         else if (firstSecOfDate > utbufp->ut_time) {    // is input date greater?			
-            printf("Here3\n");
-            printf("utbufp time = %d\n\n", utbufp->ut_time);
+            
             low = middle + 1;
             
         }        
         else { 					             // else input date equals record's
-            printf("Here4\n");
+            
             foundMatch = true;            
             break;
         }       
@@ -238,13 +235,13 @@ static bool binarySearch()
         if ( returnValue != -1
               && returnValue != (off_t) ( middle * sizeof( struct utmp ) ) ) {
             utbufp = utmp_next();
-            printf("Here5\n");
+            
             return true;
         }
         utbufp = utmp_next();                          // point to next record			
     }
     if (foundMatch == true) {
-        printf("Here.\n");
+        
         return backtrack(middle, firstSecOfDate, &utbufp);
     }
     return false;    	

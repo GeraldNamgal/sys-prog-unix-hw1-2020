@@ -111,12 +111,12 @@ off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
 {
     off_t returnValue = -1;                      // default return value (error)    
     if (num_recs > 0) {                      // are there records in the buffer?
-        printf("HERE\n");
+        
         struct utmp minElement = utmpbuf[0];
         struct utmp maxElement = utmpbuf[num_recs - 1];
         if ( lastSecOfDate >= minElement.ut_time     // is date input in buffer?
               && firstSecOfDate <= maxElement.ut_time ) {
-            printf("HERE2\n\n");            
+                        
             for (int i = 1; i < num_recs; i++) {             // find first match                
                 if (utmpbuf[i].ut_time >= firstSecOfDate          // is a match?
                      && utmpbuf[i].ut_time <= lastSecOfDate) {                
@@ -127,7 +127,7 @@ off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
         }        
     }    
     
-    printf("HERE3\n\n");
+    
     returnValue = lseek(fd_utmp, position, SEEK_SET);    
     utmp_reload();
     
@@ -146,18 +146,14 @@ bool backtrack(int fromIndex, int firstSecOfDate, struct utmp **utbufp) {
     utmpSeek(startPoint * sizeof(struct utmp), newFirstSec, newLastSec);
     *utbufp = utmp_next();                    // point to first record in buffer
     while(1) {           
-        printf("startPoint = %d\n", startPoint);
-        printf("(*utbufp)->ut_time = %d\n", (*utbufp)->ut_time);
-        printf("newLastSec = %ld\n", newLastSec);          
+                  
         if ( (*utbufp)->ut_time <= newLastSec ) {          // did we transition?
-            printf("LALA\n");
-            printf("(*utbufp)->ut_time = %d\n", (*utbufp)->ut_time);
+            
             foundTransition = true;
             break;
         }
         if (startPoint - 1 < 0) { // no transition (it's the first date in file) 
-            printf("(*utbufp)->ut_time = %d\n", (*utbufp)->ut_time);
-            printf("newLastSec = %ld\n", newLastSec);
+            
             foundTransition = true;
             cur_rec--;                   // move cur_rec back to start of buffer
             break;
