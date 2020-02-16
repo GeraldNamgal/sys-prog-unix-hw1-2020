@@ -42,7 +42,6 @@ static int handleArgs(int, char **);
 static void searchFile();
 static bool linearSearch();
 static bool binarySearch();
-static bool backtrack(int);	 
 
 // TODO: Javadoc comments including args, etc.
  
@@ -210,13 +209,25 @@ static bool binarySearch()
     bool foundMatch = false;		            // if record matches input date   
     utmpSeek(middle * sizeof(struct utmp), firstSecOfDate, lastSecOfDate);    
     utbufp = utmp_next();			                  // point to middle record    
-    while (low <= high && utbufp != NULL) {		
-        if (lastSecOfDate < utbufp->ut_time)  // is input date < record's time?
-            high = middle - 1;        
-        else if (firstSecOfDate > utbufp->ut_time)    // is input date greater?			
-            low = middle + 1;        
+    while (low <= high && utbufp != NULL) {
+        printf("firstSecOfDate = %ld\n", firstSecOfDate);
+        printf("lastSecOfDate = %ld\n", lastSecOfDate);
+        if (lastSecOfDate < utbufp->ut_time) {  // is input date < record's time?
+            printf("Here2\n");
+            printf("utbufp time = %d\n", utbufp->ut_time);
+            high = middle - 1;
+            
+            
+        }        
+        else if (firstSecOfDate > utbufp->ut_time) {    // is input date greater?			
+            printf("Here3\n");
+            printf("utbufp time = %d\n\n", utbufp->ut_time);
+            low = middle + 1;
+            
+        }        
         else { 					             // else input date equals record's
-            foundMatch = true;
+            printf("Here4\n");
+            foundMatch = true;            
             break;
         }       
         /* Set up for next loop iteration. Return true if utmpSeek didn't
@@ -227,39 +238,14 @@ static bool binarySearch()
         if ( returnValue != -1
               && returnValue != (off_t) ( middle * sizeof( struct utmp ) ) ) {
             utbufp = utmp_next();
+            printf("Here5\n");
             return true;
         }
         utbufp = utmp_next();                          // point to next record			
     }
-    if (foundMatch == true)
-        return backtrack(middle);
+    if (foundMatch == true) {
+        printf("Here.\n");
+        return backtrack(middle, firstSecOfDate, &utbufp);
+    }
     return false;    	
-}
-
-/* backtrack()
- * purpose: Utility function that helps binarySearch() find start of block of
- *          records that match date input by reading values backward in file.
- */ 
-static bool backtrack(int fromIndex)
-{
-    // TODO: backtrack to first record that matches date input...    
-    int startPoint; // TODO: = ...;
-    time_t newFirstSec = 0;
-    time_t newLastSec = firstSecOfDate - 1;
-    utmpSeek(startPoint * sizeof(struct utmp), newFirstSec, newLastSec);
-    utbufp = utmp_next();                                // point to next record    
-    while (1) {
-        
-        if (startPoint - 1 < 0)
-            break;
-        else
-            startPoint = ( (startPoint - 1) / getBufferSize() ) * getBufferSize();
-        
-    }         
-        // backtrack by (cur / buffSize) x buffSize then subtract 1 then do over. If subtraction is negative then break
-        // forward search        
-        // TODO: startPoint = startPoint - backtrackAmt
-        // TODO: If found do linear search
-    
-    return false;
 }

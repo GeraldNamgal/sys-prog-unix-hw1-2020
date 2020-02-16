@@ -9,6 +9,6 @@ struct utmp *utmp_next();
 int utmp_close();
 int getTotalNumRecs(); 
 off_t utmpSeek(off_t, int, int);
-int getBufferSize();
+bool backtrack(int, int, struct utmp **);
 
 #endif
