@@ -1,6 +1,6 @@
 /* utmplib.c  - functions to buffer reads from utmp file 
  *
- *      functions are
+ *              functions are
  *              int utmp_open( filename )   - open file
  *                      returns -1 on error
  *              struct utmp *utmp_next( )   - return pointer to next struct
@@ -17,7 +17,7 @@
 #include	    <unistd.h>
 #include 	    <stdbool.h>
 
-#define NRECS   10
+#define NRECS   1
 #define UTSIZE  (sizeof(struct utmp))
 
 static	struct utmp utmpbuf[NRECS];			            /* storage	*/
