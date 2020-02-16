@@ -106,26 +106,33 @@ int getTotalNumRecs()
  *   args: index of record position 
  *   rets: index of record position; -1 on error
  */ 
-int utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
+off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
 {
-    int returnValue = -1;                       // default return value (error)    
-    if (num_recs > 0) {                     // are there records in the buffer?
+    off_t returnValue = -1;                      // default return value (error)    
+    if (num_recs > 0) {                      // are there records in the buffer?
         struct utmp minElement = utmpbuf[0];
         struct utmp maxElement = utmpbuf[num_recs - 1];
-        if ( lastSecOfDate >= minElement.ut_time    // is date input in buffer?
-             && firstSecOfDate <= maxElement.ut_time ) {            
-            for (int i = 1; i < num_recs; i ++) {          // check for matches
-                // TODO
-                if (utmpbuf[i].ut_time && utmpbuf[i].ut_time) {
-                    
+        if ( lastSecOfDate >= minElement.ut_time     // is date input in buffer?
+              && firstSecOfDate <= maxElement.ut_time ) {            
+            for (int i = 1; i < num_recs; i++) {             // find first match                
+                if (utmpbuf[i].ut_time >= firstSecOfDate          // is a match?
+                     && utmpbuf[i].ut_time <= lastSecOfDate) {                
+                    cur_rec = i;                    // move cur_rec to the match
+                    returnValue = lseek(fd_utmp, 0, SEEK_CUR);    // same offset
+                    break;
                 }
-            }
-            // TODO: returnValue = lseek(..position in buffer..);
+            }            
         }        
     }    
-    else
+    else {
         returnValue = lseek(fd_utmp, position, SEEK_SET);    
-    utmp_reload();
+        utmp_reload();
+    }
     return returnValue;					                         
+}
+
+int getBufferSize()
+{
+    return NRECS;
 }
 
