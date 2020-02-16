@@ -155,7 +155,7 @@ bool backtrack(int fromIndex, int firstSecOfDate, struct utmp **utbufp) {
             foundTransition = true;
             break;
         }
-        if (startPoint - 1 < 0) {                 // it's the first date in file 
+        if (startPoint - 1 < 0) { // no transition (it's the first date in file) 
             printf("(*utbufp)->ut_time = %d\n", (*utbufp)->ut_time);
             printf("newLastSec = %ld\n", newLastSec);
             foundTransition = true;
