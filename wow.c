@@ -16,9 +16,9 @@
 
 /*
  *	who version 3.0		- read /var/run/utmp and list info therein
- *				- surpresses empty records
- *				- formats time nicely
- *				- buffers input (using utmplib)
+ *         				- surpresses empty records
+ *         				- formats time nicely
+ *         				- buffers input (using utmplib)
  */
 
 #define TEXTDATE
@@ -31,34 +31,36 @@
 #endif
 #define secondsInADay 86400
 
-static char *wtmpFile = WTMP_FILE;    /* wtmp file (default is WTMP_FILE) */
-static struct tm dateInput;       /* for date input from command line 	*/
-static char *wowVersion;		  /* version of wow ran (swow or bwow) */
-static time_t firstSecOfDate;  /* 12:00 AM on input date in epoch seconds */
+static char *wtmpFile = WTMP_FILE;       /* wtmp file (default is WTMP_FILE) */
+static struct tm dateInput;             /* for date input from command line  */
+static char *wowVersion;		        /* version of wow ran (swow or bwow) */
+static time_t firstSecOfDate;     /* 12:00 AM on input date in epoch seconds */
 static time_t lastSecOfDate;	  /* 11:59 PM on input date in epoch seconds */
+static struct utmp *utbufp;		                /* holds pointer to next rec */
 
-static struct utmp *utbufp;		    /* holds pointer to next rec */       
 static int handleArgs(int, char **);
-static void searchFile();
+static bool searchFile();
 static bool linearSearch();
 static bool binarySearch();
+static void printMatches();
 
 // TODO: Javadoc comments including args, etc.
  
 /* main(int ac, char **av)
- * purpose:
- * args:
- * rets:
+ * purpose: 
+ * args: 
+ * rets: 
  */
 int main(int ac, char **av)
 {
     if ( handleArgs(ac, av) == -1 )		    /* handle command line arguments */
-        exit(1);			                /* exit on error */    	
-    if ( utmp_open( wtmpFile ) == -1 ){     /* open file */
+        exit(1);			                                /* exit on error */    	
+    if ( utmp_open( wtmpFile ) == -1 ){                         /* open file */
         fprintf(stderr,"%s: cannot open %s\n", *av, wtmpFile);
         exit(1);
     }	
-    searchFile();			         /* search file's records for date input */	
+    if ( searchFile() )              /* search file's records for date input */	
+        printMatches();	         /* print records if searching found matches */   			         
     utmp_close();
     return 0;
 }
@@ -146,34 +148,40 @@ static int handleArgs(int ac, char **av)
 /*  searchFile()
  *
  */ 
-static void searchFile()
+static bool searchFile()
 {   
-    int totalNumRecords = getTotalNumRecs();    // function from utmplib.c   		
-    firstSecOfDate = mktime(&dateInput);		// 12:00AM (in epoch seconds)
+    int totalNumRecords = getTotalNumRecs();         // function from utmplib.c   		
+    firstSecOfDate = mktime(&dateInput);		  // 12:00AM (in epoch seconds)
     lastSecOfDate = firstSecOfDate + secondsInADay - 1;	// 11:59PM (epoch secs)
-    bool foundStartOfList = false;			    // start of matching records
+    bool foundStartOfList = false;			       // start of matching records
     void	show_info( struct utmp * );
 
-   	// call linear search fxn if command line argument was for swow	
+   	/* call linear search fxn if command line argument was for swow	*/
     if (totalNumRecords > 0 && strcmp(wowVersion, "swow") == 0) {
         foundStartOfList = linearSearch();
     }	    
-    // call binarySearch fxn if command line argument was for bwow
+    /* call binarySearch fxn if command line argument was for bwow */
     if (totalNumRecords > 0 && strcmp(wowVersion, "bwow") == 0) {
         foundStartOfList = binarySearch();
     }
-    // if searching found records that match date input, then print them
-    if (foundStartOfList == true) {		 // print records that match date input
-        while (utbufp != NULL) {
+    
+    return foundStartOfList;
+}
+
+/* printMatches()
+ *
+ */
+static void printMatches()
+{
+    while (utbufp != NULL) {
             if (utbufp->ut_time > lastSecOfDate)
                 break;		   // stop reading records if past matching records
             else {
                 show_info(utbufp);
                 utbufp = utmp_next();
             }
-        }
     }
-}
+} 
 
 /*  linear search(int)
  *	
@@ -184,13 +192,14 @@ static void searchFile()
  */
 static bool linearSearch()
 {    
-    utmpSeek(0, firstSecOfDate, lastSecOfDate);     // move offset to 0
-    while ( ( utbufp = utmp_next() ) != NULL ) {					
+    utmpSeek(0, firstSecOfDate, lastSecOfDate);              // move offset to 0    
+    
+    while ( ( utbufp = utmp_next() ) != NULL ) {  // search for matching records					
         if (utbufp->ut_time >= firstSecOfDate && utbufp->ut_time <= lastSecOfDate) 
-            return true;        	// found matching block of records								
+            return true;        	          // found matching block of records								
     }
 
-    return false;
+    return false;                       // didn't find matching block of records
 }
 
 /* TODO: binary search (referenced https://www.programmingsimplified.com/c/source-code/c-program-binary-search)
@@ -234,8 +243,7 @@ static bool binarySearch()
         off_t returnValue = utmpSeek(middle * sizeof(struct utmp), firstSecOfDate, lastSecOfDate);
         if ( returnValue != -1
               && returnValue != (off_t) ( middle * sizeof( struct utmp ) ) ) {
-            utbufp = utmp_next();
-            
+            utbufp = utmp_next();            
             return true;
         }
         utbufp = utmp_next();                          // point to next record			
