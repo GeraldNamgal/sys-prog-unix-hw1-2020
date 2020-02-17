@@ -1,11 +1,17 @@
+// Gerald Arocena
+// CSCIE-28, Spring 2020
+
 /* utmplib.c  - functions to buffer reads from utmp file 
  *
- *              functions are
- *              int utmp_open( filename )   - open file
- *                      returns -1 on error
- *              struct utmp *utmp_next( )   - return pointer to next struct
- *                      returns NULL on eof or read error
- *              int utmp_close()            - close file
+ *          functions are
+ *          int utmp_open( filename )   - open file
+ *                  returns -1 on error
+ *          struct utmp *utmp_next( )   - return pointer to next struct
+ *                  returns NULL on eof or read error
+ *          int utmp_close()            - close file
+ *          int getTotalNumRecs()       - get total number of records
+ *          off_t utmpSeek(off_t, int, int)    - return new file offset
+ *          bool backtrack(int, int, struct utmp **); - finds start of records 
  *
  *      reads NRECS per read and then doles them out from the buffer
  *      hist: 2012-02-14 slightly modified error handling (thanks mk)
@@ -91,10 +97,12 @@ int utmp_close()
 	return rv;
 }
 
-/* getTotalNumRecs
- *   args: none
- *   rets: the number of records in the file
- * referenced https://gist.github.com/jakekara/c4ae2fc2ba4ec210252a184eece4c2d2
+/* getTotalNumRecs()
+ * purpose: calculate the total number of records in the wtmp file
+ * args: none
+ * rets: the total number of records in the file
+ * note: referenced
+ *       https://gist.github.com/jakekara/c4ae2fc2ba4ec210252a184eece4c2d2
  */
 int getTotalNumRecs()
 {
@@ -103,13 +111,17 @@ int getTotalNumRecs()
     return totalNumRecords;
 }
 
-/* utmpSeek
- *   args: index of record position 
- *   rets: index of record position; -1 on error
+/* utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
+ * purpose: move a file offset to the given position but first check if date
+ *          input is in buffer first and if so return that position instead.
+ *          Uses stuct utmp utmpbuf array
+ * args: index of record position 
+ * rets: index of record position (-1 on error)
  */ 
 off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
 {
     off_t returnValue = -1;                      // default return value (error)    
+    
     if (num_recs > 0) {                      // are there records in the buffer?
         
         struct utmp minElement = utmpbuf[0];
@@ -127,7 +139,6 @@ off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
         }        
     }    
     
-    
     returnValue = lseek(fd_utmp, position, SEEK_SET);    
     utmp_reload();
     
@@ -136,7 +147,12 @@ off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
 
 /* backtrack()
  * purpose: Utility function that helps binarySearch() find start of block of
- *          records that match date input by reading values backward in file.
+ *          records that match date input by reading values in the backward
+ *          direction. Uses struct utmp
+ * args: the point at which to start reading backward from (fromIndex), the
+ *       first second of the input date (firstSecOfDate), and the struct utmp
+ *       pointer (pass by reference) at the current record
+ * rets: if found start of block (true or false)
  */ 
 bool backtrack(int fromIndex, int firstSecOfDate, struct utmp **utbufp) {     
     int bufferSize = NRECS, startPoint = (fromIndex / bufferSize) * bufferSize;

@@ -1,5 +1,11 @@
-/* TODO: javadoc
- *
+// Gerald Arocena
+// CSCIE-28, Spring 2020
+
+/* wow.c
+ * Reads in a wtmp file to find a given date input in its records (that are
+ * sorted by date). There are two options available to perform the search:
+ * linear search and binary search. Uses struct tm, and struct utmp that are
+ * declared as static state variables
  */
 
 #include	<stdio.h>
@@ -43,13 +49,11 @@ static bool searchFile();
 static bool linearSearch();
 static bool binarySearch();
 static void printMatches();
-
-// TODO: Javadoc comments including args, etc.
  
 /* main(int ac, char **av)
- * purpose: 
- * args: 
- * rets: 
+ * purpose: finds command line input in a wtmp file and prints them to stdout
+ * args: the number of command line arguments and the arguments themselves
+ * rets: completion status number
  */
 int main(int ac, char **av)
 {
@@ -75,10 +79,9 @@ void
 show_info( struct utmp *utbufp )
 {
         void	showtime( time_t , char *);
-
-        /* TODO: uncomment this after debugging --
+        
         if ( utbufp->ut_type != USER_PROCESS )
-                return;*/
+            return;
         
         printf("%-8s", utbufp->ut_name);		/* the logname	*/
         printf(" ");					/* a space	*/
@@ -109,9 +112,10 @@ showtime( time_t timeval , char *fmt )
 
 /* handleArgs(int ac, char **av)  
  * purpose: Puts user input into dateInput struct as midnight on the input date
- * and determines which search method and wtmp file to use.
+ * and determines which search method and wtmp file to use. Uses struct tm date
+ * input
  * args: the number of command line arguments and the arguments themselves
- * rets: an integer for completion status
+ * rets: an integer for completion status (-1 on errror)
  * note: (code referenced: https://www.epochconverter.com/programming/c)
  */ 
 static int handleArgs(int ac, char **av)
@@ -142,11 +146,14 @@ static int handleArgs(int ac, char **av)
             return 0;
         }
     }						
-    return -1;				        /* invalid arguments error */
+    return -1;				                      /* invalid arguments error */
 }
 
-/*  searchFile()
- *
+/* searchFile()
+ * purpose: finds the start of record block matching date input using the
+ *          specified method (linear search or binary search)
+ * args: none
+ * rets: whether or not the record block was found (true or false)
  */ 
 static bool searchFile()
 {   
@@ -154,7 +161,6 @@ static bool searchFile()
     firstSecOfDate = mktime(&dateInput);		  // 12:00AM (in epoch seconds)
     lastSecOfDate = firstSecOfDate + secondsInADay - 1;	// 11:59PM (epoch secs)
     bool foundStartOfList = false;			       // start of matching records
-    void	show_info( struct utmp * );
 
    	/* call linear search fxn if command line argument was for swow	*/
     if (totalNumRecords > 0 && strcmp(wowVersion, "swow") == 0) {
@@ -169,7 +175,10 @@ static bool searchFile()
 }
 
 /* printMatches()
- *
+ * purpose: Prints to stdout the matching block of records. Uses struct utmp
+ *          *utbufp
+ * args: none
+ * rets: none
  */
 static void printMatches()
 {
@@ -183,33 +192,36 @@ static void printMatches()
     }
 } 
 
-/*  linear search(int)
- *	
- *  Searches through record times one by one to find any that match the input date. A record's time
- *  matches the input date if it falls between 12:00 AM to 11:59 PM on the input date (those times
- *  correspond to the variables "firstSecOfDate" and "lastSecOfDate", respectively, which are
- *  in epoch seconds).
+/*  linear search()
+ *	purpose: Searches through record times one by one to find any that match the
+ *  input date. A record's time matches the input date if it falls between
+ *  12:00 AM to 11:59 PM inclusive on the input date (in epoch seconds). Uses
+ *  struct utmp *utbufp
+ *  args: none
+ *  rets: if found start of matching records block (true or false)
  */
 static bool linearSearch()
 {    
     utmpSeek(0, firstSecOfDate, lastSecOfDate);              // move offset to 0    
     
     while ( ( utbufp = utmp_next() ) != NULL ) {  // search for matching records					
-        if (utbufp->ut_time >= firstSecOfDate && utbufp->ut_time <= lastSecOfDate) 
+        if (utbufp->ut_time >= firstSecOfDate
+             && utbufp->ut_time <= lastSecOfDate) 
             return true;        	          // found matching block of records								
     }
 
     return false;                       // didn't find matching block of records
 }
 
-/* TODO: binary search (referenced
- * https://www.programmingsimplified.com/c/source-code/c-program-binary-search)
- * 
- * 	Uses binary search to search through record times to find any that match the input. A record's time
- * 	matches the input date if it falls between 12:00 AM to 11:59 PM on the input date (those times correspond
- * 	to the variables "firstSecOfDate" and "lastSecOfDate", respectively, which are in epoch seconds).
- *   args: 
- *   rets: true if found start of block of matching records and false otherwise  
+/*  binary search()
+ * 	purpose: Uses binary search to search through record times to find any that
+ *  match the input. A record's time matches the input date if it falls between
+ *  12:00 AM to 11:59 PM inclusive on the input date (in epoch seconds). Uses
+ *  struct utmp *utbufp
+ *  args: none
+ *  rets: true if found start of block of matching records and false otherwise
+ *  note: referenced
+ *   https://www.programmingsimplified.com/c/source-code/c-program-binary-search
  */
 static bool binarySearch()
 {  
@@ -235,7 +247,7 @@ static bool binarySearch()
             utbufp = utmp_next();            
             return true;
         }
-        utbufp = utmp_next();                          // point to next record			
+        utbufp = utmp_next();                            // point to next record			
     }
     if (foundMatch == true)        
         return backtrack(middle, firstSecOfDate, &utbufp);    

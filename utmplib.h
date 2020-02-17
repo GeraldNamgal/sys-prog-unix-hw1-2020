@@ -1,3 +1,6 @@
+// Gerald Arocena
+// CSCIE-28, Spring 2020
+
 #ifndef UTMPLIB_H
 #define UTMPLIB_H
 /* utmplib.h  - header file with decls of functions in utmplib.c */
