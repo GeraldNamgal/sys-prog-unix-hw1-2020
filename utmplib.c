@@ -17,7 +17,7 @@
 #include	    <unistd.h>
 #include 	    <stdbool.h>
 
-#define NRECS   50
+#define NRECS   10
 #define UTSIZE  (sizeof(struct utmp))
 
 static	struct utmp utmpbuf[NRECS];			            /* storage	*/
@@ -121,7 +121,7 @@ off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
                 if (utmpbuf[i].ut_time >= firstSecOfDate          // is a match?
                      && utmpbuf[i].ut_time <= lastSecOfDate) {                
                     cur_rec = i;                    // move cur_rec to the match
-                    return lseek(fd_utmp, 0, SEEK_CUR);    // same offset                    
+                    return lseek(fd_utmp, 0, SEEK_CUR);           // same offset                    
                 }
             }            
         }        
@@ -139,21 +139,17 @@ off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
  *          records that match date input by reading values backward in file.
  */ 
 bool backtrack(int fromIndex, int firstSecOfDate, struct utmp **utbufp) {     
-    int      bufferSize = NRECS;
-    int      startPoint = (fromIndex / bufferSize) * bufferSize;
-    time_t   newFirstSec = 0,   newLastSec = firstSecOfDate - 1;
-    bool     foundTransition = false;         // transitioned to a previous date
+    int bufferSize = NRECS, startPoint = (fromIndex / bufferSize) * bufferSize;
+    time_t newFirstSec = 0,   newLastSec = firstSecOfDate - 1;
+    bool foundTransition = false;             // transitioned to a previous date
     utmpSeek(startPoint * sizeof(struct utmp), newFirstSec, newLastSec);
     *utbufp = utmp_next();                    // point to first record in buffer
-    while(1) {           
-                  
-        if ( (*utbufp)->ut_time <= newLastSec ) {          // did we transition?
-            
+    while(1) {                
+        if ( (*utbufp)->ut_time <= newLastSec ) {          // did we transition?            
             foundTransition = true;
             break;
         }
-        if (startPoint - 1 < 0) { // no transition (it's the first date in file) 
-            
+        if (startPoint - 1 < 0) { // no transition (it's the first date in file)            
             foundTransition = true;
             cur_rec--;                   // move cur_rec back to start of buffer
             break;
@@ -163,13 +159,11 @@ bool backtrack(int fromIndex, int firstSecOfDate, struct utmp **utbufp) {
             utmpSeek(startPoint * sizeof(struct utmp), newFirstSec, newLastSec);
             *utbufp = utmp_next();            // point to first record in buffer
         }
-    }
-    /* if found transition, search forward for original date */
-    if (foundTransition == true) {  
+    }    
+    if (foundTransition == true) {  // if true, search forward for original date 
         while ( ( *utbufp = utmp_next() ) != NULL ) {       
-            if ( (*utbufp)->ut_time >= firstSecOfDate ) {
-                return true;
-            }                          
+            if ( (*utbufp)->ut_time >= firstSecOfDate ) 
+                return true;                                      
         }
     }   
     return foundTransition;

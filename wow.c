@@ -202,7 +202,8 @@ static bool linearSearch()
     return false;                       // didn't find matching block of records
 }
 
-/* TODO: binary search (referenced https://www.programmingsimplified.com/c/source-code/c-program-binary-search)
+/* TODO: binary search (referenced
+ * https://www.programmingsimplified.com/c/source-code/c-program-binary-search)
  * 
  * 	Uses binary search to search through record times to find any that match the input. A record's time
  * 	matches the input date if it falls between 12:00 AM to 11:59 PM on the input date (those times correspond
@@ -212,35 +213,23 @@ static bool linearSearch()
  */
 static bool binarySearch()
 {  
-    int  low = 0,
-         high = getTotalNumRecs() - 1,
-         middle = (low + high) / 2;		
-    bool foundMatch = false;		            // if record matches input date   
+    int  low = 0,  high = getTotalNumRecs() - 1,  middle = (low + high) / 2;		
+    bool foundMatch = false;		             // if record matches input date   
     utmpSeek(middle * sizeof(struct utmp), firstSecOfDate, lastSecOfDate);    
-    utbufp = utmp_next();			                  // point to middle record    
-    while (low <= high && utbufp != NULL) {
-        
-        if (lastSecOfDate < utbufp->ut_time) {  // is input date < record's time?
-            
-            high = middle - 1;
-            
-            
-        }        
-        else if (firstSecOfDate > utbufp->ut_time) {    // is input date greater?			
-            
-            low = middle + 1;
-            
-        }        
-        else { 					             // else input date equals record's
-            
+    utbufp = utmp_next();			                   // point to middle record    
+    while (low <= high && utbufp != NULL) {        
+        if (lastSecOfDate < utbufp->ut_time)   // is input date < record's time?            
+            high = middle - 1;      
+        else if (firstSecOfDate > utbufp->ut_time)     // is input date greater?     
+            low = middle + 1;              
+        else { 					              // else input date equals record's            
             foundMatch = true;            
             break;
-        }       
-        /* Set up for next loop iteration. Return true if utmpSeek didn't
-         * return error or index requested (i.e. it found block of records)
-         */
+        }                 
         middle = (low + high) / 2;
-        off_t returnValue = utmpSeek(middle * sizeof(struct utmp), firstSecOfDate, lastSecOfDate);
+        off_t returnValue = utmpSeek(middle * sizeof(struct utmp),
+                                      firstSecOfDate, lastSecOfDate);
+        /* if didn't return error or index requested, it found start of block */
         if ( returnValue != -1
               && returnValue != (off_t) ( middle * sizeof( struct utmp ) ) ) {
             utbufp = utmp_next();            
@@ -248,9 +237,7 @@ static bool binarySearch()
         }
         utbufp = utmp_next();                          // point to next record			
     }
-    if (foundMatch == true) {
-        
-        return backtrack(middle, firstSecOfDate, &utbufp);
-    }
+    if (foundMatch == true)        
+        return backtrack(middle, firstSecOfDate, &utbufp);    
     return false;    	
 }
