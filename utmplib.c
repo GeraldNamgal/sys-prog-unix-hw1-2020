@@ -134,7 +134,7 @@ off_t utmpSeek(off_t position, int firstSecOfDate, int lastSecOfDate)
                 if (utmpbuf[i].ut_time >= firstSecOfDate          // is a match?
                      && utmpbuf[i].ut_time <= lastSecOfDate) {                
                     cur_rec = i;                    // move cur_rec to the match
-                    return lseek(fd_utmp, 0, SEEK_CUR);           // same offset                    
+                    return lseek(fd_utmp, 0, SEEK_CUR); // return current offset                    
                 }
             }            
         }        

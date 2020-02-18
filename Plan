@@ -33,7 +33,45 @@ which acts as the buffer for holding file records read in with the "read" system
 call that is used by wow.c. A struct utmp pointer is also used in utmplib.c in
 order to handle the records.
 
-Additional notes:
+Program Flow:
+
+1. handle command line arguments to get the input date and search method
+2. find the start of the block of matching records
+3. print only the block of matching records 
+
+Algorithm:
+
+The binary search used in my program is a popular search algorithm. It has
+O(log n) run-time complexity and is fast for sorted input. It works by halving
+the search range at each iteration of its search algorithm. Also,the "backtrack"
+function in utmplib.c also moves backward in the file by starting the buffer at
+file locations that are multiples of the buffer size so as not to go beyond the
+0th element as it moves backwards and to simplify buffering position issues like
+skipping over elements unintentionally or re-reading elements unnecessarily.
+
+Layering:
+
+main, in wow.c, calls:
+    handleArgs(int, char **) -- authenticates and handles the command line
+                                arguments 
+    searchFile()             -- calls either linear search or binary search
+    linearSearch()           -- searches through the file's records sequentially
+    binarySearch()           -- searches through the file's records with binary
+                                search
+    printMatches()           -- prints the block of matching records
+
+utmplib.c contains:
+    getTotalNumRecs()           -- returns the total number of records in file
+    utmpSeek(off_t, int, int)   -- moves to the next record to be accessed
+    backtrack(int, int, struct utmp **) -- moves backward in file to find the
+                                           start of the matching records block
+
+File Structure:
+
+    wow.c       -- the five main functions listed above
+    utmplib.c   -- the buffering functions
+
+Additional Notes:
 
 I made my buffer size as close to 4096 bytes as possible by making the buffer
 size, "NRECS", equal 10 (from 4096 / sizeof(struct utmp)). From my research,   
