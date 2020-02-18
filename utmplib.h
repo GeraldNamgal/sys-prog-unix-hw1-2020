@@ -1,5 +1,6 @@
 // Gerald Arocena
-// CSCIE-28, Spring 2020
+// CSCI E-28, Spring 2020
+// 2-17-2020
 
 #ifndef UTMPLIB_H
 #define UTMPLIB_H

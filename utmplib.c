@@ -1,5 +1,6 @@
 // Gerald Arocena
-// CSCIE-28, Spring 2020
+// CSCI E-28, Spring 2020
+// 2-17-2020
 
 /* utmplib.c  - functions to buffer reads from utmp file 
  *

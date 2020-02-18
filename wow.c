@@ -1,5 +1,6 @@
 // Gerald Arocena
-// CSCIE-28, Spring 2020
+// CSCI E-28, Spring 2020
+// 2-17-2020
 
 /* wow.c
  * Reads in a wtmp file to find a given date input in its records (that are
@@ -57,8 +58,10 @@ static void printMatches();
  */
 int main(int ac, char **av)
 {
-    if ( handleArgs(ac, av) == -1 )		    /* handle command line arguments */
-        exit(1);			                                /* exit on error */    	
+    if ( handleArgs(ac, av) == -1 ) {	    /* handle command line arguments */
+        printf("Invalid entry\n");
+        exit(1);
+    }			                                /* exit on error */    	
     if ( utmp_open( wtmpFile ) == -1 ){                         /* open file */
         fprintf(stderr,"%s: cannot open %s\n", *av, wtmpFile);
         exit(1);

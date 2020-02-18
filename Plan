@@ -1,3 +1,6 @@
+Gerald Arocena
+CSCI E-20, Spring 2020
+2-17-2020
 Plan for hw1
 
 For this file, give an overview of the basic logic and structure
@@ -6,6 +9,34 @@ what would you need to tell that person about the:
 
     Overview of program logic: main flow of control and data
     Data structures: what info do you store?  How and why?
-    Code structure: files, layers, main logical units
+    Code structure: files, layers, main logical units --
+
+Purpose:
+
+The purpose of wow.c is to find a given date input in a wtmp file (which are
+sorted by date). There are two methods by which wow.c can use to perform the
+search: linear search and binary search. The method by which to use is
+designated by argv[0] on the command line. The records in the wtmp file that
+match the input date should be printed to stdout. The reading in and processing
+of records should use the same buffering code regardless of whether linear or
+binary search is used. All buffering logic that wow.c uses is abstracted away in
+a separate file called utmplib.c.
+
+Data Structures:
+
+I used a struct tm for the date input and times because it can be used for time
+conversions. That is stored as a static state variable since it is used by many
+functions in wow.c. I also used a struct utmp pointer in wow.c in order to
+access records which is also declared as a static state variable so that it can
+be used by many functions. In addition, there's a struct utmp array in utmplib.c
+which acts as the buffer for holding file records read in with the "read" system
+call that is used by wow.c. A struct utmp pointer is also used in utmplib.c in
+order to handle the records.
+
+Additional notes:
+
+I made my buffer size as close to 4096 bytes as possible by making the buffer
+size, "NRECS", equal 10 (from 4096 / sizeof(struct utmp)). From my research,   
+4096 bytes seemed to be a commonly used sized for a couple of reasons.
 
 

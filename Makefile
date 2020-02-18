@@ -1,5 +1,8 @@
-#
-# makefile for lecture 2
+# Gerald Arocena
+# CSCI E-20, Spring 2020
+# 2-17-2020
+# 
+# makefile for wow.c
 #
 
 CC     = cc

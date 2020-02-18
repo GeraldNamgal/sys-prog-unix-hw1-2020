@@ -1,8 +1,351 @@
+Gerald Arocena
+CSCI E-20, Spring 2020
+2-17-2020
 README for hw1
 
 In this file put a list of the files you are submitting with
-a brief (four to ten words) description of each one.
+a brief (four to ten words) description of each one. --
 
-Also put any notes to the grader.
+- Makefile      <-- the Makefile needed to run the program 
+- Plan          <-- the plan for how my program will be implemented
+- wow.c         <-- the main program 
+- utmplib.c     <-- contains buffering functions used by wow.c
+- utmplib.h     <-- the header file for utmplib.c
 
-And your name, date, and project.
+Also put any notes to the grader. --
+
+- To run swow, navigate to the "wow" directory and enter "make swow" on the
+  command line to compile. Then, to run, use any of the formats specified in the
+  assignment instructions except instead of "./wow" use "./swow".
+
+- To run bwow, do the same as for swow above but replace any mention of "swow"
+  with "bwow".
+
+Homework questions --
+
+Are all calls to read() requests for data from the wtmp file? Does the program
+call read() for other purposes?
+
+- Using the command "strace -e trace=read,file" when running swow shows more
+  reads than is necessary given the buffer size and the file size. The program
+  in the background seems to be opening other files and reading them as well
+  especially at the beginning of the program according to the output.
+
+Does a binary search using buffering make wow more efficient?
+
+- The results of running strace on both swow and bwow for different dates and
+  files seems to show that if the date input to search for is at the beginning
+  of the file, then swow is slightly more efficient than bwow when comparing the
+  number of read and total system calls. However, bwow becomes exceedingly more
+  efficient (by a factor of 10 or more) by the same metrics as the input date
+  approaches record dates in the middle of the file or the end.
+
+  The results of strace on swow for file "wtmp.dec2018" on "2018 12 1" are shown
+  below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 54.74    0.000387           3       115           stat
+ 34.94    0.000247           2       115           write
+  9.05    0.000064           2        32           read
+  1.27    0.000009           2         4           close
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0         9           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000707                   302         2 total    
+
+  The results of strace on bwow for file "wtmp.dec2018" on "2018 12 1" are shown
+  below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 47.52    0.001361          11       115           stat
+ 43.12    0.001235          10       115           write
+  8.62    0.000247           4        52           read
+  0.73    0.000021           5         4           close
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0        30           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.002864                   343         2 total
+
+  The results of strace on swow for file "wtmp.dec2018" on "2018 12 31" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 97.55    0.002266           8       280           read
+  1.03    0.000024          12         2           stat
+  0.65    0.000015           7         2           write
+  0.43    0.000010           2         4           close
+  0.34    0.000008           1         5           fstat
+  0.00    0.000000           0         9           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.002323                   324         2 total
+
+
+  The results of strace on bwow for file "wtmp.dec2018" on "2018 12 31" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0        17           read
+  0.00    0.000000           0         2           write
+  0.00    0.000000           0         4           close
+  0.00    0.000000           0         2           stat
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0        18           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                    70         2 total
+
+  The results of strace on swow for file "wtmp.dec2018" on "2018 12 16" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 52.75    0.000048           2        18           write
+ 27.47    0.000025           1        18           stat
+  9.89    0.000009           0       254           read
+  9.89    0.000009           2         4           close
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0         9           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000091                   330         2 total
+
+
+  The results of strace on bwow for file "wtmp.dec2018" on "2018 12 16" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0        23           read
+  0.00    0.000000           0        18           write
+  0.00    0.000000           0         4           close
+  0.00    0.000000           0        18           stat
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0        19           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                   109         2 total
+
+  The results of strace on swow for file "wtmp.jan2019" on "2019 1 5" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 16.15    0.000099           9        11           read
+ 13.21    0.000081          11         7           mmap
+ 12.40    0.000076           8         9           lseek
+ 11.26    0.000069          13         5           stat
+  8.48    0.000052          13         4           openat
+  6.20    0.000038           7         5           write
+  6.20    0.000038           7         5           fstat
+  6.04    0.000037          12         3           mprotect
+  5.71    0.000035           8         4           close
+  4.73    0.000029           9         3           brk
+  2.77    0.000017           8         2         1 arch_prctl
+  2.61    0.000016          16         1           munmap
+  2.28    0.000014          14         1         1 access
+  1.96    0.000012          12         1           execve
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000613                    61         2 total
+
+  The results of strace on bwow for file "wtmp.jan2019" on "2019 1 5" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0        19           read
+  0.00    0.000000           0         5           write
+  0.00    0.000000           0         4           close
+  0.00    0.000000           0         5           stat
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0        18           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                    78         2 total
+
+  The results of strace on swow for file "wtmp.jan2019" on "2019 1 28" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0       131           read
+  0.00    0.000000           0        74           write
+  0.00    0.000000           0         4           close
+  0.00    0.000000           0        74           stat
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0         9           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                   319         2 total
+
+  The results of strace on bwow for file "wtmp.jan2019" on "2019 1 28" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 45.94    0.000464           6        74           write
+ 43.27    0.000437           5        74           stat
+  9.90    0.000100           3        33           read
+  0.89    0.000009           2         4           close
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0        17           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.001010                   229         2 total
+
+  The results of strace on swow for file "wtmp.jan2020" on "2020 1 18" are
+  shown below (Jan 18th was the first date in the file):
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 49.13    0.000141           6        21           stat
+ 38.33    0.000110           5        21           write
+  9.76    0.000028           2        14           read
+  2.79    0.000008           2         4           close
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0         9           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000287                    96         2 total
+
+  The results of strace on bwow for file "wtmp.jan2020" on "2020 1 18" are
+  shown below (Jan 18th was the first date in the file):
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0        24           read
+  0.00    0.000000           0        21           write
+  0.00    0.000000           0         4           close
+  0.00    0.000000           0        21           stat
+  0.00    0.000000           0         5           fstat
+  0.00    0.000000           0        20           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                   117         2 total
+
+  The results of strace on swow for file "wtmp.jan2020" on "2020 1 31" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 35.69    0.001844           6       281           read
+ 34.44    0.001779          16       109           stat
+ 29.04    0.001500          13       109           write
+  0.58    0.000030           6         5           fstat
+  0.25    0.000013           3         4           close
+  0.00    0.000000           0         9           lseek
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         4           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.005166                   539         2 total
+
+  The results of strace on bwow for file "wtmp.jan2020" on "2020 1 31" are
+  shown below:
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 38.03    0.001289          11       109           write
+ 36.94    0.001252          11       109           stat
+ 12.87    0.000436           9        45           read
+  5.52    0.000187           8        22           lseek
+  2.21    0.000075          10         7           mmap
+  0.91    0.000031           6         5           fstat
+  0.91    0.000031          10         3           mprotect
+  0.74    0.000025           6         4           close
+  0.68    0.000023           5         4           openat
+  0.50    0.000017          17         1           munmap
+  0.47    0.000016           5         3           brk
+  0.21    0.000007           3         2         1 arch_prctl
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.003389                   316         2 total
